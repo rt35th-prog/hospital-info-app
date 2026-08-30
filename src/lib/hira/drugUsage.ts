@@ -12,9 +12,8 @@ import type { DrugUsageStat, PagedResult } from "./types";
  * - gnlNmCd: 성분코드 (예: 100701ACH) — 건강보험심사평가원 약제급여목록표 등에서 확인 가능
  * - insupTp: 보험자구분 (0:전체, 4:건강보험, 5:의료급여, 7:보훈)
  * - cpmdPrscTp: 조제기준/처방기준 구분 (01:조제기준, 02:처방기준)
- * - sidoCd/sgguCd: 시도/시군구코드 — 병원코드정보서비스 > 주소코드조회(getAddrCodeList)
- *   기준 코드이며, 병원정보서비스(hospInfoServicev2)의 2자리 시도코드와는 체계가 다르다.
- *   여기서는 2자리 코드 뒤에 "0000"을 붙인 값으로 근사한다(예: 서울 11 -> 110000).
+ * - sidoCd/sgguCd: 시도/시군구코드 — 병원정보서비스(hospInfoServicev2)와 동일한 6자리
+ *   법정동코드 체계다(예: 서울 110000). regions.ts의 SIDO_LIST가 이미 6자리라 그대로 쓴다.
  *   정확한 시군구코드까지는 확인하지 못해 sgguCd는 비워둔다.
  *
  * 응답 필드명은 문서로 확인하지 못해 후보 필드명으로 방어적으로 파싱한다.
@@ -32,16 +31,11 @@ function toDrugUsageStat(item: Record<string, unknown>): DrugUsageStat {
   };
 }
 
-/** 2자리 시도코드(regions.ts)를 이 API가 쓰는 6자리 코드로 근사 변환한다. */
-function toDrugUsageSidoCd(sidoCd2: string): string {
-  return `${sidoCd2}0000`;
-}
-
 export interface DrugUsageSearchParams {
   yearMonth?: string;
   /** 성분코드(gnlNmCd). 예: 100701ACH */
   drugCode?: string;
-  /** 2자리 시도코드(regions.ts 기준). 내부적으로 6자리로 변환해 요청한다. */
+  /** 6자리 시도코드(regions.ts 기준) */
   sidoCd?: string;
   keyword?: string;
   pageNo?: number;
@@ -57,7 +51,7 @@ export async function searchDrugUsage(params: DrugUsageSearchParams): Promise<Pa
   const result = await fetchHiraApi("drugUsage", "getCmpnAreaList1.2", {
     diagYm: params.yearMonth,
     gnlNmCd: params.drugCode,
-    sidoCd: params.sidoCd ? toDrugUsageSidoCd(params.sidoCd) : undefined,
+    sidoCd: params.sidoCd,
     insupTp: "0",
     cpmdPrscTp: "01",
     pageNo: params.pageNo,

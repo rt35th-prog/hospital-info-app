@@ -7,6 +7,7 @@ import MockBanner from "@/components/MockBanner";
 import { DEPARTMENT_LIST } from "@/data/departments";
 import { SIDO_LIST } from "@/data/regions";
 import type { Hospital } from "@/lib/hira/types";
+import { stashHospital } from "@/lib/hospitalCache";
 
 export default function HospitalsPage() {
   const router = useRouter();
@@ -52,6 +53,7 @@ export default function HospitalsPage() {
   function selectSuggestion(hospital: Hospital) {
     setShowSuggestions(false);
     setName(hospital.name);
+    stashHospital(hospital);
     router.push(`/hospitals/${hospital.ykiho}`);
   }
 
@@ -167,6 +169,7 @@ export default function HospitalsPage() {
           <li key={h.ykiho}>
             <Link
               href={`/hospitals/${h.ykiho}`}
+              onClick={() => stashHospital(h)}
               className="block rounded-lg border border-border bg-surface p-4 hover:border-accent transition-colors"
             >
               <div className="flex items-center justify-between">

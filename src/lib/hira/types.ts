@@ -28,16 +28,20 @@ export interface NonPaymentItem {
   hospitalName: string;
   sidoName: string;
   sgguName: string;
-  /** 비급여 항목 코드 */
+  /** 비급여 코드(npayCd) */
   itemCode: string;
   itemName: string;
-  /** 최저 비용 (원) */
+  /** 최저 비용 (원). 병원 단건 조회(현재금액 1건)면 최고가와 같은 값이 들어간다. */
   minPrice: number | null;
   /** 최고 비용 (원) */
   maxPrice: number | null;
-  /** 최빈/평균 비용 (원, 제공되는 경우) */
-  avgPrice: number | null;
   updatedDate: string | null;
+}
+
+/** 비급여항목코드조회(getNonPaymentItemCodeList2) 결과 — 이름으로 항목을 찾을 때 쓴다. */
+export interface NonPaymentCatalogItem {
+  itemCode: string;
+  itemName: string;
 }
 
 export interface DiseaseCostStat {

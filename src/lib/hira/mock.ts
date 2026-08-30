@@ -54,62 +54,61 @@ const MOCK_NONPAYMENT: NonPaymentItem[] = [
     hospitalName: "서울행복종합병원",
     sidoName: "서울특별시",
     sgguName: "강남구",
-    itemCode: "NP001",
-    itemName: "도수치료",
+    itemCode: "MZ0710001",
+    itemName: "물리치료/도수치료",
     minPrice: 50000,
     maxPrice: 150000,
-    avgPrice: 90000,
-    updatedDate: "2026-06-30",
+    updatedDate: "20260101",
   },
   {
     ykiho: "MOCK0002",
     hospitalName: "강남튼튼정형외과의원",
     sidoName: "서울특별시",
     sgguName: "강남구",
-    itemCode: "NP001",
-    itemName: "도수치료",
+    itemCode: "MZ0710001",
+    itemName: "물리치료/도수치료",
     minPrice: 40000,
     maxPrice: 120000,
-    avgPrice: 70000,
-    updatedDate: "2026-06-30",
+    updatedDate: "20260101",
   },
   {
     ykiho: "MOCK0003",
     hospitalName: "부산제일병원",
     sidoName: "부산광역시",
     sgguName: "해운대구",
-    itemCode: "NP001",
-    itemName: "도수치료",
+    itemCode: "MZ0710001",
+    itemName: "물리치료/도수치료",
     minPrice: 60000,
     maxPrice: 130000,
-    avgPrice: 95000,
-    updatedDate: "2026-06-30",
+    updatedDate: "20260101",
   },
   {
     ykiho: "MOCK0001",
     hospitalName: "서울행복종합병원",
     sidoName: "서울특별시",
     sgguName: "강남구",
-    itemCode: "NP002",
-    itemName: "체외충격파치료(ESWT)",
+    itemCode: "MZ0720001",
+    itemName: "물리치료/체외충격파치료(ESWT)",
     minPrice: 30000,
     maxPrice: 80000,
-    avgPrice: 55000,
-    updatedDate: "2026-06-30",
+    updatedDate: "20260101",
   },
   {
     ykiho: "MOCK0002",
     hospitalName: "강남튼튼정형외과의원",
     sidoName: "서울특별시",
     sgguName: "강남구",
-    itemCode: "NP002",
-    itemName: "체외충격파치료(ESWT)",
+    itemCode: "MZ0720001",
+    itemName: "물리치료/체외충격파치료(ESWT)",
     minPrice: 25000,
     maxPrice: 70000,
-    avgPrice: 48000,
-    updatedDate: "2026-06-30",
+    updatedDate: "20260101",
   },
 ];
+
+const MOCK_NONPAYMENT_CATALOG = Array.from(
+  new Map(MOCK_NONPAYMENT.map((n) => [n.itemCode, { itemCode: n.itemCode, itemName: n.itemName }])).values(),
+);
 
 const MOCK_DISEASE_STATS: DiseaseCostStat[] = [
   { diseaseCode: "J20", diseaseName: "급성 기관지염", visitType: "외래", patientCount: 3200000, totalCost: 210_000_000_000, avgCostPerPatient: 65625, statYear: 2025 },
@@ -145,8 +144,12 @@ export function mockNonPaymentByHospital(ykiho: string): NonPaymentItem[] {
   return MOCK_NONPAYMENT.filter((n) => n.ykiho === ykiho);
 }
 
-export function mockNonPaymentAll(): NonPaymentItem[] {
-  return MOCK_NONPAYMENT;
+export function mockNonPaymentByItem(itemCode: string): NonPaymentItem[] {
+  return MOCK_NONPAYMENT.filter((n) => n.itemCode === itemCode);
+}
+
+export function mockNonPaymentCatalog(keyword: string): { itemCode: string; itemName: string }[] {
+  return MOCK_NONPAYMENT_CATALOG.filter((c) => c.itemName.includes(keyword));
 }
 
 export function mockDiseaseStats(): DiseaseCostStat[] {
