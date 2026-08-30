@@ -123,11 +123,11 @@ const MOCK_DISEASE_STATS: DiseaseCostStat[] = [
 ];
 
 const MOCK_DRUG_USAGE: DrugUsageStat[] = [
-  { drugName: "고지혈증용제(스타틴계)", drugCode: "C10AA", yearMonth: "202506", sidoName: "서울특별시", clinicType: "의원", usageCount: 182000, usageAmount: 4_100_000_000 },
-  { drugName: "혈압강하제(ARB계)", drugCode: "C09CA", yearMonth: "202506", sidoName: "서울특별시", clinicType: "의원", usageCount: 210000, usageAmount: 5_300_000_000 },
-  { drugName: "당뇨병용제(DPP-4 억제제)", drugCode: "A10BH", yearMonth: "202506", sidoName: "서울특별시", clinicType: "종합병원", usageCount: 95000, usageAmount: 3_800_000_000 },
-  { drugName: "소화성궤양용제(PPI)", drugCode: "A02BC", yearMonth: "202506", sidoName: "부산광역시", clinicType: "의원", usageCount: 130000, usageAmount: 1_900_000_000 },
-  { drugName: "해열진통소염제(NSAID)", drugCode: "M01AE", yearMonth: "202506", sidoName: "부산광역시", clinicType: "의원", usageCount: 260000, usageAmount: 1_200_000_000 },
+  { drugName: "고지혈증용제(스타틴계)", drugCode: "100701ACH", yearMonth: "202506", sidoName: "서울특별시", sgguName: "강남구", usageCount: 182000, usageAmount: 4_100_000_000 },
+  { drugName: "혈압강하제(ARB계)", drugCode: "214902ATB", yearMonth: "202506", sidoName: "서울특별시", sgguName: "서초구", usageCount: 210000, usageAmount: 5_300_000_000 },
+  { drugName: "당뇨병용제(DPP-4 억제제)", drugCode: "396801ATB", yearMonth: "202506", sidoName: "서울특별시", sgguName: "강남구", usageCount: 95000, usageAmount: 3_800_000_000 },
+  { drugName: "소화성궤양용제(PPI)", drugCode: "246501ATB", yearMonth: "202506", sidoName: "부산광역시", sgguName: "해운대구", usageCount: 130000, usageAmount: 1_900_000_000 },
+  { drugName: "해열진통소염제(NSAID)", drugCode: "150501ATB", yearMonth: "202506", sidoName: "부산광역시", sgguName: "해운대구", usageCount: 260000, usageAmount: 1_200_000_000 },
 ];
 
 export function mockSearchHospitals(filter: { sidoCd?: string; name?: string }): Hospital[] {

@@ -8,6 +8,8 @@ export async function GET(request: NextRequest) {
   try {
     const result = await searchDrugUsage({
       yearMonth: sp.get("yearMonth") ?? undefined,
+      drugCode: sp.get("drugCode") ?? undefined,
+      sidoCd: sp.get("sidoCd") ?? undefined,
       keyword: sp.get("keyword") ?? undefined,
     });
     return NextResponse.json({ ...result, mock: isDrugUsageMockMode() });

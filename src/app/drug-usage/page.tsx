@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Bar, BarChart, CartesianGrid, LabelList, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import MockBanner from "@/components/MockBanner";
+import { SIDO_LIST } from "@/data/regions";
 import type { DrugUsageStat } from "@/lib/hira/types";
 
 function formatCount(v: number | null) {
@@ -18,6 +19,8 @@ function formatWon(v: number | null) {
 
 export default function DrugUsagePage() {
   const [yearMonth, setYearMonth] = useState("202506");
+  const [drugCode, setDrugCode] = useState("100701ACH");
+  const [sidoCd, setSidoCd] = useState("");
   const [keyword, setKeyword] = useState("");
   const [items, setItems] = useState<DrugUsageStat[]>([]);
   const [isMock, setIsMock] = useState(false);
@@ -32,6 +35,8 @@ export default function DrugUsagePage() {
       try {
         const params = new URLSearchParams();
         if (yearMonth) params.set("yearMonth", yearMonth);
+        if (drugCode) params.set("drugCode", drugCode);
+        if (sidoCd) params.set("sidoCd", sidoCd);
         if (keyword) params.set("keyword", keyword);
         const res = await fetch(`/api/drug-usage?${params.toString()}`);
         const data = await res.json();
@@ -49,7 +54,7 @@ export default function DrugUsagePage() {
     return () => {
       cancelled = true;
     };
-  }, [yearMonth, keyword]);
+  }, [yearMonth, drugCode, sidoCd, keyword]);
 
   const chartData = items
     .filter((d) => d.usageCount !== null)
@@ -73,26 +78,45 @@ export default function DrugUsagePage() {
           />
         </label>
         <label className="flex flex-col gap-1 text-sm">
-          약효분류/성분 검색
+          성분코드(gnlNmCd)
+          <input
+            value={drugCode}
+            onChange={(e) => setDrugCode(e.target.value)}
+            placeholder="예: 100701ACH"
+            className="rounded-md border border-border bg-surface px-3 py-2 w-40"
+          />
+        </label>
+        <label className="flex flex-col gap-1 text-sm">
+          지역
+          <select
+            value={sidoCd}
+            onChange={(e) => setSidoCd(e.target.value)}
+            className="rounded-md border border-border bg-surface px-3 py-2"
+          >
+            <option value="">전체</option>
+            {SIDO_LIST.map((s) => (
+              <option key={s.code} value={s.code}>
+                {s.name}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="flex flex-col gap-1 text-sm">
+          결과 내 이름 필터
           <input
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
-            placeholder="예: 고지혈증"
+            placeholder="선택"
             className="rounded-md border border-border bg-surface px-3 py-2"
           />
         </label>
       </div>
+      <p className="text-xs text-muted -mt-3">
+        성분코드는 건강보험심사평가원 약제급여목록표 등에서 확인할 수 있습니다. 지역코드는 병원정보서비스의
+        시도코드를 6자리로 근사 변환해 사용합니다.
+      </p>
 
-      {isMock && (
-        <MockBanner>
-          이 기능은 아직 정확한 API 연동 정보(End Point·오퍼레이션명)를 확인하지 못해 샘플 데이터로 동작 중입니다.
-          data.go.kr에서 &ldquo;건강보험심사평가원_의약품사용정보조회서비스&rdquo; 상세페이지의 &ldquo;활용신청
-          상세기능정보&rdquo;를 확인해 <code className="rounded bg-black/10 px-1 py-0.5 dark:bg-white/10">.env.local</code>의{" "}
-          <code className="rounded bg-black/10 px-1 py-0.5 dark:bg-white/10">HIRA_DRUG_USAGE_BASE_URL</code> /{" "}
-          <code className="rounded bg-black/10 px-1 py-0.5 dark:bg-white/10">HIRA_DRUG_USAGE_OPERATION</code>을
-          설정하면 실제 데이터로 전환됩니다.
-        </MockBanner>
-      )}
+      {isMock && <MockBanner />}
       {error && <p className="text-sm text-red-500">{error}</p>}
 
       {!loading && items.length === 0 && !error && <p className="text-sm text-muted">조회 결과가 없습니다.</p>}
@@ -127,9 +151,9 @@ export default function DrugUsagePage() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border text-left text-muted">
-                <th className="py-2 pr-4">약효분류/성분</th>
-                <th className="py-2 pr-4">지역</th>
-                <th className="py-2 pr-4">기관종별</th>
+                <th className="py-2 pr-4">성분</th>
+                <th className="py-2 pr-4">시도</th>
+                <th className="py-2 pr-4">시군구</th>
                 <th className="py-2 pr-4 text-right">사용량</th>
                 <th className="py-2 pr-4 text-right">사용금액</th>
               </tr>
@@ -141,7 +165,7 @@ export default function DrugUsagePage() {
                     {d.drugName} <span className="text-muted">({d.drugCode})</span>
                   </td>
                   <td className="py-2 pr-4 text-muted">{d.sidoName ?? "-"}</td>
-                  <td className="py-2 pr-4 text-muted">{d.clinicType ?? "-"}</td>
+                  <td className="py-2 pr-4 text-muted">{d.sgguName ?? "-"}</td>
                   <td className="py-2 pr-4 text-right tabular-nums">{formatCount(d.usageCount)}</td>
                   <td className="py-2 pr-4 text-right tabular-nums">{formatWon(d.usageAmount)}</td>
                 </tr>

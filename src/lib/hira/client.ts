@@ -17,6 +17,8 @@ const HIRA_BASE_URLS = {
   hospInfo: "https://apis.data.go.kr/B551182/hospInfoServicev2",
   // 건강보험심사평가원_비급여진료비정보조회서비스 (data.go.kr 15001700)
   nonPayment: "https://apis.data.go.kr/B551182/nonPaymentDamtInfoService",
+  // 건강보험심사평가원_의약품사용정보조회서비스 (data.go.kr 15047819)
+  drugUsage: "https://apis.data.go.kr/B551182/msupUserInfoService1.2",
 } as const;
 
 export type HiraServiceName = keyof typeof HIRA_BASE_URLS;
@@ -28,16 +30,8 @@ export function isMockMode(): boolean {
   return !process.env.HIRA_SERVICE_KEY;
 }
 
-/**
- * 의약품사용정보조회서비스는 오퍼레이션이 12개나 되고 정확한 엔드포인트/파라미터를
- * 문서로 확인하지 못한 상태라, 실제 엔드포인트가 확인되기 전까지는 항상 mock으로
- * 동작시킨다. HIRA_DRUG_USAGE_BASE_URL / HIRA_DRUG_USAGE_OPERATION을 함께
- * 설정해야만 실제 API를 호출한다(잘못된 추측 엔드포인트로 호출해 혼란스러운
- * 에러를 내는 것을 방지).
- */
 export function isDrugUsageMockMode(): boolean {
-  if (isMockMode()) return true;
-  return !process.env.HIRA_DRUG_USAGE_BASE_URL || !process.env.HIRA_DRUG_USAGE_OPERATION;
+  return isMockMode();
 }
 
 interface HiraRawResponse {
@@ -77,15 +71,6 @@ export async function fetchHiraApi(
   params: Record<string, string | number | undefined>,
 ): Promise<HiraFetchResult> {
   return callHiraEndpoint(`${HIRA_BASE_URLS[service]}/${operation}`, params);
-}
-
-/** 미리 등록되지 않은(베이스 URL을 환경변수 등으로 직접 지정하는) 서비스 호출용. */
-export async function fetchHiraApiAtUrl(
-  baseUrl: string,
-  operation: string,
-  params: Record<string, string | number | undefined>,
-): Promise<HiraFetchResult> {
-  return callHiraEndpoint(`${baseUrl}/${operation}`, params);
 }
 
 async function callHiraEndpoint(
