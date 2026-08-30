@@ -1,0 +1,2279 @@
+{
+  "_meta": {
+    "source": "e3f0b7a2 시도x시군구 실제 파일(2025)",
+    "dimensions": [
+      "시도",
+      "시군구"
+    ]
+  },
+  "items": [
+    {
+      "year": 2025,
+      "label": "서울 강남구",
+      "patientCount": 3194350,
+      "claimCount": 18538929,
+      "visitDays": 19927499,
+      "insurerPaidAmount": 2619629928000,
+      "totalCost": 3328299007360
+    },
+    {
+      "year": 2025,
+      "label": "서울 강동구",
+      "patientCount": 1123221,
+      "claimCount": 11353004,
+      "visitDays": 12510622,
+      "insurerPaidAmount": 975149477670,
+      "totalCost": 1292742762740
+    },
+    {
+      "year": 2025,
+      "label": "서울 강서구",
+      "patientCount": 1217788,
+      "claimCount": 10941070,
+      "visitDays": 11805198,
+      "insurerPaidAmount": 906417220860,
+      "totalCost": 1205795827340
+    },
+    {
+      "year": 2025,
+      "label": "서울 관악구",
+      "patientCount": 790315,
+      "claimCount": 7245371,
+      "visitDays": 7561008,
+      "insurerPaidAmount": 398916734250,
+      "totalCost": 541148091360
+    },
+    {
+      "year": 2025,
+      "label": "서울 구로구",
+      "patientCount": 899822,
+      "claimCount": 8039856,
+      "visitDays": 8965546,
+      "insurerPaidAmount": 813926517330,
+      "totalCost": 1046515815780
+    },
+    {
+      "year": 2025,
+      "label": "서울 도봉구",
+      "patientCount": 450704,
+      "claimCount": 4528829,
+      "visitDays": 4991547,
+      "insurerPaidAmount": 277800554760,
+      "totalCost": 368740669970
+    },
+    {
+      "year": 2025,
+      "label": "서울 동대문구",
+      "patientCount": 874635,
+      "claimCount": 7467031,
+      "visitDays": 8301688,
+      "insurerPaidAmount": 681871676870,
+      "totalCost": 897141665590
+    },
+    {
+      "year": 2025,
+      "label": "서울 동작구",
+      "patientCount": 865369,
+      "claimCount": 6948676,
+      "visitDays": 7341226,
+      "insurerPaidAmount": 619939546280,
+      "totalCost": 802374737960
+    },
+    {
+      "year": 2025,
+      "label": "서울 마포구",
+      "patientCount": 932201,
+      "claimCount": 6731636,
+      "visitDays": 6880544,
+      "insurerPaidAmount": 307597243570,
+      "totalCost": 419878328100
+    },
+    {
+      "year": 2025,
+      "label": "서울 서대문구",
+      "patientCount": 1065698,
+      "claimCount": 7445146,
+      "visitDays": 8117745,
+      "insurerPaidAmount": 1394300838290,
+      "totalCost": 1704864318500
+    },
+    {
+      "year": 2025,
+      "label": "서울 성동구",
+      "patientCount": 644975,
+      "claimCount": 5203889,
+      "visitDays": 5517974,
+      "insurerPaidAmount": 448870715320,
+      "totalCost": 581172742540
+    },
+    {
+      "year": 2025,
+      "label": "서울 성북구",
+      "patientCount": 769093,
+      "claimCount": 6991644,
+      "visitDays": 7637160,
+      "insurerPaidAmount": 726877116710,
+      "totalCost": 927962166410
+    },
+    {
+      "year": 2025,
+      "label": "서울 영등포구",
+      "patientCount": 1350478,
+      "claimCount": 9524353,
+      "visitDays": 10534454,
+      "insurerPaidAmount": 845117613630,
+      "totalCost": 1120596325910
+    },
+    {
+      "year": 2025,
+      "label": "서울 용산구",
+      "patientCount": 482040,
+      "claimCount": 3143932,
+      "visitDays": 3287343,
+      "insurerPaidAmount": 301584500240,
+      "totalCost": 382770403090
+    },
+    {
+      "year": 2025,
+      "label": "서울 은평구",
+      "patientCount": 773112,
+      "claimCount": 8709517,
+      "visitDays": 9288960,
+      "insurerPaidAmount": 628673762840,
+      "totalCost": 818166161460
+    },
+    {
+      "year": 2025,
+      "label": "서울 종로구",
+      "patientCount": 1380145,
+      "claimCount": 7624875,
+      "visitDays": 8402352,
+      "insurerPaidAmount": 1397214291010,
+      "totalCost": 1765381685760
+    },
+    {
+      "year": 2025,
+      "label": "서울 중구",
+      "patientCount": 839963,
+      "claimCount": 4753038,
+      "visitDays": 4818928,
+      "insurerPaidAmount": 312699269000,
+      "totalCost": 423877048620
+    },
+    {
+      "year": 2025,
+      "label": "서울 송파구",
+      "patientCount": 1903250,
+      "claimCount": 14893605,
+      "visitDays": 16064016,
+      "insurerPaidAmount": 2090113878850,
+      "totalCost": 2611862854050
+    },
+    {
+      "year": 2025,
+      "label": "서울 중랑구",
+      "patientCount": 629460,
+      "claimCount": 6813703,
+      "visitDays": 7288007,
+      "insurerPaidAmount": 430771518810,
+      "totalCost": 572175291140
+    },
+    {
+      "year": 2025,
+      "label": "서울 양천구",
+      "patientCount": 815155,
+      "claimCount": 7464450,
+      "visitDays": 7993859,
+      "insurerPaidAmount": 666950045140,
+      "totalCost": 857447072660
+    },
+    {
+      "year": 2025,
+      "label": "서울 서초구",
+      "patientCount": 1914015,
+      "claimCount": 11163369,
+      "visitDays": 11847139,
+      "insurerPaidAmount": 1339300420360,
+      "totalCost": 1707831886620
+    },
+    {
+      "year": 2025,
+      "label": "서울 노원구",
+      "patientCount": 889494,
+      "claimCount": 9013580,
+      "visitDays": 9534632,
+      "insurerPaidAmount": 659582964820,
+      "totalCost": 854064483940
+    },
+    {
+      "year": 2025,
+      "label": "서울 광진구",
+      "patientCount": 762918,
+      "claimCount": 6455146,
+      "visitDays": 6945937,
+      "insurerPaidAmount": 566181257890,
+      "totalCost": 744083301470
+    },
+    {
+      "year": 2025,
+      "label": "서울 강북구",
+      "patientCount": 567129,
+      "claimCount": 5439931,
+      "visitDays": 5773679,
+      "insurerPaidAmount": 295680880860,
+      "totalCost": 399500114710
+    },
+    {
+      "year": 2025,
+      "label": "서울 금천구",
+      "patientCount": 461426,
+      "claimCount": 3869423,
+      "visitDays": 4160060,
+      "insurerPaidAmount": 207438976030,
+      "totalCost": 282404794740
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산남구",
+      "patientCount": 442272,
+      "claimCount": 4396925,
+      "visitDays": 4946226,
+      "insurerPaidAmount": 250345917660,
+      "totalCost": 336902188830
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산동구",
+      "patientCount": 364810,
+      "claimCount": 2477929,
+      "visitDays": 3027898,
+      "insurerPaidAmount": 243142724900,
+      "totalCost": 321097579090
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산동래구",
+      "patientCount": 733842,
+      "claimCount": 6312120,
+      "visitDays": 7644506,
+      "insurerPaidAmount": 507486803200,
+      "totalCost": 684593938720
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산진구",
+      "patientCount": 1114008,
+      "claimCount": 8949870,
+      "visitDays": 10323611,
+      "insurerPaidAmount": 859111663640,
+      "totalCost": 1127657910850
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산북구",
+      "patientCount": 445952,
+      "claimCount": 4978726,
+      "visitDays": 5720064,
+      "insurerPaidAmount": 322166901610,
+      "totalCost": 440073077710
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산서구",
+      "patientCount": 497255,
+      "claimCount": 3602498,
+      "visitDays": 4561062,
+      "insurerPaidAmount": 931605767960,
+      "totalCost": 1146813208710
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산영도구",
+      "patientCount": 144081,
+      "claimCount": 1860689,
+      "visitDays": 2185278,
+      "insurerPaidAmount": 109733404980,
+      "totalCost": 146107882750
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산중구",
+      "patientCount": 201200,
+      "claimCount": 1454469,
+      "visitDays": 1724040,
+      "insurerPaidAmount": 113113106750,
+      "totalCost": 151259070410
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산해운대구",
+      "patientCount": 774207,
+      "claimCount": 7296634,
+      "visitDays": 8341668,
+      "insurerPaidAmount": 638246758510,
+      "totalCost": 824466765730
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산사하구",
+      "patientCount": 472704,
+      "claimCount": 5352887,
+      "visitDays": 6479346,
+      "insurerPaidAmount": 333678847960,
+      "totalCost": 449271729870
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산금정구",
+      "patientCount": 377048,
+      "claimCount": 3747795,
+      "visitDays": 4559131,
+      "insurerPaidAmount": 213148041560,
+      "totalCost": 285698032810
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산강서구",
+      "patientCount": 218735,
+      "claimCount": 1679227,
+      "visitDays": 1744150,
+      "insurerPaidAmount": 64148539900,
+      "totalCost": 86678364570
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산연제구",
+      "patientCount": 545429,
+      "claimCount": 4203122,
+      "visitDays": 4808573,
+      "insurerPaidAmount": 255583169220,
+      "totalCost": 343940383250
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산수영구",
+      "patientCount": 466083,
+      "claimCount": 3926946,
+      "visitDays": 4734958,
+      "insurerPaidAmount": 381873069280,
+      "totalCost": 503662647350
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산사상구",
+      "patientCount": 373958,
+      "claimCount": 3467530,
+      "visitDays": 4534497,
+      "insurerPaidAmount": 341037577100,
+      "totalCost": 451659396670
+    },
+    {
+      "year": 2025,
+      "label": "부산 부산기장군",
+      "patientCount": 251534,
+      "claimCount": 2657704,
+      "visitDays": 2973425,
+      "insurerPaidAmount": 193316550910,
+      "totalCost": 245248055630
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천미추홀구",
+      "patientCount": 751750,
+      "claimCount": 7262522,
+      "visitDays": 8357819,
+      "insurerPaidAmount": 531404093380,
+      "totalCost": 709380902090
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천동구",
+      "patientCount": 130113,
+      "claimCount": 1162933,
+      "visitDays": 1257876,
+      "insurerPaidAmount": 67817263750,
+      "totalCost": 91638729950
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천부평구",
+      "patientCount": 919011,
+      "claimCount": 8958291,
+      "visitDays": 9574051,
+      "insurerPaidAmount": 694512413730,
+      "totalCost": 913622783630
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천중구",
+      "patientCount": 402692,
+      "claimCount": 2934609,
+      "visitDays": 3307082,
+      "insurerPaidAmount": 436241903100,
+      "totalCost": 549509404360
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천서구",
+      "patientCount": 939227,
+      "claimCount": 9795541,
+      "visitDays": 10804600,
+      "insurerPaidAmount": 698553295800,
+      "totalCost": 926194370330
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천남동구",
+      "patientCount": 972250,
+      "claimCount": 9719703,
+      "visitDays": 10967254,
+      "insurerPaidAmount": 913839900770,
+      "totalCost": 1177791704310
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천연수구",
+      "patientCount": 675162,
+      "claimCount": 6130319,
+      "visitDays": 6436420,
+      "insurerPaidAmount": 308294199810,
+      "totalCost": 418997017920
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천계양구",
+      "patientCount": 469348,
+      "claimCount": 5410476,
+      "visitDays": 6205497,
+      "insurerPaidAmount": 429207205140,
+      "totalCost": 565683245620
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천강화군",
+      "patientCount": 70863,
+      "claimCount": 805332,
+      "visitDays": 896159,
+      "insurerPaidAmount": 46051874970,
+      "totalCost": 62666861720
+    },
+    {
+      "year": 2025,
+      "label": "인천 인천옹진군",
+      "patientCount": 19829,
+      "claimCount": 108818,
+      "visitDays": 108799,
+      "insurerPaidAmount": 2540704690,
+      "totalCost": 3569366260
+    },
+    {
+      "year": 2025,
+      "label": "대구 대구남구",
+      "patientCount": 533890,
+      "claimCount": 3707420,
+      "visitDays": 4507048,
+      "insurerPaidAmount": 693298333440,
+      "totalCost": 865243883760
+    },
+    {
+      "year": 2025,
+      "label": "대구 대구동구",
+      "patientCount": 675284,
+      "claimCount": 6254787,
+      "visitDays": 6914237,
+      "insurerPaidAmount": 424662980240,
+      "totalCost": 561119619070
+    },
+    {
+      "year": 2025,
+      "label": "대구 대구북구",
+      "patientCount": 778855,
+      "claimCount": 7419003,
+      "visitDays": 8664804,
+      "insurerPaidAmount": 707258099750,
+      "totalCost": 882272826710
+    },
+    {
+      "year": 2025,
+      "label": "대구 대구서구",
+      "patientCount": 323575,
+      "claimCount": 2851697,
+      "visitDays": 3507536,
+      "insurerPaidAmount": 185477160610,
+      "totalCost": 243573650330
+    },
+    {
+      "year": 2025,
+      "label": "대구 대구수성구",
+      "patientCount": 943054,
+      "claimCount": 8346127,
+      "visitDays": 9067102,
+      "insurerPaidAmount": 466528127690,
+      "totalCost": 629275576570
+    },
+    {
+      "year": 2025,
+      "label": "대구 대구중구",
+      "patientCount": 952585,
+      "claimCount": 4987059,
+      "visitDays": 5516430,
+      "insurerPaidAmount": 607133537910,
+      "totalCost": 800228309010
+    },
+    {
+      "year": 2025,
+      "label": "대구 대구달서구",
+      "patientCount": 1126848,
+      "claimCount": 10891785,
+      "visitDays": 12382778,
+      "insurerPaidAmount": 1039902798640,
+      "totalCost": 1367371702890
+    },
+    {
+      "year": 2025,
+      "label": "대구 대구달성군",
+      "patientCount": 377486,
+      "claimCount": 3523206,
+      "visitDays": 3877692,
+      "insurerPaidAmount": 143972447620,
+      "totalCost": 195299542730
+    },
+    {
+      "year": 2025,
+      "label": "대구 대구군위군",
+      "patientCount": 24771,
+      "claimCount": 270922,
+      "visitDays": 270378,
+      "insurerPaidAmount": 7486416110,
+      "totalCost": 9860965910
+    },
+    {
+      "year": 2025,
+      "label": "광주 광주동구",
+      "patientCount": 547801,
+      "claimCount": 3292026,
+      "visitDays": 4224984,
+      "insurerPaidAmount": 605826490980,
+      "totalCost": 770299777580
+    },
+    {
+      "year": 2025,
+      "label": "광주 광주북구",
+      "patientCount": 763444,
+      "claimCount": 7049098,
+      "visitDays": 9100460,
+      "insurerPaidAmount": 580780173220,
+      "totalCost": 782829537490
+    },
+    {
+      "year": 2025,
+      "label": "광주 광주서구",
+      "patientCount": 774548,
+      "claimCount": 5604305,
+      "visitDays": 6605007,
+      "insurerPaidAmount": 428792773040,
+      "totalCost": 587201418700
+    },
+    {
+      "year": 2025,
+      "label": "광주 광주광산구",
+      "patientCount": 717301,
+      "claimCount": 6551598,
+      "visitDays": 8395886,
+      "insurerPaidAmount": 558762205570,
+      "totalCost": 761950594120
+    },
+    {
+      "year": 2025,
+      "label": "광주 광주남구",
+      "patientCount": 512744,
+      "claimCount": 3934123,
+      "visitDays": 4998722,
+      "insurerPaidAmount": 356032398580,
+      "totalCost": 479300590790
+    },
+    {
+      "year": 2025,
+      "label": "대전 대전유성구",
+      "patientCount": 732256,
+      "claimCount": 6045482,
+      "visitDays": 6780937,
+      "insurerPaidAmount": 383666343220,
+      "totalCost": 514455534600
+    },
+    {
+      "year": 2025,
+      "label": "대전 대전대덕구",
+      "patientCount": 320983,
+      "claimCount": 2954802,
+      "visitDays": 3215902,
+      "insurerPaidAmount": 143982848310,
+      "totalCost": 196301416830
+    },
+    {
+      "year": 2025,
+      "label": "대전 대전서구",
+      "patientCount": 1211175,
+      "claimCount": 10828264,
+      "visitDays": 11816511,
+      "insurerPaidAmount": 880133469080,
+      "totalCost": 1166839060370
+    },
+    {
+      "year": 2025,
+      "label": "대전 대전동구",
+      "patientCount": 411293,
+      "claimCount": 3834906,
+      "visitDays": 4296964,
+      "insurerPaidAmount": 207367623070,
+      "totalCost": 278039707540
+    },
+    {
+      "year": 2025,
+      "label": "대전 대전중구",
+      "patientCount": 641868,
+      "claimCount": 5495389,
+      "visitDays": 6449097,
+      "insurerPaidAmount": 747789800680,
+      "totalCost": 945230712230
+    },
+    {
+      "year": 2025,
+      "label": "울산 울산남구",
+      "patientCount": 788464,
+      "claimCount": 7866780,
+      "visitDays": 8943321,
+      "insurerPaidAmount": 540857913670,
+      "totalCost": 740369694120
+    },
+    {
+      "year": 2025,
+      "label": "울산 울산동구",
+      "patientCount": 294317,
+      "claimCount": 3212974,
+      "visitDays": 3568139,
+      "insurerPaidAmount": 470717923540,
+      "totalCost": 564564772540
+    },
+    {
+      "year": 2025,
+      "label": "울산 울산중구",
+      "patientCount": 413351,
+      "claimCount": 3315693,
+      "visitDays": 3743793,
+      "insurerPaidAmount": 250707987120,
+      "totalCost": 335884923440
+    },
+    {
+      "year": 2025,
+      "label": "울산 울산북구",
+      "patientCount": 306399,
+      "claimCount": 2798803,
+      "visitDays": 3243618,
+      "insurerPaidAmount": 174872031370,
+      "totalCost": 238995183560
+    },
+    {
+      "year": 2025,
+      "label": "울산 울산울주군",
+      "patientCount": 273660,
+      "claimCount": 2454924,
+      "visitDays": 2964806,
+      "insurerPaidAmount": 125603814830,
+      "totalCost": 166975278340
+    },
+    {
+      "year": 2025,
+      "label": "경기 가평군",
+      "patientCount": 82268,
+      "claimCount": 765512,
+      "visitDays": 848809,
+      "insurerPaidAmount": 28928468330,
+      "totalCost": 38329453960
+    },
+    {
+      "year": 2025,
+      "label": "경기 양평군",
+      "patientCount": 142932,
+      "claimCount": 1593217,
+      "visitDays": 1792483,
+      "insurerPaidAmount": 80805582840,
+      "totalCost": 108227504370
+    },
+    {
+      "year": 2025,
+      "label": "경기 연천군",
+      "patientCount": 51256,
+      "claimCount": 481199,
+      "visitDays": 498924,
+      "insurerPaidAmount": 17466976330,
+      "totalCost": 23393158460
+    },
+    {
+      "year": 2025,
+      "label": "경기 광명시",
+      "patientCount": 571704,
+      "claimCount": 5986834,
+      "visitDays": 6431442,
+      "insurerPaidAmount": 480076618210,
+      "totalCost": 622046032420
+    },
+    {
+      "year": 2025,
+      "label": "경기 동두천시",
+      "patientCount": 123810,
+      "claimCount": 1364926,
+      "visitDays": 1617590,
+      "insurerPaidAmount": 73311725340,
+      "totalCost": 98145866880
+    },
+    {
+      "year": 2025,
+      "label": "경기 부천소사구",
+      "patientCount": 469234,
+      "claimCount": 4060914,
+      "visitDays": 4572682,
+      "insurerPaidAmount": 332899200190,
+      "totalCost": 425995023620
+    },
+    {
+      "year": 2025,
+      "label": "경기 부천오정구",
+      "patientCount": 222449,
+      "claimCount": 2236325,
+      "visitDays": 2606821,
+      "insurerPaidAmount": 121659289130,
+      "totalCost": 165580529860
+    },
+    {
+      "year": 2025,
+      "label": "경기 부천원미구",
+      "patientCount": 930696,
+      "claimCount": 9099711,
+      "visitDays": 10142027,
+      "insurerPaidAmount": 902730932750,
+      "totalCost": 1181397281000
+    },
+    {
+      "year": 2025,
+      "label": "경기 성남수정구",
+      "patientCount": 554685,
+      "claimCount": 4926637,
+      "visitDays": 5405528,
+      "insurerPaidAmount": 283145764040,
+      "totalCost": 381312639060
+    },
+    {
+      "year": 2025,
+      "label": "경기 성남중원구",
+      "patientCount": 356376,
+      "claimCount": 3291524,
+      "visitDays": 3442621,
+      "insurerPaidAmount": 133481431630,
+      "totalCost": 182891156200
+    },
+    {
+      "year": 2025,
+      "label": "경기 성남분당구",
+      "patientCount": 1685990,
+      "claimCount": 13714398,
+      "visitDays": 14892367,
+      "insurerPaidAmount": 1597135085390,
+      "totalCost": 2057608769110
+    },
+    {
+      "year": 2025,
+      "label": "경기 수원권선구",
+      "patientCount": 629111,
+      "claimCount": 5178519,
+      "visitDays": 5527044,
+      "insurerPaidAmount": 279285550170,
+      "totalCost": 377945826380
+    },
+    {
+      "year": 2025,
+      "label": "경기 수원장안구",
+      "patientCount": 498218,
+      "claimCount": 4242094,
+      "visitDays": 4638779,
+      "insurerPaidAmount": 207210802880,
+      "totalCost": 277412097500
+    },
+    {
+      "year": 2025,
+      "label": "경기 수원팔달구",
+      "patientCount": 923348,
+      "claimCount": 6712627,
+      "visitDays": 7441523,
+      "insurerPaidAmount": 750788803860,
+      "totalCost": 987288324970
+    },
+    {
+      "year": 2025,
+      "label": "경기 수원영통구",
+      "patientCount": 1059671,
+      "claimCount": 7865181,
+      "visitDays": 8655415,
+      "insurerPaidAmount": 835632542700,
+      "totalCost": 1071344694810
+    },
+    {
+      "year": 2025,
+      "label": "경기 안양만안구",
+      "patientCount": 387252,
+      "claimCount": 3602235,
+      "visitDays": 3930684,
+      "insurerPaidAmount": 230578489020,
+      "totalCost": 306401554740
+    },
+    {
+      "year": 2025,
+      "label": "경기 안양동안구",
+      "patientCount": 807609,
+      "claimCount": 7558169,
+      "visitDays": 7955724,
+      "insurerPaidAmount": 591598191280,
+      "totalCost": 778784335640
+    },
+    {
+      "year": 2025,
+      "label": "경기 의정부시",
+      "patientCount": 784259,
+      "claimCount": 8787401,
+      "visitDays": 9764843,
+      "insurerPaidAmount": 802063443290,
+      "totalCost": 1046722011060
+    },
+    {
+      "year": 2025,
+      "label": "경기 과천시",
+      "patientCount": 134267,
+      "claimCount": 1054371,
+      "visitDays": 1052430,
+      "insurerPaidAmount": 32006663910,
+      "totalCost": 44175328990
+    },
+    {
+      "year": 2025,
+      "label": "경기 구리시",
+      "patientCount": 437191,
+      "claimCount": 3930231,
+      "visitDays": 4371782,
+      "insurerPaidAmount": 331291080690,
+      "totalCost": 430607809230
+    },
+    {
+      "year": 2025,
+      "label": "경기 안산단원구",
+      "patientCount": 737557,
+      "claimCount": 7105414,
+      "visitDays": 8187780,
+      "insurerPaidAmount": 724704438320,
+      "totalCost": 947170543950
+    },
+    {
+      "year": 2025,
+      "label": "경기 안산상록구",
+      "patientCount": 413062,
+      "claimCount": 3727203,
+      "visitDays": 4181202,
+      "insurerPaidAmount": 221268246220,
+      "totalCost": 301341225190
+    },
+    {
+      "year": 2025,
+      "label": "경기 평택시",
+      "patientCount": 886830,
+      "claimCount": 10018097,
+      "visitDays": 10654768,
+      "insurerPaidAmount": 602806320320,
+      "totalCost": 819529986810
+    },
+    {
+      "year": 2025,
+      "label": "경기 하남시",
+      "patientCount": 481348,
+      "claimCount": 5006135,
+      "visitDays": 5422309,
+      "insurerPaidAmount": 257560367330,
+      "totalCost": 344670665570
+    },
+    {
+      "year": 2025,
+      "label": "경기 군포시",
+      "patientCount": 412890,
+      "claimCount": 4298952,
+      "visitDays": 4595429,
+      "insurerPaidAmount": 270613273050,
+      "totalCost": 355944773410
+    },
+    {
+      "year": 2025,
+      "label": "경기 남양주시",
+      "patientCount": 928944,
+      "claimCount": 10400813,
+      "visitDays": 11289753,
+      "insurerPaidAmount": 600399413110,
+      "totalCost": 806134370780
+    },
+    {
+      "year": 2025,
+      "label": "경기 의왕시",
+      "patientCount": 227774,
+      "claimCount": 1679677,
+      "visitDays": 2024939,
+      "insurerPaidAmount": 85910404490,
+      "totalCost": 114149058590
+    },
+    {
+      "year": 2025,
+      "label": "경기 시흥시",
+      "patientCount": 746567,
+      "claimCount": 7940004,
+      "visitDays": 8772515,
+      "insurerPaidAmount": 492156163980,
+      "totalCost": 663816220880
+    },
+    {
+      "year": 2025,
+      "label": "경기 오산시",
+      "patientCount": 385688,
+      "claimCount": 3650446,
+      "visitDays": 3964713,
+      "insurerPaidAmount": 205614103460,
+      "totalCost": 276051737360
+    },
+    {
+      "year": 2025,
+      "label": "경기 고양덕양구",
+      "patientCount": 710826,
+      "claimCount": 7413648,
+      "visitDays": 8044638,
+      "insurerPaidAmount": 465084089850,
+      "totalCost": 614275887140
+    },
+    {
+      "year": 2025,
+      "label": "경기 고양일산서구",
+      "patientCount": 578922,
+      "claimCount": 5184047,
+      "visitDays": 5639404,
+      "insurerPaidAmount": 378841022560,
+      "totalCost": 492408264620
+    },
+    {
+      "year": 2025,
+      "label": "경기 고양일산동구",
+      "patientCount": 815384,
+      "claimCount": 6424871,
+      "visitDays": 7670682,
+      "insurerPaidAmount": 979141338460,
+      "totalCost": 1218157148420
+    },
+    {
+      "year": 2025,
+      "label": "경기 용인기흥구",
+      "patientCount": 736450,
+      "claimCount": 6223765,
+      "visitDays": 7117713,
+      "insurerPaidAmount": 537937934310,
+      "totalCost": 699047989090
+    },
+    {
+      "year": 2025,
+      "label": "경기 용인수지구",
+      "patientCount": 572533,
+      "claimCount": 5081631,
+      "visitDays": 5411053,
+      "insurerPaidAmount": 255774208920,
+      "totalCost": 345518698390
+    },
+    {
+      "year": 2025,
+      "label": "경기 용인처인구",
+      "patientCount": 374537,
+      "claimCount": 3521575,
+      "visitDays": 3833403,
+      "insurerPaidAmount": 201882520960,
+      "totalCost": 271736919080
+    },
+    {
+      "year": 2025,
+      "label": "경기 이천시",
+      "patientCount": 340936,
+      "claimCount": 3505549,
+      "visitDays": 3755353,
+      "insurerPaidAmount": 172468473010,
+      "totalCost": 232656797200
+    },
+    {
+      "year": 2025,
+      "label": "경기 파주시",
+      "patientCount": 660030,
+      "claimCount": 7079811,
+      "visitDays": 7839036,
+      "insurerPaidAmount": 383768934900,
+      "totalCost": 517533201900
+    },
+    {
+      "year": 2025,
+      "label": "경기 김포시",
+      "patientCount": 678520,
+      "claimCount": 7533066,
+      "visitDays": 8219752,
+      "insurerPaidAmount": 501877535600,
+      "totalCost": 670202727080
+    },
+    {
+      "year": 2025,
+      "label": "경기 안성시",
+      "patientCount": 269005,
+      "claimCount": 2715119,
+      "visitDays": 2954368,
+      "insurerPaidAmount": 128028785930,
+      "totalCost": 175798922720
+    },
+    {
+      "year": 2025,
+      "label": "경기 화성시",
+      "patientCount": 1456081,
+      "claimCount": 14341969,
+      "visitDays": 15041066,
+      "insurerPaidAmount": 846487078680,
+      "totalCost": 1131526467370
+    },
+    {
+      "year": 2025,
+      "label": "경기 광주시",
+      "patientCount": 465743,
+      "claimCount": 4911427,
+      "visitDays": 5351519,
+      "insurerPaidAmount": 280790138370,
+      "totalCost": 380965571550
+    },
+    {
+      "year": 2025,
+      "label": "경기 양주시",
+      "patientCount": 357653,
+      "claimCount": 3572116,
+      "visitDays": 3904659,
+      "insurerPaidAmount": 163690573950,
+      "totalCost": 220645370220
+    },
+    {
+      "year": 2025,
+      "label": "경기 포천시",
+      "patientCount": 196433,
+      "claimCount": 1937638,
+      "visitDays": 2103729,
+      "insurerPaidAmount": 102374844550,
+      "totalCost": 139662093970
+    },
+    {
+      "year": 2025,
+      "label": "경기 여주시",
+      "patientCount": 136002,
+      "claimCount": 1540744,
+      "visitDays": 1775833,
+      "insurerPaidAmount": 74543960140,
+      "totalCost": 102288495330
+    },
+    {
+      "year": 2025,
+      "label": "강원 고성군",
+      "patientCount": 24250,
+      "claimCount": 250937,
+      "visitDays": 250619,
+      "insurerPaidAmount": 5766765680,
+      "totalCost": 7626490720
+    },
+    {
+      "year": 2025,
+      "label": "강원 양구군",
+      "patientCount": 25989,
+      "claimCount": 221728,
+      "visitDays": 227638,
+      "insurerPaidAmount": 6456853870,
+      "totalCost": 8752426730
+    },
+    {
+      "year": 2025,
+      "label": "강원 양양군",
+      "patientCount": 28894,
+      "claimCount": 224583,
+      "visitDays": 223629,
+      "insurerPaidAmount": 5112083220,
+      "totalCost": 6798337650
+    },
+    {
+      "year": 2025,
+      "label": "강원 영월군",
+      "patientCount": 46967,
+      "claimCount": 425665,
+      "visitDays": 454236,
+      "insurerPaidAmount": 19378775780,
+      "totalCost": 26278843080
+    },
+    {
+      "year": 2025,
+      "label": "강원 인제군",
+      "patientCount": 34260,
+      "claimCount": 287607,
+      "visitDays": 290495,
+      "insurerPaidAmount": 6564015230,
+      "totalCost": 9094475360
+    },
+    {
+      "year": 2025,
+      "label": "강원 정선군",
+      "patientCount": 36781,
+      "claimCount": 308501,
+      "visitDays": 308012,
+      "insurerPaidAmount": 9926996740,
+      "totalCost": 13653480860
+    },
+    {
+      "year": 2025,
+      "label": "강원 철원군",
+      "patientCount": 49895,
+      "claimCount": 472071,
+      "visitDays": 505170,
+      "insurerPaidAmount": 16745111310,
+      "totalCost": 22302575090
+    },
+    {
+      "year": 2025,
+      "label": "강원 평창군",
+      "patientCount": 50396,
+      "claimCount": 402661,
+      "visitDays": 415849,
+      "insurerPaidAmount": 12092710280,
+      "totalCost": 16390043640
+    },
+    {
+      "year": 2025,
+      "label": "강원 홍천군",
+      "patientCount": 85660,
+      "claimCount": 905147,
+      "visitDays": 964767,
+      "insurerPaidAmount": 37330169550,
+      "totalCost": 50703088370
+    },
+    {
+      "year": 2025,
+      "label": "강원 화천군",
+      "patientCount": 26067,
+      "claimCount": 204839,
+      "visitDays": 204475,
+      "insurerPaidAmount": 4501222950,
+      "totalCost": 6001243240
+    },
+    {
+      "year": 2025,
+      "label": "강원 횡성군",
+      "patientCount": 50910,
+      "claimCount": 517535,
+      "visitDays": 546440,
+      "insurerPaidAmount": 21288209370,
+      "totalCost": 28747184640
+    },
+    {
+      "year": 2025,
+      "label": "강원 강릉시",
+      "patientCount": 360737,
+      "claimCount": 3782060,
+      "visitDays": 4153356,
+      "insurerPaidAmount": 392494274900,
+      "totalCost": 504762205050
+    },
+    {
+      "year": 2025,
+      "label": "강원 동해시",
+      "patientCount": 126865,
+      "claimCount": 1480125,
+      "visitDays": 1615365,
+      "insurerPaidAmount": 64530815950,
+      "totalCost": 87308833400
+    },
+    {
+      "year": 2025,
+      "label": "강원 속초시",
+      "patientCount": 165234,
+      "claimCount": 1594428,
+      "visitDays": 1718635,
+      "insurerPaidAmount": 80137020710,
+      "totalCost": 109811003760
+    },
+    {
+      "year": 2025,
+      "label": "강원 원주시",
+      "patientCount": 553523,
+      "claimCount": 6414065,
+      "visitDays": 7213955,
+      "insurerPaidAmount": 623431174450,
+      "totalCost": 808052918230
+    },
+    {
+      "year": 2025,
+      "label": "강원 춘천시",
+      "patientCount": 418630,
+      "claimCount": 5166884,
+      "visitDays": 5685346,
+      "insurerPaidAmount": 409391269690,
+      "totalCost": 531966548520
+    },
+    {
+      "year": 2025,
+      "label": "강원 태백시",
+      "patientCount": 52282,
+      "claimCount": 674828,
+      "visitDays": 704024,
+      "insurerPaidAmount": 22152467330,
+      "totalCost": 30454504840
+    },
+    {
+      "year": 2025,
+      "label": "강원 삼척시",
+      "patientCount": 81998,
+      "claimCount": 881885,
+      "visitDays": 946411,
+      "insurerPaidAmount": 40257026660,
+      "totalCost": 54686838370
+    },
+    {
+      "year": 2025,
+      "label": "충북 괴산군",
+      "patientCount": 39932,
+      "claimCount": 368568,
+      "visitDays": 436587,
+      "insurerPaidAmount": 20439119040,
+      "totalCost": 27132720120
+    },
+    {
+      "year": 2025,
+      "label": "충북 단양군",
+      "patientCount": 28898,
+      "claimCount": 283144,
+      "visitDays": 301756,
+      "insurerPaidAmount": 8715023620,
+      "totalCost": 11627958850
+    },
+    {
+      "year": 2025,
+      "label": "충북 보은군",
+      "patientCount": 38998,
+      "claimCount": 493114,
+      "visitDays": 570738,
+      "insurerPaidAmount": 21513182610,
+      "totalCost": 28600995780
+    },
+    {
+      "year": 2025,
+      "label": "충북 영동군",
+      "patientCount": 57565,
+      "claimCount": 801781,
+      "visitDays": 899852,
+      "insurerPaidAmount": 38695270230,
+      "totalCost": 51810866920
+    },
+    {
+      "year": 2025,
+      "label": "충북 옥천군",
+      "patientCount": 59229,
+      "claimCount": 909191,
+      "visitDays": 972214,
+      "insurerPaidAmount": 39462980070,
+      "totalCost": 54157487360
+    },
+    {
+      "year": 2025,
+      "label": "충북 음성군",
+      "patientCount": 156391,
+      "claimCount": 1399837,
+      "visitDays": 1521388,
+      "insurerPaidAmount": 56468077900,
+      "totalCost": 76199750850
+    },
+    {
+      "year": 2025,
+      "label": "충북 진천군",
+      "patientCount": 137104,
+      "claimCount": 1254811,
+      "visitDays": 1385125,
+      "insurerPaidAmount": 61415195750,
+      "totalCost": 83580987580
+    },
+    {
+      "year": 2025,
+      "label": "충북 증평군",
+      "patientCount": 63671,
+      "claimCount": 571762,
+      "visitDays": 587791,
+      "insurerPaidAmount": 19479374010,
+      "totalCost": 26177560470
+    },
+    {
+      "year": 2025,
+      "label": "충북 청주상당구",
+      "patientCount": 417308,
+      "claimCount": 3633421,
+      "visitDays": 3959407,
+      "insurerPaidAmount": 242800158760,
+      "totalCost": 323845466350
+    },
+    {
+      "year": 2025,
+      "label": "충북 청주흥덕구",
+      "patientCount": 627801,
+      "claimCount": 4919075,
+      "visitDays": 5279510,
+      "insurerPaidAmount": 295842357640,
+      "totalCost": 398781408940
+    },
+    {
+      "year": 2025,
+      "label": "충북 청주청원구",
+      "patientCount": 423463,
+      "claimCount": 3625639,
+      "visitDays": 3944958,
+      "insurerPaidAmount": 232243123130,
+      "totalCost": 311446474520
+    },
+    {
+      "year": 2025,
+      "label": "충북 청주서원구",
+      "patientCount": 472810,
+      "claimCount": 3624397,
+      "visitDays": 4173744,
+      "insurerPaidAmount": 398422335860,
+      "totalCost": 500151539200
+    },
+    {
+      "year": 2025,
+      "label": "충북 충주시",
+      "patientCount": 280960,
+      "claimCount": 3687938,
+      "visitDays": 4051961,
+      "insurerPaidAmount": 209446207990,
+      "totalCost": 281615659590
+    },
+    {
+      "year": 2025,
+      "label": "충북 제천시",
+      "patientCount": 201556,
+      "claimCount": 2402325,
+      "visitDays": 2646607,
+      "insurerPaidAmount": 143560226710,
+      "totalCost": 191169247940
+    },
+    {
+      "year": 2025,
+      "label": "충남 금산군",
+      "patientCount": 63399,
+      "claimCount": 935769,
+      "visitDays": 1008928,
+      "insurerPaidAmount": 35426836550,
+      "totalCost": 46928344460
+    },
+    {
+      "year": 2025,
+      "label": "충남 부여군",
+      "patientCount": 69862,
+      "claimCount": 1013849,
+      "visitDays": 1120970,
+      "insurerPaidAmount": 42130318550,
+      "totalCost": 55484810400
+    },
+    {
+      "year": 2025,
+      "label": "충남 서천군",
+      "patientCount": 59328,
+      "claimCount": 924181,
+      "visitDays": 1085211,
+      "insurerPaidAmount": 37421415430,
+      "totalCost": 49302209470
+    },
+    {
+      "year": 2025,
+      "label": "충남 예산군",
+      "patientCount": 110171,
+      "claimCount": 1199119,
+      "visitDays": 1245353,
+      "insurerPaidAmount": 48253149650,
+      "totalCost": 65776747640
+    },
+    {
+      "year": 2025,
+      "label": "충남 청양군",
+      "patientCount": 30898,
+      "claimCount": 342429,
+      "visitDays": 380998,
+      "insurerPaidAmount": 11773917440,
+      "totalCost": 15706063840
+    },
+    {
+      "year": 2025,
+      "label": "충남 홍성군",
+      "patientCount": 162807,
+      "claimCount": 1808940,
+      "visitDays": 2002552,
+      "insurerPaidAmount": 89545198200,
+      "totalCost": 119646166270
+    },
+    {
+      "year": 2025,
+      "label": "충남 태안군",
+      "patientCount": 74611,
+      "claimCount": 1018394,
+      "visitDays": 1053610,
+      "insurerPaidAmount": 33620092250,
+      "totalCost": 44878117880
+    },
+    {
+      "year": 2025,
+      "label": "충남 천안서북구",
+      "patientCount": 807864,
+      "claimCount": 6894832,
+      "visitDays": 7458863,
+      "insurerPaidAmount": 404135525490,
+      "totalCost": 545718051790
+    },
+    {
+      "year": 2025,
+      "label": "충남 천안동남구",
+      "patientCount": 651942,
+      "claimCount": 4956980,
+      "visitDays": 5843183,
+      "insurerPaidAmount": 729403365010,
+      "totalCost": 918755819270
+    },
+    {
+      "year": 2025,
+      "label": "충남 공주시",
+      "patientCount": 132938,
+      "claimCount": 1593334,
+      "visitDays": 1961028,
+      "insurerPaidAmount": 98666152560,
+      "totalCost": 131351517090
+    },
+    {
+      "year": 2025,
+      "label": "충남 보령시",
+      "patientCount": 118602,
+      "claimCount": 1744414,
+      "visitDays": 1853852,
+      "insurerPaidAmount": 68346973990,
+      "totalCost": 92617710070
+    },
+    {
+      "year": 2025,
+      "label": "충남 아산시",
+      "patientCount": 575539,
+      "claimCount": 5466738,
+      "visitDays": 5960721,
+      "insurerPaidAmount": 320614532600,
+      "totalCost": 430231444460
+    },
+    {
+      "year": 2025,
+      "label": "충남 서산시",
+      "patientCount": 239730,
+      "claimCount": 2743723,
+      "visitDays": 2925216,
+      "insurerPaidAmount": 139409190000,
+      "totalCost": 190235328130
+    },
+    {
+      "year": 2025,
+      "label": "충남 논산시",
+      "patientCount": 175249,
+      "claimCount": 2266257,
+      "visitDays": 2679582,
+      "insurerPaidAmount": 144844889670,
+      "totalCost": 194488182140
+    },
+    {
+      "year": 2025,
+      "label": "충남 계룡시",
+      "patientCount": 57288,
+      "claimCount": 486210,
+      "visitDays": 510051,
+      "insurerPaidAmount": 14119711950,
+      "totalCost": 19319035930
+    },
+    {
+      "year": 2025,
+      "label": "충남 당진시",
+      "patientCount": 224761,
+      "claimCount": 2609631,
+      "visitDays": 2808620,
+      "insurerPaidAmount": 131617641970,
+      "totalCost": 177217277940
+    },
+    {
+      "year": 2025,
+      "label": "전북 고창군",
+      "patientCount": 57474,
+      "claimCount": 881078,
+      "visitDays": 1118607,
+      "insurerPaidAmount": 59435533400,
+      "totalCost": 79348530220
+    },
+    {
+      "year": 2025,
+      "label": "전북 무주군",
+      "patientCount": 26598,
+      "claimCount": 320082,
+      "visitDays": 328244,
+      "insurerPaidAmount": 8912186480,
+      "totalCost": 11672522080
+    },
+    {
+      "year": 2025,
+      "label": "전북 부안군",
+      "patientCount": 56308,
+      "claimCount": 1045640,
+      "visitDays": 1123493,
+      "insurerPaidAmount": 42801532620,
+      "totalCost": 57488854880
+    },
+    {
+      "year": 2025,
+      "label": "전북 순창군",
+      "patientCount": 30106,
+      "claimCount": 441507,
+      "visitDays": 513009,
+      "insurerPaidAmount": 17764302700,
+      "totalCost": 23443162670
+    },
+    {
+      "year": 2025,
+      "label": "전북 완주군",
+      "patientCount": 170198,
+      "claimCount": 1294884,
+      "visitDays": 1527081,
+      "insurerPaidAmount": 54834436040,
+      "totalCost": 72845972730
+    },
+    {
+      "year": 2025,
+      "label": "전북 임실군",
+      "patientCount": 30694,
+      "claimCount": 405583,
+      "visitDays": 433874,
+      "insurerPaidAmount": 11310901760,
+      "totalCost": 14583398370
+    },
+    {
+      "year": 2025,
+      "label": "전북 장수군",
+      "patientCount": 20830,
+      "claimCount": 249708,
+      "visitDays": 249292,
+      "insurerPaidAmount": 5584330880,
+      "totalCost": 7199608760
+    },
+    {
+      "year": 2025,
+      "label": "전북 진안군",
+      "patientCount": 43161,
+      "claimCount": 354481,
+      "visitDays": 366115,
+      "insurerPaidAmount": 11443503980,
+      "totalCost": 15258326820
+    },
+    {
+      "year": 2025,
+      "label": "전북 군산시",
+      "patientCount": 334558,
+      "claimCount": 4857993,
+      "visitDays": 5626235,
+      "insurerPaidAmount": 296370795270,
+      "totalCost": 394553922450
+    },
+    {
+      "year": 2025,
+      "label": "전북 남원시",
+      "patientCount": 106411,
+      "claimCount": 1640997,
+      "visitDays": 1818582,
+      "insurerPaidAmount": 74533306100,
+      "totalCost": 98557647150
+    },
+    {
+      "year": 2025,
+      "label": "전북 익산시",
+      "patientCount": 367962,
+      "claimCount": 5215294,
+      "visitDays": 6084978,
+      "insurerPaidAmount": 475501703330,
+      "totalCost": 610672537600
+    },
+    {
+      "year": 2025,
+      "label": "전북 전주완산구",
+      "patientCount": 697852,
+      "claimCount": 7083481,
+      "visitDays": 8778214,
+      "insurerPaidAmount": 616627444340,
+      "totalCost": 818869296880
+    },
+    {
+      "year": 2025,
+      "label": "전북 전주덕진구",
+      "patientCount": 688461,
+      "claimCount": 6723917,
+      "visitDays": 8023871,
+      "insurerPaidAmount": 721097213730,
+      "totalCost": 927355061880
+    },
+    {
+      "year": 2025,
+      "label": "전북 정읍시",
+      "patientCount": 126967,
+      "claimCount": 1961031,
+      "visitDays": 2349381,
+      "insurerPaidAmount": 108715787610,
+      "totalCost": 145145536170
+    },
+    {
+      "year": 2025,
+      "label": "전북 김제시",
+      "patientCount": 93837,
+      "claimCount": 1397254,
+      "visitDays": 1812297,
+      "insurerPaidAmount": 83842604180,
+      "totalCost": 108841644460
+    },
+    {
+      "year": 2025,
+      "label": "전남 강진군",
+      "patientCount": 50074,
+      "claimCount": 591763,
+      "visitDays": 684549,
+      "insurerPaidAmount": 32699991610,
+      "totalCost": 42425049010
+    },
+    {
+      "year": 2025,
+      "label": "전남 고흥군",
+      "patientCount": 62918,
+      "claimCount": 1028064,
+      "visitDays": 1123562,
+      "insurerPaidAmount": 44461509960,
+      "totalCost": 58856607870
+    },
+    {
+      "year": 2025,
+      "label": "전남 곡성군",
+      "patientCount": 30544,
+      "claimCount": 375288,
+      "visitDays": 413892,
+      "insurerPaidAmount": 14404551350,
+      "totalCost": 19033471650
+    },
+    {
+      "year": 2025,
+      "label": "전남 구례군",
+      "patientCount": 29372,
+      "claimCount": 359941,
+      "visitDays": 422959,
+      "insurerPaidAmount": 15819621160,
+      "totalCost": 21075687780
+    },
+    {
+      "year": 2025,
+      "label": "전남 담양군",
+      "patientCount": 56474,
+      "claimCount": 629188,
+      "visitDays": 857635,
+      "insurerPaidAmount": 38321486420,
+      "totalCost": 48900933620
+    },
+    {
+      "year": 2025,
+      "label": "전남 무안군",
+      "patientCount": 159566,
+      "claimCount": 1423388,
+      "visitDays": 1603384,
+      "insurerPaidAmount": 64736332670,
+      "totalCost": 86578454490
+    },
+    {
+      "year": 2025,
+      "label": "전남 보성군",
+      "patientCount": 48235,
+      "claimCount": 536475,
+      "visitDays": 701446,
+      "insurerPaidAmount": 30621328670,
+      "totalCost": 40516718070
+    },
+    {
+      "year": 2025,
+      "label": "전남 신안군",
+      "patientCount": 29407,
+      "claimCount": 358283,
+      "visitDays": 432237,
+      "insurerPaidAmount": 13838688400,
+      "totalCost": 18161365550
+    },
+    {
+      "year": 2025,
+      "label": "전남 영광군",
+      "patientCount": 65585,
+      "claimCount": 1138634,
+      "visitDays": 1302239,
+      "insurerPaidAmount": 57334661470,
+      "totalCost": 77628799530
+    },
+    {
+      "year": 2025,
+      "label": "전남 영암군",
+      "patientCount": 68079,
+      "claimCount": 721473,
+      "visitDays": 791353,
+      "insurerPaidAmount": 25842591270,
+      "totalCost": 34429036840
+    },
+    {
+      "year": 2025,
+      "label": "전남 완도군",
+      "patientCount": 48664,
+      "claimCount": 672808,
+      "visitDays": 689473,
+      "insurerPaidAmount": 20372452710,
+      "totalCost": 26876972120
+    },
+    {
+      "year": 2025,
+      "label": "전남 장성군",
+      "patientCount": 43411,
+      "claimCount": 500323,
+      "visitDays": 657863,
+      "insurerPaidAmount": 28834362980,
+      "totalCost": 37860496750
+    },
+    {
+      "year": 2025,
+      "label": "전남 장흥군",
+      "patientCount": 59965,
+      "claimCount": 697082,
+      "visitDays": 812132,
+      "insurerPaidAmount": 32431074110,
+      "totalCost": 43170504860
+    },
+    {
+      "year": 2025,
+      "label": "전남 진도군",
+      "patientCount": 30021,
+      "claimCount": 426842,
+      "visitDays": 458174,
+      "insurerPaidAmount": 14047607320,
+      "totalCost": 18172946610
+    },
+    {
+      "year": 2025,
+      "label": "전남 함평군",
+      "patientCount": 33461,
+      "claimCount": 384559,
+      "visitDays": 430554,
+      "insurerPaidAmount": 14111580300,
+      "totalCost": 18404352050
+    },
+    {
+      "year": 2025,
+      "label": "전남 해남군",
+      "patientCount": 100268,
+      "claimCount": 1254802,
+      "visitDays": 1460237,
+      "insurerPaidAmount": 70844744000,
+      "totalCost": 96157400130
+    },
+    {
+      "year": 2025,
+      "label": "전남 화순군",
+      "patientCount": 142804,
+      "claimCount": 1334448,
+      "visitDays": 2022279,
+      "insurerPaidAmount": 361679895790,
+      "totalCost": 422954900870
+    },
+    {
+      "year": 2025,
+      "label": "전남 나주시",
+      "patientCount": 156548,
+      "claimCount": 1803943,
+      "visitDays": 2321307,
+      "insurerPaidAmount": 113927763290,
+      "totalCost": 153752252250
+    },
+    {
+      "year": 2025,
+      "label": "전남 목포시",
+      "patientCount": 395995,
+      "claimCount": 4830033,
+      "visitDays": 6249718,
+      "insurerPaidAmount": 431681861380,
+      "totalCost": 577922040500
+    },
+    {
+      "year": 2025,
+      "label": "전남 순천시",
+      "patientCount": 474675,
+      "claimCount": 5182733,
+      "visitDays": 6376652,
+      "insurerPaidAmount": 483118053060,
+      "totalCost": 639269933900
+    },
+    {
+      "year": 2025,
+      "label": "전남 여수시",
+      "patientCount": 337919,
+      "claimCount": 5105785,
+      "visitDays": 6108113,
+      "insurerPaidAmount": 325381351320,
+      "totalCost": 443365843440
+    },
+    {
+      "year": 2025,
+      "label": "전남 광양시",
+      "patientCount": 184095,
+      "claimCount": 1867503,
+      "visitDays": 2120183,
+      "insurerPaidAmount": 91096529080,
+      "totalCost": 123988136300
+    },
+    {
+      "year": 2025,
+      "label": "경북 고령군",
+      "patientCount": 44544,
+      "claimCount": 370119,
+      "visitDays": 397923,
+      "insurerPaidAmount": 13543029760,
+      "totalCost": 18177849450
+    },
+    {
+      "year": 2025,
+      "label": "경북 봉화군",
+      "patientCount": 26324,
+      "claimCount": 248679,
+      "visitDays": 284257,
+      "insurerPaidAmount": 9655109860,
+      "totalCost": 12691737880
+    },
+    {
+      "year": 2025,
+      "label": "경북 성주군",
+      "patientCount": 42318,
+      "claimCount": 450145,
+      "visitDays": 549554,
+      "insurerPaidAmount": 20124913130,
+      "totalCost": 26757744940
+    },
+    {
+      "year": 2025,
+      "label": "경북 영덕군",
+      "patientCount": 43776,
+      "claimCount": 557205,
+      "visitDays": 607128,
+      "insurerPaidAmount": 22393813810,
+      "totalCost": 29471367540
+    },
+    {
+      "year": 2025,
+      "label": "경북 영양군",
+      "patientCount": 12987,
+      "claimCount": 110783,
+      "visitDays": 113214,
+      "insurerPaidAmount": 2545358340,
+      "totalCost": 3492246700
+    },
+    {
+      "year": 2025,
+      "label": "경북 예천군",
+      "patientCount": 61893,
+      "claimCount": 653383,
+      "visitDays": 784153,
+      "insurerPaidAmount": 32557436010,
+      "totalCost": 43026370220
+    },
+    {
+      "year": 2025,
+      "label": "경북 울릉군",
+      "patientCount": 8940,
+      "claimCount": 59239,
+      "visitDays": 59425,
+      "insurerPaidAmount": 2377786180,
+      "totalCost": 3317029850
+    },
+    {
+      "year": 2025,
+      "label": "경북 울진군",
+      "patientCount": 57791,
+      "claimCount": 607996,
+      "visitDays": 652031,
+      "insurerPaidAmount": 23559026340,
+      "totalCost": 30891687680
+    },
+    {
+      "year": 2025,
+      "label": "경북 의성군",
+      "patientCount": 49328,
+      "claimCount": 577455,
+      "visitDays": 715921,
+      "insurerPaidAmount": 25435323950,
+      "totalCost": 33690405350
+    },
+    {
+      "year": 2025,
+      "label": "경북 청도군",
+      "patientCount": 55825,
+      "claimCount": 586754,
+      "visitDays": 690689,
+      "insurerPaidAmount": 23964295410,
+      "totalCost": 31497754130
+    },
+    {
+      "year": 2025,
+      "label": "경북 청송군",
+      "patientCount": 29105,
+      "claimCount": 243007,
+      "visitDays": 273219,
+      "insurerPaidAmount": 8978789740,
+      "totalCost": 11804760370
+    },
+    {
+      "year": 2025,
+      "label": "경북 칠곡군",
+      "patientCount": 148489,
+      "claimCount": 1393385,
+      "visitDays": 1564099,
+      "insurerPaidAmount": 56978779770,
+      "totalCost": 77099839250
+    },
+    {
+      "year": 2025,
+      "label": "경북 경주시",
+      "patientCount": 315117,
+      "claimCount": 3972631,
+      "visitDays": 4585505,
+      "insurerPaidAmount": 233164178040,
+      "totalCost": 311755588520
+    },
+    {
+      "year": 2025,
+      "label": "경북 구미시",
+      "patientCount": 558624,
+      "claimCount": 6525027,
+      "visitDays": 7204221,
+      "insurerPaidAmount": 423593908440,
+      "totalCost": 568286547220
+    },
+    {
+      "year": 2025,
+      "label": "경북 김천시",
+      "patientCount": 156264,
+      "claimCount": 1887391,
+      "visitDays": 2178514,
+      "insurerPaidAmount": 121653715920,
+      "totalCost": 162747268670
+    },
+    {
+      "year": 2025,
+      "label": "경북 안동시",
+      "patientCount": 261631,
+      "claimCount": 2841043,
+      "visitDays": 3633476,
+      "insurerPaidAmount": 313639692770,
+      "totalCost": 406522377250
+    },
+    {
+      "year": 2025,
+      "label": "경북 영주시",
+      "patientCount": 131423,
+      "claimCount": 1727584,
+      "visitDays": 1978464,
+      "insurerPaidAmount": 87141069220,
+      "totalCost": 118594013450
+    },
+    {
+      "year": 2025,
+      "label": "경북 영천시",
+      "patientCount": 119256,
+      "claimCount": 1619188,
+      "visitDays": 1885953,
+      "insurerPaidAmount": 79663585200,
+      "totalCost": 107153721750
+    },
+    {
+      "year": 2025,
+      "label": "경북 포항남구",
+      "patientCount": 432894,
+      "claimCount": 4145969,
+      "visitDays": 4751996,
+      "insurerPaidAmount": 389495538880,
+      "totalCost": 523734028020
+    },
+    {
+      "year": 2025,
+      "label": "경북 포항북구",
+      "patientCount": 435132,
+      "claimCount": 4503607,
+      "visitDays": 5509228,
+      "insurerPaidAmount": 283301675620,
+      "totalCost": 379897039910
+    },
+    {
+      "year": 2025,
+      "label": "경북 문경시",
+      "patientCount": 89434,
+      "claimCount": 1236532,
+      "visitDays": 1380267,
+      "insurerPaidAmount": 61647791430,
+      "totalCost": 82428515540
+    },
+    {
+      "year": 2025,
+      "label": "경북 상주시",
+      "patientCount": 109481,
+      "claimCount": 1430668,
+      "visitDays": 1621823,
+      "insurerPaidAmount": 81638826750,
+      "totalCost": 109034134240
+    },
+    {
+      "year": 2025,
+      "label": "경북 경산시",
+      "patientCount": 433257,
+      "claimCount": 4352103,
+      "visitDays": 4869172,
+      "insurerPaidAmount": 216956817210,
+      "totalCost": 294974000890
+    },
+    {
+      "year": 2025,
+      "label": "경남 거창군",
+      "patientCount": 74950,
+      "claimCount": 1000403,
+      "visitDays": 1147097,
+      "insurerPaidAmount": 49218790050,
+      "totalCost": 65699268530
+    },
+    {
+      "year": 2025,
+      "label": "경남 고성군",
+      "patientCount": 53425,
+      "claimCount": 656754,
+      "visitDays": 799090,
+      "insurerPaidAmount": 34062832200,
+      "totalCost": 46612466490
+    },
+    {
+      "year": 2025,
+      "label": "경남 남해군",
+      "patientCount": 42521,
+      "claimCount": 615160,
+      "visitDays": 656298,
+      "insurerPaidAmount": 21177985670,
+      "totalCost": 27675669100
+    },
+    {
+      "year": 2025,
+      "label": "경남 산청군",
+      "patientCount": 37165,
+      "claimCount": 422283,
+      "visitDays": 459405,
+      "insurerPaidAmount": 12322595730,
+      "totalCost": 16131336070
+    },
+    {
+      "year": 2025,
+      "label": "경남 의령군",
+      "patientCount": 28196,
+      "claimCount": 367090,
+      "visitDays": 435108,
+      "insurerPaidAmount": 14675109140,
+      "totalCost": 19388389330
+    },
+    {
+      "year": 2025,
+      "label": "경남 창녕군",
+      "patientCount": 65994,
+      "claimCount": 802489,
+      "visitDays": 1024668,
+      "insurerPaidAmount": 42396839440,
+      "totalCost": 56115566600
+    },
+    {
+      "year": 2025,
+      "label": "경남 하동군",
+      "patientCount": 45512,
+      "claimCount": 576819,
+      "visitDays": 618366,
+      "insurerPaidAmount": 19004434720,
+      "totalCost": 24562968690
+    },
+    {
+      "year": 2025,
+      "label": "경남 함안군",
+      "patientCount": 86242,
+      "claimCount": 692178,
+      "visitDays": 888585,
+      "insurerPaidAmount": 38807681500,
+      "totalCost": 51230743010
+    },
+    {
+      "year": 2025,
+      "label": "경남 함양군",
+      "patientCount": 44498,
+      "claimCount": 631441,
+      "visitDays": 662061,
+      "insurerPaidAmount": 26021440550,
+      "totalCost": 34525189150
+    },
+    {
+      "year": 2025,
+      "label": "경남 합천군",
+      "patientCount": 42900,
+      "claimCount": 542071,
+      "visitDays": 634132,
+      "insurerPaidAmount": 24167957980,
+      "totalCost": 32337155700
+    },
+    {
+      "year": 2025,
+      "label": "경남 김해시",
+      "patientCount": 680080,
+      "claimCount": 8298216,
+      "visitDays": 10065427,
+      "insurerPaidAmount": 534185493010,
+      "totalCost": 727734594180
+    },
+    {
+      "year": 2025,
+      "label": "경남 사천시",
+      "patientCount": 156682,
+      "claimCount": 1846825,
+      "visitDays": 2275943,
+      "insurerPaidAmount": 120119108430,
+      "totalCost": 160282018990
+    },
+    {
+      "year": 2025,
+      "label": "경남 진주시",
+      "patientCount": 543475,
+      "claimCount": 6635526,
+      "visitDays": 7600725,
+      "insurerPaidAmount": 603092661230,
+      "totalCost": 791151946680
+    },
+    {
+      "year": 2025,
+      "label": "경남 창원마산회원구",
+      "patientCount": 481564,
+      "claimCount": 4069769,
+      "visitDays": 4820834,
+      "insurerPaidAmount": 430001470410,
+      "totalCost": 552530467570
+    },
+    {
+      "year": 2025,
+      "label": "경남 창원마산합포구",
+      "patientCount": 290910,
+      "claimCount": 2910822,
+      "visitDays": 3788103,
+      "insurerPaidAmount": 229127469550,
+      "totalCost": 306501030630
+    },
+    {
+      "year": 2025,
+      "label": "경남 창원진해구",
+      "patientCount": 256455,
+      "claimCount": 2633265,
+      "visitDays": 2932470,
+      "insurerPaidAmount": 116012220370,
+      "totalCost": 158982495240
+    },
+    {
+      "year": 2025,
+      "label": "경남 창원의창구",
+      "patientCount": 547506,
+      "claimCount": 4564571,
+      "visitDays": 5626583,
+      "insurerPaidAmount": 521041343520,
+      "totalCost": 685620226340
+    },
+    {
+      "year": 2025,
+      "label": "경남 창원성산구",
+      "patientCount": 536158,
+      "claimCount": 4330993,
+      "visitDays": 4871720,
+      "insurerPaidAmount": 350977435180,
+      "totalCost": 459676292480
+    },
+    {
+      "year": 2025,
+      "label": "경남 통영시",
+      "patientCount": 158920,
+      "claimCount": 2185983,
+      "visitDays": 2436230,
+      "insurerPaidAmount": 107610654470,
+      "totalCost": 145271976790
+    },
+    {
+      "year": 2025,
+      "label": "경남 밀양시",
+      "patientCount": 115871,
+      "claimCount": 1541825,
+      "visitDays": 1821401,
+      "insurerPaidAmount": 85710018910,
+      "totalCost": 114805729930
+    },
+    {
+      "year": 2025,
+      "label": "경남 거제시",
+      "patientCount": 273376,
+      "claimCount": 3452818,
+      "visitDays": 3856348,
+      "insurerPaidAmount": 184827499100,
+      "totalCost": 253009091130
+    },
+    {
+      "year": 2025,
+      "label": "경남 양산시",
+      "patientCount": 575972,
+      "claimCount": 6357364,
+      "visitDays": 7479307,
+      "insurerPaidAmount": 630469247700,
+      "totalCost": 801010280600
+    },
+    {
+      "year": 2025,
+      "label": "제주 서귀포시",
+      "patientCount": 268174,
+      "claimCount": 3084802,
+      "visitDays": 3170116,
+      "insurerPaidAmount": 124660671560,
+      "totalCost": 166502102060
+    },
+    {
+      "year": 2025,
+      "label": "제주 제주시",
+      "patientCount": 668135,
+      "claimCount": 9288735,
+      "visitDays": 10084069,
+      "insurerPaidAmount": 616814224430,
+      "totalCost": 811015079310
+    },
+    {
+      "year": 2025,
+      "label": "세종 세종시",
+      "patientCount": 564372,
+      "claimCount": 6385784,
+      "visitDays": 6616271,
+      "insurerPaidAmount": 353976310860,
+      "totalCost": 470411308790
+    }
+  ]
+}

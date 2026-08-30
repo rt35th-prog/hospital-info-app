@@ -1,0 +1,3610 @@
+{
+  "_meta": {
+    "source": "희귀질환 건강보험 진료 통계 2022",
+    "dimensions": [
+      "희귀질환 상병코드"
+    ]
+  },
+  "items": [
+    {
+      "year": 2022,
+      "label": "D66",
+      "patientCount": 1718,
+      "claimCount": 30492,
+      "visitDays": 31616,
+      "insurerPaidAmount": 139776842790,
+      "totalCost": 154568316130
+    },
+    {
+      "year": 2022,
+      "label": "D67",
+      "patientCount": 395,
+      "claimCount": 5977,
+      "visitDays": 6200,
+      "insurerPaidAmount": 54740567620,
+      "totalCost": 60507416640
+    },
+    {
+      "year": 2022,
+      "label": "D70",
+      "patientCount": 16914,
+      "claimCount": 36070,
+      "visitDays": 56966,
+      "insurerPaidAmount": 13769012480,
+      "totalCost": 16134087530
+    },
+    {
+      "year": 2022,
+      "label": "D71",
+      "patientCount": 107,
+      "claimCount": 973,
+      "visitDays": 1786,
+      "insurerPaidAmount": 533043200,
+      "totalCost": 608108060
+    },
+    {
+      "year": 2022,
+      "label": "G10",
+      "patientCount": 347,
+      "claimCount": 1874,
+      "visitDays": 13123,
+      "insurerPaidAmount": 1113350950,
+      "totalCost": 1341457690
+    },
+    {
+      "year": 2022,
+      "label": "G35",
+      "patientCount": 2700,
+      "claimCount": 20548,
+      "visitDays": 34769,
+      "insurerPaidAmount": 13959039730,
+      "totalCost": 15767564270
+    },
+    {
+      "year": 2022,
+      "label": "A319",
+      "patientCount": 5869,
+      "claimCount": 23877,
+      "visitDays": 27674,
+      "insurerPaidAmount": 1847841400,
+      "totalCost": 3122311410
+    },
+    {
+      "year": 2022,
+      "label": "A810",
+      "patientCount": 125,
+      "claimCount": 1044,
+      "visitDays": 8365,
+      "insurerPaidAmount": 1326109100,
+      "totalCost": 1553219800
+    },
+    {
+      "year": 2022,
+      "label": "D126",
+      "patientCount": 296218,
+      "claimCount": 486487,
+      "visitDays": 520419,
+      "insurerPaidAmount": 63372086070,
+      "totalCost": 101986221290
+    },
+    {
+      "year": 2022,
+      "label": "D550",
+      "patientCount": 35,
+      "claimCount": 77,
+      "visitDays": 88,
+      "insurerPaidAmount": 6866290,
+      "totalCost": 8040440
+    },
+    {
+      "year": 2022,
+      "label": "D552",
+      "patientCount": 27,
+      "claimCount": 183,
+      "visitDays": 174,
+      "insurerPaidAmount": 25139740,
+      "totalCost": 30000110
+    },
+    {
+      "year": 2022,
+      "label": "D560",
+      "patientCount": 18,
+      "claimCount": 81,
+      "visitDays": 81,
+      "insurerPaidAmount": 3614440,
+      "totalCost": 4562440
+    },
+    {
+      "year": 2022,
+      "label": "D561",
+      "patientCount": 176,
+      "claimCount": 555,
+      "visitDays": 596,
+      "insurerPaidAmount": 68351480,
+      "totalCost": 80898700
+    },
+    {
+      "year": 2022,
+      "label": "D562",
+      "patientCount": 1,
+      "claimCount": 7,
+      "visitDays": 8,
+      "insurerPaidAmount": 1749460,
+      "totalCost": 1880680
+    },
+    {
+      "year": 2022,
+      "label": "D563",
+      "patientCount": 44,
+      "claimCount": 134,
+      "visitDays": 134,
+      "insurerPaidAmount": 11610340,
+      "totalCost": 13871750
+    },
+    {
+      "year": 2022,
+      "label": "D564",
+      "patientCount": 3,
+      "claimCount": 6,
+      "visitDays": 6,
+      "insurerPaidAmount": 144430,
+      "totalCost": 192930
+    },
+    {
+      "year": 2022,
+      "label": "D593",
+      "patientCount": 231,
+      "claimCount": 1145,
+      "visitDays": 2822,
+      "insurerPaidAmount": 5447492820,
+      "totalCost": 6079716160
+    },
+    {
+      "year": 2022,
+      "label": "D595",
+      "patientCount": 486,
+      "claimCount": 3622,
+      "visitDays": 4230,
+      "insurerPaidAmount": 32389637920,
+      "totalCost": 35974969920
+    },
+    {
+      "year": 2022,
+      "label": "D600",
+      "patientCount": 132,
+      "claimCount": 1465,
+      "visitDays": 1681,
+      "insurerPaidAmount": 400744910,
+      "totalCost": 448472690
+    },
+    {
+      "year": 2022,
+      "label": "D610",
+      "patientCount": 532,
+      "claimCount": 2066,
+      "visitDays": 2969,
+      "insurerPaidAmount": 1046731840,
+      "totalCost": 1262143120
+    },
+    {
+      "year": 2022,
+      "label": "D613",
+      "patientCount": 2330,
+      "claimCount": 18313,
+      "visitDays": 27974,
+      "insurerPaidAmount": 13137723690,
+      "totalCost": 14759762070
+    },
+    {
+      "year": 2022,
+      "label": "D619",
+      "patientCount": 7292,
+      "claimCount": 32900,
+      "visitDays": 48334,
+      "insurerPaidAmount": 17031406580,
+      "totalCost": 20245448530
+    },
+    {
+      "year": 2022,
+      "label": "D644",
+      "patientCount": 19,
+      "claimCount": 87,
+      "visitDays": 136,
+      "insurerPaidAmount": 69547830,
+      "totalCost": 79213130
+    },
+    {
+      "year": 2022,
+      "label": "D680",
+      "patientCount": 334,
+      "claimCount": 1056,
+      "visitDays": 1481,
+      "insurerPaidAmount": 645152400,
+      "totalCost": 738607030
+    },
+    {
+      "year": 2022,
+      "label": "D681",
+      "patientCount": 66,
+      "claimCount": 144,
+      "visitDays": 184,
+      "insurerPaidAmount": 39196710,
+      "totalCost": 45787040
+    },
+    {
+      "year": 2022,
+      "label": "D682",
+      "patientCount": 223,
+      "claimCount": 1800,
+      "visitDays": 1849,
+      "insurerPaidAmount": 3038253580,
+      "totalCost": 3364478920
+    },
+    {
+      "year": 2022,
+      "label": "D685",
+      "patientCount": 702,
+      "claimCount": 2814,
+      "visitDays": 2947,
+      "insurerPaidAmount": 305092690,
+      "totalCost": 381642450
+    },
+    {
+      "year": 2022,
+      "label": "D686",
+      "patientCount": 3502,
+      "claimCount": 15307,
+      "visitDays": 16912,
+      "insurerPaidAmount": 1438044520,
+      "totalCost": 1780819630
+    },
+    {
+      "year": 2022,
+      "label": "D691",
+      "patientCount": 1633,
+      "claimCount": 4621,
+      "visitDays": 4960,
+      "insurerPaidAmount": 787655780,
+      "totalCost": 989111440
+    },
+    {
+      "year": 2022,
+      "label": "D693",
+      "patientCount": 9759,
+      "claimCount": 45246,
+      "visitDays": 55777,
+      "insurerPaidAmount": 9855626580,
+      "totalCost": 13911379370
+    },
+    {
+      "year": 2022,
+      "label": "D694",
+      "patientCount": 1824,
+      "claimCount": 4855,
+      "visitDays": 5075,
+      "insurerPaidAmount": 339267520,
+      "totalCost": 596301500
+    },
+    {
+      "year": 2022,
+      "label": "D761",
+      "patientCount": 670,
+      "claimCount": 4594,
+      "visitDays": 11527,
+      "insurerPaidAmount": 6283194150,
+      "totalCost": 7124534600
+    },
+    {
+      "year": 2022,
+      "label": "D763",
+      "patientCount": 755,
+      "claimCount": 2405,
+      "visitDays": 3196,
+      "insurerPaidAmount": 525419240,
+      "totalCost": 662807210
+    },
+    {
+      "year": 2022,
+      "label": "D800",
+      "patientCount": 103,
+      "claimCount": 1267,
+      "visitDays": 1315,
+      "insurerPaidAmount": 428361440,
+      "totalCost": 480987850
+    },
+    {
+      "year": 2022,
+      "label": "D801",
+      "patientCount": 122,
+      "claimCount": 1016,
+      "visitDays": 1437,
+      "insurerPaidAmount": 542716490,
+      "totalCost": 595708570
+    },
+    {
+      "year": 2022,
+      "label": "D802",
+      "patientCount": 43,
+      "claimCount": 122,
+      "visitDays": 127,
+      "insurerPaidAmount": 12226420,
+      "totalCost": 14655480
+    },
+    {
+      "year": 2022,
+      "label": "D803",
+      "patientCount": 309,
+      "claimCount": 1671,
+      "visitDays": 2109,
+      "insurerPaidAmount": 354890430,
+      "totalCost": 412203440
+    },
+    {
+      "year": 2022,
+      "label": "D804",
+      "patientCount": 15,
+      "claimCount": 61,
+      "visitDays": 67,
+      "insurerPaidAmount": 3030770,
+      "totalCost": 3539190
+    },
+    {
+      "year": 2022,
+      "label": "D805",
+      "patientCount": 17,
+      "claimCount": 212,
+      "visitDays": 238,
+      "insurerPaidAmount": 65805270,
+      "totalCost": 73032380
+    },
+    {
+      "year": 2022,
+      "label": "D806",
+      "patientCount": 6,
+      "claimCount": 71,
+      "visitDays": 71,
+      "insurerPaidAmount": 1393300,
+      "totalCost": 1562440
+    },
+    {
+      "year": 2022,
+      "label": "D808",
+      "patientCount": 4,
+      "claimCount": 24,
+      "visitDays": 24,
+      "insurerPaidAmount": 13350250,
+      "totalCost": 14881750
+    },
+    {
+      "year": 2022,
+      "label": "D810",
+      "patientCount": 3,
+      "claimCount": 3,
+      "visitDays": 3,
+      "insurerPaidAmount": 47610,
+      "totalCost": 67810
+    },
+    {
+      "year": 2022,
+      "label": "D811",
+      "patientCount": 3,
+      "claimCount": 45,
+      "visitDays": 461,
+      "insurerPaidAmount": 184661170,
+      "totalCost": 211027640
+    },
+    {
+      "year": 2022,
+      "label": "D812",
+      "patientCount": 6,
+      "claimCount": 158,
+      "visitDays": 326,
+      "insurerPaidAmount": 112459710,
+      "totalCost": 130374680
+    },
+    {
+      "year": 2022,
+      "label": "D813",
+      "patientCount": 1,
+      "claimCount": 5,
+      "visitDays": 5,
+      "insurerPaidAmount": 1311670,
+      "totalCost": 1380680
+    },
+    {
+      "year": 2022,
+      "label": "D814",
+      "patientCount": 1,
+      "claimCount": 1,
+      "visitDays": 1,
+      "insurerPaidAmount": 28800,
+      "totalCost": 32000
+    },
+    {
+      "year": 2022,
+      "label": "D818",
+      "patientCount": 52,
+      "claimCount": 149,
+      "visitDays": 149,
+      "insurerPaidAmount": 5721470,
+      "totalCost": 6823820
+    },
+    {
+      "year": 2022,
+      "label": "D819",
+      "patientCount": 148,
+      "claimCount": 767,
+      "visitDays": 891,
+      "insurerPaidAmount": 139941900,
+      "totalCost": 159020750
+    },
+    {
+      "year": 2022,
+      "label": "D820",
+      "patientCount": 26,
+      "claimCount": 177,
+      "visitDays": 304,
+      "insurerPaidAmount": 149374210,
+      "totalCost": 162594650
+    },
+    {
+      "year": 2022,
+      "label": "D821",
+      "patientCount": 300,
+      "claimCount": 2502,
+      "visitDays": 2558,
+      "insurerPaidAmount": 180723340,
+      "totalCost": 205336450
+    },
+    {
+      "year": 2022,
+      "label": "D823",
+      "patientCount": 5,
+      "claimCount": 64,
+      "visitDays": 184,
+      "insurerPaidAmount": 146156860,
+      "totalCost": 158343850
+    },
+    {
+      "year": 2022,
+      "label": "D824",
+      "patientCount": 43,
+      "claimCount": 273,
+      "visitDays": 329,
+      "insurerPaidAmount": 41140310,
+      "totalCost": 49688950
+    },
+    {
+      "year": 2022,
+      "label": "D830",
+      "patientCount": 16,
+      "claimCount": 275,
+      "visitDays": 337,
+      "insurerPaidAmount": 91707000,
+      "totalCost": 102532460
+    },
+    {
+      "year": 2022,
+      "label": "D831",
+      "patientCount": 5,
+      "claimCount": 61,
+      "visitDays": 65,
+      "insurerPaidAmount": 27603890,
+      "totalCost": 30712330
+    },
+    {
+      "year": 2022,
+      "label": "D832",
+      "patientCount": 3,
+      "claimCount": 12,
+      "visitDays": 12,
+      "insurerPaidAmount": 2018050,
+      "totalCost": 2276450
+    },
+    {
+      "year": 2022,
+      "label": "D840",
+      "patientCount": 2,
+      "claimCount": 11,
+      "visitDays": 48,
+      "insurerPaidAmount": 9525750,
+      "totalCost": 11034240
+    },
+    {
+      "year": 2022,
+      "label": "D841",
+      "patientCount": 152,
+      "claimCount": 816,
+      "visitDays": 838,
+      "insurerPaidAmount": 641422580,
+      "totalCost": 717186310
+    },
+    {
+      "year": 2022,
+      "label": "D860",
+      "patientCount": 1732,
+      "claimCount": 7585,
+      "visitDays": 8452,
+      "insurerPaidAmount": 1093825530,
+      "totalCost": 1276876480
+    },
+    {
+      "year": 2022,
+      "label": "D861",
+      "patientCount": 693,
+      "claimCount": 2626,
+      "visitDays": 2941,
+      "insurerPaidAmount": 438578940,
+      "totalCost": 518539800
+    },
+    {
+      "year": 2022,
+      "label": "D862",
+      "patientCount": 598,
+      "claimCount": 2625,
+      "visitDays": 2810,
+      "insurerPaidAmount": 316130920,
+      "totalCost": 369061970
+    },
+    {
+      "year": 2022,
+      "label": "D863",
+      "patientCount": 210,
+      "claimCount": 972,
+      "visitDays": 1000,
+      "insurerPaidAmount": 56437540,
+      "totalCost": 69756550
+    },
+    {
+      "year": 2022,
+      "label": "D868",
+      "patientCount": 371,
+      "claimCount": 2036,
+      "visitDays": 2640,
+      "insurerPaidAmount": 450665730,
+      "totalCost": 519350160
+    },
+    {
+      "year": 2022,
+      "label": "D891",
+      "patientCount": 38,
+      "claimCount": 108,
+      "visitDays": 156,
+      "insurerPaidAmount": 13874590,
+      "totalCost": 18591790
+    },
+    {
+      "year": 2022,
+      "label": "E201",
+      "patientCount": 280,
+      "claimCount": 1353,
+      "visitDays": 1467,
+      "insurerPaidAmount": 93961340,
+      "totalCost": 127826410
+    },
+    {
+      "year": 2022,
+      "label": "E220",
+      "patientCount": 1590,
+      "claimCount": 10712,
+      "visitDays": 11062,
+      "insurerPaidAmount": 7675414840,
+      "totalCost": 8558410290
+    },
+    {
+      "year": 2022,
+      "label": "E230",
+      "patientCount": 23786,
+      "claimCount": 170226,
+      "visitDays": 174838,
+      "insurerPaidAmount": 21120160430,
+      "totalCost": 40195462100
+    },
+    {
+      "year": 2022,
+      "label": "E240",
+      "patientCount": 368,
+      "claimCount": 1970,
+      "visitDays": 2458,
+      "insurerPaidAmount": 492860130,
+      "totalCost": 585075710
+    },
+    {
+      "year": 2022,
+      "label": "E241",
+      "patientCount": 4,
+      "claimCount": 15,
+      "visitDays": 15,
+      "insurerPaidAmount": 726400,
+      "totalCost": 806000
+    },
+    {
+      "year": 2022,
+      "label": "E243",
+      "patientCount": 44,
+      "claimCount": 197,
+      "visitDays": 283,
+      "insurerPaidAmount": 61989970,
+      "totalCost": 71211990
+    },
+    {
+      "year": 2022,
+      "label": "E250",
+      "patientCount": 1123,
+      "claimCount": 6602,
+      "visitDays": 6912,
+      "insurerPaidAmount": 713186170,
+      "totalCost": 804658400
+    },
+    {
+      "year": 2022,
+      "label": "E259",
+      "patientCount": 117,
+      "claimCount": 397,
+      "visitDays": 400,
+      "insurerPaidAmount": 23208780,
+      "totalCost": 28147320
+    },
+    {
+      "year": 2022,
+      "label": "E268",
+      "patientCount": 194,
+      "claimCount": 812,
+      "visitDays": 1218,
+      "insurerPaidAmount": 173089800,
+      "totalCost": 207949180
+    },
+    {
+      "year": 2022,
+      "label": "E271",
+      "patientCount": 537,
+      "claimCount": 2220,
+      "visitDays": 2527,
+      "insurerPaidAmount": 172870840,
+      "totalCost": 212630480
+    },
+    {
+      "year": 2022,
+      "label": "E272",
+      "patientCount": 90,
+      "claimCount": 303,
+      "visitDays": 631,
+      "insurerPaidAmount": 130833130,
+      "totalCost": 158753010
+    },
+    {
+      "year": 2022,
+      "label": "E274",
+      "patientCount": 10178,
+      "claimCount": 37050,
+      "visitDays": 54510,
+      "insurerPaidAmount": 4613991970,
+      "totalCost": 6203007090
+    },
+    {
+      "year": 2022,
+      "label": "E348",
+      "patientCount": 445,
+      "claimCount": 903,
+      "visitDays": 1245,
+      "insurerPaidAmount": 110691010,
+      "totalCost": 169150850
+    },
+    {
+      "year": 2022,
+      "label": "E550",
+      "patientCount": 428,
+      "claimCount": 1408,
+      "visitDays": 1500,
+      "insurerPaidAmount": 130415390,
+      "totalCost": 157667000
+    },
+    {
+      "year": 2022,
+      "label": "E700",
+      "patientCount": 91,
+      "claimCount": 557,
+      "visitDays": 578,
+      "insurerPaidAmount": 455218170,
+      "totalCost": 503045550
+    },
+    {
+      "year": 2022,
+      "label": "E701",
+      "patientCount": 163,
+      "claimCount": 1015,
+      "visitDays": 1110,
+      "insurerPaidAmount": 2046379930,
+      "totalCost": 2271827870
+    },
+    {
+      "year": 2022,
+      "label": "E702",
+      "patientCount": 45,
+      "claimCount": 165,
+      "visitDays": 193,
+      "insurerPaidAmount": 281378570,
+      "totalCost": 313455020
+    },
+    {
+      "year": 2022,
+      "label": "E703",
+      "patientCount": 231,
+      "claimCount": 586,
+      "visitDays": 614,
+      "insurerPaidAmount": 64742610,
+      "totalCost": 81588440
+    },
+    {
+      "year": 2022,
+      "label": "E708",
+      "patientCount": 9,
+      "claimCount": 16,
+      "visitDays": 16,
+      "insurerPaidAmount": 299360,
+      "totalCost": 643700
+    },
+    {
+      "year": 2022,
+      "label": "E710",
+      "patientCount": 39,
+      "claimCount": 348,
+      "visitDays": 433,
+      "insurerPaidAmount": 125457760,
+      "totalCost": 140138690
+    },
+    {
+      "year": 2022,
+      "label": "E711",
+      "patientCount": 162,
+      "claimCount": 1214,
+      "visitDays": 2067,
+      "insurerPaidAmount": 726238360,
+      "totalCost": 808853570
+    },
+    {
+      "year": 2022,
+      "label": "E713",
+      "patientCount": 383,
+      "claimCount": 3004,
+      "visitDays": 4442,
+      "insurerPaidAmount": 813758510,
+      "totalCost": 906496780
+    },
+    {
+      "year": 2022,
+      "label": "E720",
+      "patientCount": 145,
+      "claimCount": 1487,
+      "visitDays": 1950,
+      "insurerPaidAmount": 333647910,
+      "totalCost": 374139090
+    },
+    {
+      "year": 2022,
+      "label": "E721",
+      "patientCount": 208,
+      "claimCount": 634,
+      "visitDays": 674,
+      "insurerPaidAmount": 164040340,
+      "totalCost": 191739220
+    },
+    {
+      "year": 2022,
+      "label": "E722",
+      "patientCount": 320,
+      "claimCount": 1850,
+      "visitDays": 3050,
+      "insurerPaidAmount": 2136735840,
+      "totalCost": 2357284710
+    },
+    {
+      "year": 2022,
+      "label": "E723",
+      "patientCount": 21,
+      "claimCount": 421,
+      "visitDays": 471,
+      "insurerPaidAmount": 66797430,
+      "totalCost": 75260040
+    },
+    {
+      "year": 2022,
+      "label": "E724",
+      "patientCount": 29,
+      "claimCount": 276,
+      "visitDays": 326,
+      "insurerPaidAmount": 166248990,
+      "totalCost": 186242430
+    },
+    {
+      "year": 2022,
+      "label": "E725",
+      "patientCount": 64,
+      "claimCount": 257,
+      "visitDays": 432,
+      "insurerPaidAmount": 57749640,
+      "totalCost": 74873080
+    },
+    {
+      "year": 2022,
+      "label": "E728",
+      "patientCount": 118,
+      "claimCount": 667,
+      "visitDays": 778,
+      "insurerPaidAmount": 137014540,
+      "totalCost": 151513010
+    },
+    {
+      "year": 2022,
+      "label": "E730",
+      "patientCount": 3,
+      "claimCount": 3,
+      "visitDays": 3,
+      "insurerPaidAmount": 282030,
+      "totalCost": 449530
+    },
+    {
+      "year": 2022,
+      "label": "E740",
+      "patientCount": 314,
+      "claimCount": 2520,
+      "visitDays": 3289,
+      "insurerPaidAmount": 9625963330,
+      "totalCost": 10660414670
+    },
+    {
+      "year": 2022,
+      "label": "E742",
+      "patientCount": 238,
+      "claimCount": 514,
+      "visitDays": 506,
+      "insurerPaidAmount": 69370710,
+      "totalCost": 81579270
+    },
+    {
+      "year": 2022,
+      "label": "E744",
+      "patientCount": 22,
+      "claimCount": 591,
+      "visitDays": 639,
+      "insurerPaidAmount": 77767710,
+      "totalCost": 84133610
+    },
+    {
+      "year": 2022,
+      "label": "E748",
+      "patientCount": 83,
+      "claimCount": 429,
+      "visitDays": 467,
+      "insurerPaidAmount": 47927870,
+      "totalCost": 60235230
+    },
+    {
+      "year": 2022,
+      "label": "E750",
+      "patientCount": 13,
+      "claimCount": 196,
+      "visitDays": 215,
+      "insurerPaidAmount": 34308620,
+      "totalCost": 38588400
+    },
+    {
+      "year": 2022,
+      "label": "E751",
+      "patientCount": 60,
+      "claimCount": 447,
+      "visitDays": 1057,
+      "insurerPaidAmount": 321526820,
+      "totalCost": 354982440
+    },
+    {
+      "year": 2022,
+      "label": "E752",
+      "patientCount": 613,
+      "claimCount": 11274,
+      "visitDays": 12752,
+      "insurerPaidAmount": 51716374320,
+      "totalCost": 57428537960
+    },
+    {
+      "year": 2022,
+      "label": "E754",
+      "patientCount": 24,
+      "claimCount": 306,
+      "visitDays": 407,
+      "insurerPaidAmount": 88254790,
+      "totalCost": 97582480
+    },
+    {
+      "year": 2022,
+      "label": "E755",
+      "patientCount": 349,
+      "claimCount": 858,
+      "visitDays": 929,
+      "insurerPaidAmount": 59465730,
+      "totalCost": 94944540
+    },
+    {
+      "year": 2022,
+      "label": "E760",
+      "patientCount": 27,
+      "claimCount": 1286,
+      "visitDays": 1725,
+      "insurerPaidAmount": 6715810320,
+      "totalCost": 7455922540
+    },
+    {
+      "year": 2022,
+      "label": "E761",
+      "patientCount": 88,
+      "claimCount": 5115,
+      "visitDays": 5789,
+      "insurerPaidAmount": 28692552370,
+      "totalCost": 31627985060
+    },
+    {
+      "year": 2022,
+      "label": "E762",
+      "patientCount": 67,
+      "claimCount": 2134,
+      "visitDays": 2252,
+      "insurerPaidAmount": 13574854030,
+      "totalCost": 14999153980
+    },
+    {
+      "year": 2022,
+      "label": "E770",
+      "patientCount": 22,
+      "claimCount": 558,
+      "visitDays": 568,
+      "insurerPaidAmount": 37364260,
+      "totalCost": 42532070
+    },
+    {
+      "year": 2022,
+      "label": "E771",
+      "patientCount": 5,
+      "claimCount": 156,
+      "visitDays": 156,
+      "insurerPaidAmount": 7195890,
+      "totalCost": 7990180
+    },
+    {
+      "year": 2022,
+      "label": "E791",
+      "patientCount": 34,
+      "claimCount": 1012,
+      "visitDays": 1066,
+      "insurerPaidAmount": 71462190,
+      "totalCost": 78934120
+    },
+    {
+      "year": 2022,
+      "label": "E802",
+      "patientCount": 44,
+      "claimCount": 488,
+      "visitDays": 507,
+      "insurerPaidAmount": 24679170,
+      "totalCost": 28496950
+    },
+    {
+      "year": 2022,
+      "label": "E830",
+      "patientCount": 1513,
+      "claimCount": 8546,
+      "visitDays": 11023,
+      "insurerPaidAmount": 2640216990,
+      "totalCost": 3002870120
+    },
+    {
+      "year": 2022,
+      "label": "E831",
+      "patientCount": 564,
+      "claimCount": 1633,
+      "visitDays": 1794,
+      "insurerPaidAmount": 169179190,
+      "totalCost": 225065010
+    },
+    {
+      "year": 2022,
+      "label": "E832",
+      "patientCount": 33,
+      "claimCount": 53,
+      "visitDays": 53,
+      "insurerPaidAmount": 2520770,
+      "totalCost": 3830120
+    },
+    {
+      "year": 2022,
+      "label": "E833",
+      "patientCount": 734,
+      "claimCount": 2280,
+      "visitDays": 2419,
+      "insurerPaidAmount": 995382960,
+      "totalCost": 1134940490
+    },
+    {
+      "year": 2022,
+      "label": "E840",
+      "patientCount": 34,
+      "claimCount": 236,
+      "visitDays": 379,
+      "insurerPaidAmount": 73700620,
+      "totalCost": 84719530
+    },
+    {
+      "year": 2022,
+      "label": "E841",
+      "patientCount": 32,
+      "claimCount": 101,
+      "visitDays": 210,
+      "insurerPaidAmount": 31211220,
+      "totalCost": 36551970
+    },
+    {
+      "year": 2022,
+      "label": "E850",
+      "patientCount": 19,
+      "claimCount": 64,
+      "visitDays": 191,
+      "insurerPaidAmount": 25245880,
+      "totalCost": 29436530
+    },
+    {
+      "year": 2022,
+      "label": "E851",
+      "patientCount": 47,
+      "claimCount": 295,
+      "visitDays": 487,
+      "insurerPaidAmount": 107051910,
+      "totalCost": 118949400
+    },
+    {
+      "year": 2022,
+      "label": "E852",
+      "patientCount": 59,
+      "claimCount": 374,
+      "visitDays": 417,
+      "insurerPaidAmount": 79388580,
+      "totalCost": 90006050
+    },
+    {
+      "year": 2022,
+      "label": "E854",
+      "patientCount": 806,
+      "claimCount": 4499,
+      "visitDays": 8560,
+      "insurerPaidAmount": 2439450870,
+      "totalCost": 2828342460
+    },
+    {
+      "year": 2022,
+      "label": "E880",
+      "patientCount": 3567,
+      "claimCount": 10865,
+      "visitDays": 12986,
+      "insurerPaidAmount": 819797230,
+      "totalCost": 1227734020
+    },
+    {
+      "year": 2022,
+      "label": "E881",
+      "patientCount": 209,
+      "claimCount": 375,
+      "visitDays": 376,
+      "insurerPaidAmount": 9092020,
+      "totalCost": 21001470
+    },
+    {
+      "year": 2022,
+      "label": "F011",
+      "patientCount": 1825,
+      "claimCount": 7637,
+      "visitDays": 19105,
+      "insurerPaidAmount": 1337491770,
+      "totalCost": 1729742790
+    },
+    {
+      "year": 2022,
+      "label": "F803",
+      "patientCount": 16,
+      "claimCount": 153,
+      "visitDays": 428,
+      "insurerPaidAmount": 40031210,
+      "totalCost": 47774960
+    },
+    {
+      "year": 2022,
+      "label": "F842",
+      "patientCount": 393,
+      "claimCount": 11430,
+      "visitDays": 12940,
+      "insurerPaidAmount": 1048001600,
+      "totalCost": 1180920560
+    },
+    {
+      "year": 2022,
+      "label": "G048",
+      "patientCount": 1321,
+      "claimCount": 9436,
+      "visitDays": 38108,
+      "insurerPaidAmount": 12679822870,
+      "totalCost": 14983473770
+    },
+    {
+      "year": 2022,
+      "label": "G110",
+      "patientCount": 20,
+      "claimCount": 756,
+      "visitDays": 827,
+      "insurerPaidAmount": 60796180,
+      "totalCost": 67642790
+    },
+    {
+      "year": 2022,
+      "label": "G111",
+      "patientCount": 766,
+      "claimCount": 5969,
+      "visitDays": 15201,
+      "insurerPaidAmount": 1449962900,
+      "totalCost": 1697323140
+    },
+    {
+      "year": 2022,
+      "label": "G112",
+      "patientCount": 2313,
+      "claimCount": 16841,
+      "visitDays": 52917,
+      "insurerPaidAmount": 5506855690,
+      "totalCost": 6563720080
+    },
+    {
+      "year": 2022,
+      "label": "G113",
+      "patientCount": 38,
+      "claimCount": 349,
+      "visitDays": 1128,
+      "insurerPaidAmount": 153777580,
+      "totalCost": 172600090
+    },
+    {
+      "year": 2022,
+      "label": "G114",
+      "patientCount": 734,
+      "claimCount": 8259,
+      "visitDays": 10680,
+      "insurerPaidAmount": 818351610,
+      "totalCost": 987301920
+    },
+    {
+      "year": 2022,
+      "label": "G118",
+      "patientCount": 117,
+      "claimCount": 1181,
+      "visitDays": 2392,
+      "insurerPaidAmount": 159345360,
+      "totalCost": 189722900
+    },
+    {
+      "year": 2022,
+      "label": "G119",
+      "patientCount": 2140,
+      "claimCount": 18309,
+      "visitDays": 30957,
+      "insurerPaidAmount": 2867538060,
+      "totalCost": 3451195860
+    },
+    {
+      "year": 2022,
+      "label": "G120",
+      "patientCount": 58,
+      "claimCount": 1201,
+      "visitDays": 1373,
+      "insurerPaidAmount": 17700012240,
+      "totalCost": 18633557530
+    },
+    {
+      "year": 2022,
+      "label": "G121",
+      "patientCount": 263,
+      "claimCount": 4798,
+      "visitDays": 7187,
+      "insurerPaidAmount": 15954660950,
+      "totalCost": 17138018530
+    },
+    {
+      "year": 2022,
+      "label": "G122",
+      "patientCount": 4388,
+      "claimCount": 60703,
+      "visitDays": 165322,
+      "insurerPaidAmount": 26907496820,
+      "totalCost": 31700723470
+    },
+    {
+      "year": 2022,
+      "label": "G128",
+      "patientCount": 124,
+      "claimCount": 598,
+      "visitDays": 940,
+      "insurerPaidAmount": 740152700,
+      "totalCost": 830947840
+    },
+    {
+      "year": 2022,
+      "label": "G129",
+      "patientCount": 388,
+      "claimCount": 6308,
+      "visitDays": 10079,
+      "insurerPaidAmount": 19431057530,
+      "totalCost": 21023005920
+    },
+    {
+      "year": 2022,
+      "label": "G230",
+      "patientCount": 46,
+      "claimCount": 680,
+      "visitDays": 876,
+      "insurerPaidAmount": 150580390,
+      "totalCost": 169296010
+    },
+    {
+      "year": 2022,
+      "label": "G231",
+      "patientCount": 1396,
+      "claimCount": 7992,
+      "visitDays": 33777,
+      "insurerPaidAmount": 3966705280,
+      "totalCost": 4727269890
+    },
+    {
+      "year": 2022,
+      "label": "G238",
+      "patientCount": 1410,
+      "claimCount": 4766,
+      "visitDays": 6361,
+      "insurerPaidAmount": 425746320,
+      "totalCost": 583624250
+    },
+    {
+      "year": 2022,
+      "label": "G248",
+      "patientCount": 4377,
+      "claimCount": 10430,
+      "visitDays": 10764,
+      "insurerPaidAmount": 718330020,
+      "totalCost": 1399141930
+    },
+    {
+      "year": 2022,
+      "label": "G258",
+      "patientCount": 50339,
+      "claimCount": 158541,
+      "visitDays": 162054,
+      "insurerPaidAmount": 4443204640,
+      "totalCost": 7149219070
+    },
+    {
+      "year": 2022,
+      "label": "G360",
+      "patientCount": 2122,
+      "claimCount": 17725,
+      "visitDays": 36205,
+      "insurerPaidAmount": 7505699510,
+      "totalCost": 8663692170
+    },
+    {
+      "year": 2022,
+      "label": "G404",
+      "patientCount": 5241,
+      "claimCount": 67394,
+      "visitDays": 81782,
+      "insurerPaidAmount": 11538415690,
+      "totalCost": 13090461800
+    },
+    {
+      "year": 2022,
+      "label": "G410",
+      "patientCount": 415,
+      "claimCount": 2877,
+      "visitDays": 8475,
+      "insurerPaidAmount": 1430825970,
+      "totalCost": 1656946180
+    },
+    {
+      "year": 2022,
+      "label": "G411",
+      "patientCount": 168,
+      "claimCount": 598,
+      "visitDays": 1365,
+      "insurerPaidAmount": 192544060,
+      "totalCost": 224963540
+    },
+    {
+      "year": 2022,
+      "label": "G412",
+      "patientCount": 430,
+      "claimCount": 2212,
+      "visitDays": 8395,
+      "insurerPaidAmount": 2046586090,
+      "totalCost": 2343330990
+    },
+    {
+      "year": 2022,
+      "label": "G418",
+      "patientCount": 820,
+      "claimCount": 3740,
+      "visitDays": 22048,
+      "insurerPaidAmount": 5345944370,
+      "totalCost": 6212243810
+    },
+    {
+      "year": 2022,
+      "label": "G419",
+      "patientCount": 4658,
+      "claimCount": 28162,
+      "visitDays": 125987,
+      "insurerPaidAmount": 34314869550,
+      "totalCost": 39367169070
+    },
+    {
+      "year": 2022,
+      "label": "G474",
+      "patientCount": 6822,
+      "claimCount": 25171,
+      "visitDays": 27525,
+      "insurerPaidAmount": 2933097400,
+      "totalCost": 3527867840
+    },
+    {
+      "year": 2022,
+      "label": "G512",
+      "patientCount": 5,
+      "claimCount": 24,
+      "visitDays": 24,
+      "insurerPaidAmount": 900570,
+      "totalCost": 1633890
+    },
+    {
+      "year": 2022,
+      "label": "G518",
+      "patientCount": 5485,
+      "claimCount": 12227,
+      "visitDays": 12760,
+      "insurerPaidAmount": 625560810,
+      "totalCost": 985785610
+    },
+    {
+      "year": 2022,
+      "label": "G600",
+      "patientCount": 1640,
+      "claimCount": 8410,
+      "visitDays": 9386,
+      "insurerPaidAmount": 833951260,
+      "totalCost": 1013759310
+    },
+    {
+      "year": 2022,
+      "label": "G610",
+      "patientCount": 3433,
+      "claimCount": 29117,
+      "visitDays": 110891,
+      "insurerPaidAmount": 20173710550,
+      "totalCost": 23483503800
+    },
+    {
+      "year": 2022,
+      "label": "G618",
+      "patientCount": 1624,
+      "claimCount": 10919,
+      "visitDays": 20194,
+      "insurerPaidAmount": 4400101610,
+      "totalCost": 5116247700
+    },
+    {
+      "year": 2022,
+      "label": "G700",
+      "patientCount": 9394,
+      "claimCount": 47796,
+      "visitDays": 70053,
+      "insurerPaidAmount": 7861444500,
+      "totalCost": 9356594370
+    },
+    {
+      "year": 2022,
+      "label": "G702",
+      "patientCount": 34,
+      "claimCount": 301,
+      "visitDays": 332,
+      "insurerPaidAmount": 80086930,
+      "totalCost": 86333920
+    },
+    {
+      "year": 2022,
+      "label": "G710",
+      "patientCount": 2649,
+      "claimCount": 33119,
+      "visitDays": 38965,
+      "insurerPaidAmount": 3185537410,
+      "totalCost": 3685628180
+    },
+    {
+      "year": 2022,
+      "label": "G711",
+      "patientCount": 1595,
+      "claimCount": 11297,
+      "visitDays": 19689,
+      "insurerPaidAmount": 2131356510,
+      "totalCost": 2468929000
+    },
+    {
+      "year": 2022,
+      "label": "G712",
+      "patientCount": 476,
+      "claimCount": 9404,
+      "visitDays": 11351,
+      "insurerPaidAmount": 1652129400,
+      "totalCost": 1820901610
+    },
+    {
+      "year": 2022,
+      "label": "G713",
+      "patientCount": 783,
+      "claimCount": 11404,
+      "visitDays": 16542,
+      "insurerPaidAmount": 3119388320,
+      "totalCost": 3511250730
+    },
+    {
+      "year": 2022,
+      "label": "G719",
+      "patientCount": 492,
+      "claimCount": 1842,
+      "visitDays": 2036,
+      "insurerPaidAmount": 111374160,
+      "totalCost": 138332800
+    },
+    {
+      "year": 2022,
+      "label": "G723",
+      "patientCount": 978,
+      "claimCount": 2502,
+      "visitDays": 3272,
+      "insurerPaidAmount": 503131430,
+      "totalCost": 734464700
+    },
+    {
+      "year": 2022,
+      "label": "G724",
+      "patientCount": 224,
+      "claimCount": 1163,
+      "visitDays": 1948,
+      "insurerPaidAmount": 186499070,
+      "totalCost": 262389310
+    },
+    {
+      "year": 2022,
+      "label": "G731",
+      "patientCount": 60,
+      "claimCount": 351,
+      "visitDays": 1005,
+      "insurerPaidAmount": 97187180,
+      "totalCost": 116272630
+    },
+    {
+      "year": 2022,
+      "label": "G905",
+      "patientCount": 2608,
+      "claimCount": 34271,
+      "visitDays": 43437,
+      "insurerPaidAmount": 3952318890,
+      "totalCost": 4590489010
+    },
+    {
+      "year": 2022,
+      "label": "G906",
+      "patientCount": 3098,
+      "claimCount": 24239,
+      "visitDays": 26862,
+      "insurerPaidAmount": 1672921930,
+      "totalCost": 1956250200
+    },
+    {
+      "year": 2022,
+      "label": "G934",
+      "patientCount": 5090,
+      "claimCount": 15663,
+      "visitDays": 48799,
+      "insurerPaidAmount": 7729855140,
+      "totalCost": 10142132310
+    },
+    {
+      "year": 2022,
+      "label": "G950",
+      "patientCount": 1812,
+      "claimCount": 11716,
+      "visitDays": 20541,
+      "insurerPaidAmount": 1994116380,
+      "totalCost": 2391955660
+    },
+    {
+      "year": 2022,
+      "label": "H163",
+      "patientCount": 15131,
+      "claimCount": 25314,
+      "visitDays": 25327,
+      "insurerPaidAmount": 494808090,
+      "totalCost": 690174420
+    },
+    {
+      "year": 2022,
+      "label": "H185",
+      "patientCount": 6208,
+      "claimCount": 11881,
+      "visitDays": 12132,
+      "insurerPaidAmount": 654462860,
+      "totalCost": 1151301670
+    },
+    {
+      "year": 2022,
+      "label": "H186",
+      "patientCount": 5785,
+      "claimCount": 12570,
+      "visitDays": 12659,
+      "insurerPaidAmount": 874787350,
+      "totalCost": 1171829550
+    },
+    {
+      "year": 2022,
+      "label": "H312",
+      "patientCount": 234,
+      "claimCount": 427,
+      "visitDays": 427,
+      "insurerPaidAmount": 29786620,
+      "totalCost": 44627200
+    },
+    {
+      "year": 2022,
+      "label": "H350",
+      "patientCount": 67113,
+      "claimCount": 120137,
+      "visitDays": 120410,
+      "insurerPaidAmount": 6235742510,
+      "totalCost": 9291800690
+    },
+    {
+      "year": 2022,
+      "label": "H494",
+      "patientCount": 113,
+      "claimCount": 337,
+      "visitDays": 398,
+      "insurerPaidAmount": 48831680,
+      "totalCost": 77929950
+    },
+    {
+      "year": 2022,
+      "label": "H498",
+      "patientCount": 1396,
+      "claimCount": 2550,
+      "visitDays": 2705,
+      "insurerPaidAmount": 228809230,
+      "totalCost": 359899270
+    },
+    {
+      "year": 2022,
+      "label": "H518",
+      "patientCount": 360,
+      "claimCount": 640,
+      "visitDays": 652,
+      "insurerPaidAmount": 58427570,
+      "totalCost": 89263540
+    },
+    {
+      "year": 2022,
+      "label": "I270",
+      "patientCount": 1925,
+      "claimCount": 10377,
+      "visitDays": 18151,
+      "insurerPaidAmount": 11139485920,
+      "totalCost": 12408614310
+    },
+    {
+      "year": 2022,
+      "label": "I278",
+      "patientCount": 399,
+      "claimCount": 1976,
+      "visitDays": 2987,
+      "insurerPaidAmount": 1390787820,
+      "totalCost": 1561652330
+    },
+    {
+      "year": 2022,
+      "label": "I420",
+      "patientCount": 26429,
+      "claimCount": 117334,
+      "visitDays": 188185,
+      "insurerPaidAmount": 56023292700,
+      "totalCost": 62839680570
+    },
+    {
+      "year": 2022,
+      "label": "I421",
+      "patientCount": 2762,
+      "claimCount": 11159,
+      "visitDays": 14978,
+      "insurerPaidAmount": 4093182410,
+      "totalCost": 4583163150
+    },
+    {
+      "year": 2022,
+      "label": "I423",
+      "patientCount": 30,
+      "claimCount": 92,
+      "visitDays": 158,
+      "insurerPaidAmount": 33931140,
+      "totalCost": 38595670
+    },
+    {
+      "year": 2022,
+      "label": "I424",
+      "patientCount": 125,
+      "claimCount": 413,
+      "visitDays": 460,
+      "insurerPaidAmount": 107696830,
+      "totalCost": 123223030
+    },
+    {
+      "year": 2022,
+      "label": "I472",
+      "patientCount": 7383,
+      "claimCount": 24315,
+      "visitDays": 34210,
+      "insurerPaidAmount": 16296571990,
+      "totalCost": 18732640530
+    },
+    {
+      "year": 2022,
+      "label": "I675",
+      "patientCount": 16249,
+      "claimCount": 88644,
+      "visitDays": 210318,
+      "insurerPaidAmount": 35167808040,
+      "totalCost": 40393300170
+    },
+    {
+      "year": 2022,
+      "label": "I731",
+      "patientCount": 4105,
+      "claimCount": 20037,
+      "visitDays": 30537,
+      "insurerPaidAmount": 3149943050,
+      "totalCost": 3758632150
+    },
+    {
+      "year": 2022,
+      "label": "I780",
+      "patientCount": 181,
+      "claimCount": 977,
+      "visitDays": 1384,
+      "insurerPaidAmount": 287630600,
+      "totalCost": 343060700
+    },
+    {
+      "year": 2022,
+      "label": "I820",
+      "patientCount": 324,
+      "claimCount": 1721,
+      "visitDays": 2040,
+      "insurerPaidAmount": 311809360,
+      "totalCost": 365807610
+    },
+    {
+      "year": 2022,
+      "label": "J398",
+      "patientCount": 28126,
+      "claimCount": 53605,
+      "visitDays": 56103,
+      "insurerPaidAmount": 2335352580,
+      "totalCost": 3978464580
+    },
+    {
+      "year": 2022,
+      "label": "J840",
+      "patientCount": 270,
+      "claimCount": 928,
+      "visitDays": 1453,
+      "insurerPaidAmount": 420374990,
+      "totalCost": 488992090
+    },
+    {
+      "year": 2022,
+      "label": "J841",
+      "patientCount": 20858,
+      "claimCount": 108627,
+      "visitDays": 193985,
+      "insurerPaidAmount": 43372682310,
+      "totalCost": 50974332960
+    },
+    {
+      "year": 2022,
+      "label": "K500",
+      "patientCount": 9575,
+      "claimCount": 55559,
+      "visitDays": 65496,
+      "insurerPaidAmount": 29964231810,
+      "totalCost": 33934641480
+    },
+    {
+      "year": 2022,
+      "label": "K501",
+      "patientCount": 6350,
+      "claimCount": 33850,
+      "visitDays": 40495,
+      "insurerPaidAmount": 16625439390,
+      "totalCost": 18775343840
+    },
+    {
+      "year": 2022,
+      "label": "K508",
+      "patientCount": 13472,
+      "claimCount": 103705,
+      "visitDays": 119865,
+      "insurerPaidAmount": 69750010630,
+      "totalCost": 78209414780
+    },
+    {
+      "year": 2022,
+      "label": "K743",
+      "patientCount": 6541,
+      "claimCount": 28255,
+      "visitDays": 33838,
+      "insurerPaidAmount": 6551672480,
+      "totalCost": 7562331430
+    },
+    {
+      "year": 2022,
+      "label": "K754",
+      "patientCount": 8955,
+      "claimCount": 44024,
+      "visitDays": 52707,
+      "insurerPaidAmount": 8017601920,
+      "totalCost": 9375753110
+    },
+    {
+      "year": 2022,
+      "label": "K830",
+      "patientCount": 16099,
+      "claimCount": 43657,
+      "visitDays": 122314,
+      "insurerPaidAmount": 37750702500,
+      "totalCost": 48438546400
+    },
+    {
+      "year": 2022,
+      "label": "L100",
+      "patientCount": 785,
+      "claimCount": 4536,
+      "visitDays": 5958,
+      "insurerPaidAmount": 1041777840,
+      "totalCost": 1280223280
+    },
+    {
+      "year": 2022,
+      "label": "L102",
+      "patientCount": 448,
+      "claimCount": 2735,
+      "visitDays": 3172,
+      "insurerPaidAmount": 399581030,
+      "totalCost": 474921080
+    },
+    {
+      "year": 2022,
+      "label": "L120",
+      "patientCount": 2393,
+      "claimCount": 14136,
+      "visitDays": 31171,
+      "insurerPaidAmount": 2812733380,
+      "totalCost": 3510821160
+    },
+    {
+      "year": 2022,
+      "label": "L121",
+      "patientCount": 65,
+      "claimCount": 293,
+      "visitDays": 650,
+      "insurerPaidAmount": 55074970,
+      "totalCost": 66066040
+    },
+    {
+      "year": 2022,
+      "label": "L123",
+      "patientCount": 89,
+      "claimCount": 495,
+      "visitDays": 850,
+      "insurerPaidAmount": 123850850,
+      "totalCost": 144733970
+    },
+    {
+      "year": 2022,
+      "label": "M061",
+      "patientCount": 1534,
+      "claimCount": 9980,
+      "visitDays": 14052,
+      "insurerPaidAmount": 2595645470,
+      "totalCost": 3036884860
+    },
+    {
+      "year": 2022,
+      "label": "M080",
+      "patientCount": 2636,
+      "claimCount": 15105,
+      "visitDays": 16372,
+      "insurerPaidAmount": 4745714760,
+      "totalCost": 5361599050
+    },
+    {
+      "year": 2022,
+      "label": "M081",
+      "patientCount": 260,
+      "claimCount": 1179,
+      "visitDays": 1236,
+      "insurerPaidAmount": 332688350,
+      "totalCost": 375144970
+    },
+    {
+      "year": 2022,
+      "label": "M082",
+      "patientCount": 205,
+      "claimCount": 1276,
+      "visitDays": 1489,
+      "insurerPaidAmount": 380753550,
+      "totalCost": 437358340
+    },
+    {
+      "year": 2022,
+      "label": "M083",
+      "patientCount": 152,
+      "claimCount": 638,
+      "visitDays": 668,
+      "insurerPaidAmount": 174168480,
+      "totalCost": 195894210
+    },
+    {
+      "year": 2022,
+      "label": "M300",
+      "patientCount": 462,
+      "claimCount": 2996,
+      "visitDays": 4459,
+      "insurerPaidAmount": 685095870,
+      "totalCost": 814792130
+    },
+    {
+      "year": 2022,
+      "label": "M301",
+      "patientCount": 762,
+      "claimCount": 6733,
+      "visitDays": 8860,
+      "insurerPaidAmount": 1188527710,
+      "totalCost": 1397329250
+    },
+    {
+      "year": 2022,
+      "label": "M302",
+      "patientCount": 4,
+      "claimCount": 9,
+      "visitDays": 9,
+      "insurerPaidAmount": 1664650,
+      "totalCost": 1869250
+    },
+    {
+      "year": 2022,
+      "label": "M310",
+      "patientCount": 340,
+      "claimCount": 1040,
+      "visitDays": 1384,
+      "insurerPaidAmount": 216590940,
+      "totalCost": 266844910
+    },
+    {
+      "year": 2022,
+      "label": "M311",
+      "patientCount": 373,
+      "claimCount": 1757,
+      "visitDays": 4453,
+      "insurerPaidAmount": 3380352230,
+      "totalCost": 3859112530
+    },
+    {
+      "year": 2022,
+      "label": "M313",
+      "patientCount": 599,
+      "claimCount": 5194,
+      "visitDays": 7923,
+      "insurerPaidAmount": 1677037840,
+      "totalCost": 1936473700
+    },
+    {
+      "year": 2022,
+      "label": "M314",
+      "patientCount": 2007,
+      "claimCount": 11950,
+      "visitDays": 13474,
+      "insurerPaidAmount": 1488220150,
+      "totalCost": 1711748200
+    },
+    {
+      "year": 2022,
+      "label": "M317",
+      "patientCount": 1030,
+      "claimCount": 8217,
+      "visitDays": 15408,
+      "insurerPaidAmount": 4276026380,
+      "totalCost": 4950106320
+    },
+    {
+      "year": 2022,
+      "label": "M321",
+      "patientCount": 24005,
+      "claimCount": 171316,
+      "visitDays": 200894,
+      "insurerPaidAmount": 30125253710,
+      "totalCost": 34353077490
+    },
+    {
+      "year": 2022,
+      "label": "M330",
+      "patientCount": 164,
+      "claimCount": 1116,
+      "visitDays": 1788,
+      "insurerPaidAmount": 254755330,
+      "totalCost": 292594700
+    },
+    {
+      "year": 2022,
+      "label": "M331",
+      "patientCount": 1888,
+      "claimCount": 13816,
+      "visitDays": 19409,
+      "insurerPaidAmount": 3095696690,
+      "totalCost": 3641297050
+    },
+    {
+      "year": 2022,
+      "label": "M332",
+      "patientCount": 1774,
+      "claimCount": 12212,
+      "visitDays": 21711,
+      "insurerPaidAmount": 4251537140,
+      "totalCost": 4944058460
+    },
+    {
+      "year": 2022,
+      "label": "M340",
+      "patientCount": 3653,
+      "claimCount": 21792,
+      "visitDays": 25284,
+      "insurerPaidAmount": 3114157950,
+      "totalCost": 3565702720
+    },
+    {
+      "year": 2022,
+      "label": "M341",
+      "patientCount": 314,
+      "claimCount": 1471,
+      "visitDays": 1686,
+      "insurerPaidAmount": 131229900,
+      "totalCost": 151949430
+    },
+    {
+      "year": 2022,
+      "label": "M348",
+      "patientCount": 1153,
+      "claimCount": 7328,
+      "visitDays": 9150,
+      "insurerPaidAmount": 1648698330,
+      "totalCost": 1902329230
+    },
+    {
+      "year": 2022,
+      "label": "M350",
+      "patientCount": 27536,
+      "claimCount": 137534,
+      "visitDays": 144177,
+      "insurerPaidAmount": 11263549550,
+      "totalCost": 13342088160
+    },
+    {
+      "year": 2022,
+      "label": "M351",
+      "patientCount": 1871,
+      "claimCount": 10031,
+      "visitDays": 10875,
+      "insurerPaidAmount": 1328486760,
+      "totalCost": 1532768430
+    },
+    {
+      "year": 2022,
+      "label": "M352",
+      "patientCount": 19272,
+      "claimCount": 107529,
+      "visitDays": 120096,
+      "insurerPaidAmount": 12837554430,
+      "totalCost": 14909574750
+    },
+    {
+      "year": 2022,
+      "label": "M353",
+      "patientCount": 5311,
+      "claimCount": 30027,
+      "visitDays": 37763,
+      "insurerPaidAmount": 3461457820,
+      "totalCost": 4138350390
+    },
+    {
+      "year": 2022,
+      "label": "M354",
+      "patientCount": 70,
+      "claimCount": 245,
+      "visitDays": 296,
+      "insurerPaidAmount": 32430140,
+      "totalCost": 41473580
+    },
+    {
+      "year": 2022,
+      "label": "M355",
+      "patientCount": 171,
+      "claimCount": 1078,
+      "visitDays": 1187,
+      "insurerPaidAmount": 150704280,
+      "totalCost": 178516740
+    },
+    {
+      "year": 2022,
+      "label": "M356",
+      "patientCount": 23,
+      "claimCount": 241,
+      "visitDays": 298,
+      "insurerPaidAmount": 40525620,
+      "totalCost": 46741020
+    },
+    {
+      "year": 2022,
+      "label": "M611",
+      "patientCount": 109,
+      "claimCount": 395,
+      "visitDays": 440,
+      "insurerPaidAmount": 33805930,
+      "totalCost": 45163070
+    },
+    {
+      "year": 2022,
+      "label": "M880",
+      "patientCount": 14,
+      "claimCount": 51,
+      "visitDays": 51,
+      "insurerPaidAmount": 4636430,
+      "totalCost": 5296930
+    },
+    {
+      "year": 2022,
+      "label": "M888",
+      "patientCount": 62,
+      "claimCount": 196,
+      "visitDays": 209,
+      "insurerPaidAmount": 15004830,
+      "totalCost": 19114000
+    },
+    {
+      "year": 2022,
+      "label": "M889",
+      "patientCount": 166,
+      "claimCount": 562,
+      "visitDays": 927,
+      "insurerPaidAmount": 67176420,
+      "totalCost": 86054770
+    },
+    {
+      "year": 2022,
+      "label": "M922",
+      "patientCount": 420,
+      "claimCount": 1307,
+      "visitDays": 1602,
+      "insurerPaidAmount": 183058110,
+      "totalCost": 239687800
+    },
+    {
+      "year": 2022,
+      "label": "M931",
+      "patientCount": 679,
+      "claimCount": 2522,
+      "visitDays": 3258,
+      "insurerPaidAmount": 371011040,
+      "totalCost": 493333870
+    },
+    {
+      "year": 2022,
+      "label": "M941",
+      "patientCount": 675,
+      "claimCount": 3486,
+      "visitDays": 4813,
+      "insurerPaidAmount": 526336630,
+      "totalCost": 641045720
+    },
+    {
+      "year": 2022,
+      "label": "N040",
+      "patientCount": 2905,
+      "claimCount": 15614,
+      "visitDays": 17884,
+      "insurerPaidAmount": 1161422680,
+      "totalCost": 1953699040
+    },
+    {
+      "year": 2022,
+      "label": "N041",
+      "patientCount": 1766,
+      "claimCount": 9611,
+      "visitDays": 11665,
+      "insurerPaidAmount": 1179046970,
+      "totalCost": 1754647810
+    },
+    {
+      "year": 2022,
+      "label": "N042",
+      "patientCount": 1739,
+      "claimCount": 9345,
+      "visitDays": 10258,
+      "insurerPaidAmount": 566385570,
+      "totalCost": 1030238160
+    },
+    {
+      "year": 2022,
+      "label": "N043",
+      "patientCount": 214,
+      "claimCount": 1255,
+      "visitDays": 1373,
+      "insurerPaidAmount": 98900020,
+      "totalCost": 148124470
+    },
+    {
+      "year": 2022,
+      "label": "N044",
+      "patientCount": 28,
+      "claimCount": 110,
+      "visitDays": 130,
+      "insurerPaidAmount": 14673190,
+      "totalCost": 20639080
+    },
+    {
+      "year": 2022,
+      "label": "N045",
+      "patientCount": 220,
+      "claimCount": 866,
+      "visitDays": 1032,
+      "insurerPaidAmount": 90324500,
+      "totalCost": 146441350
+    },
+    {
+      "year": 2022,
+      "label": "N046",
+      "patientCount": 16,
+      "claimCount": 87,
+      "visitDays": 87,
+      "insurerPaidAmount": 3892310,
+      "totalCost": 8039650
+    },
+    {
+      "year": 2022,
+      "label": "N047",
+      "patientCount": 33,
+      "claimCount": 167,
+      "visitDays": 291,
+      "insurerPaidAmount": 29193270,
+      "totalCost": 39139540
+    },
+    {
+      "year": 2022,
+      "label": "N251",
+      "patientCount": 169,
+      "claimCount": 712,
+      "visitDays": 1236,
+      "insurerPaidAmount": 184861290,
+      "totalCost": 218435210
+    },
+    {
+      "year": 2022,
+      "label": "P350",
+      "patientCount": 2,
+      "claimCount": 3,
+      "visitDays": 11,
+      "insurerPaidAmount": 8112420,
+      "totalCost": 8131820
+    },
+    {
+      "year": 2022,
+      "label": "Q031",
+      "patientCount": 182,
+      "claimCount": 3277,
+      "visitDays": 3374,
+      "insurerPaidAmount": 207664560,
+      "totalCost": 236032280
+    },
+    {
+      "year": 2022,
+      "label": "Q042",
+      "patientCount": 28,
+      "claimCount": 484,
+      "visitDays": 633,
+      "insurerPaidAmount": 139603470,
+      "totalCost": 147151590
+    },
+    {
+      "year": 2022,
+      "label": "Q043",
+      "patientCount": 418,
+      "claimCount": 8348,
+      "visitDays": 9628,
+      "insurerPaidAmount": 1087262530,
+      "totalCost": 1217826920
+    },
+    {
+      "year": 2022,
+      "label": "Q046",
+      "patientCount": 1576,
+      "claimCount": 7757,
+      "visitDays": 8541,
+      "insurerPaidAmount": 641933460,
+      "totalCost": 891043510
+    },
+    {
+      "year": 2022,
+      "label": "Q050",
+      "patientCount": 5,
+      "claimCount": 54,
+      "visitDays": 54,
+      "insurerPaidAmount": 2825810,
+      "totalCost": 3173010
+    },
+    {
+      "year": 2022,
+      "label": "Q051",
+      "patientCount": 3,
+      "claimCount": 81,
+      "visitDays": 80,
+      "insurerPaidAmount": 6904840,
+      "totalCost": 7668040
+    },
+    {
+      "year": 2022,
+      "label": "Q052",
+      "patientCount": 19,
+      "claimCount": 209,
+      "visitDays": 210,
+      "insurerPaidAmount": 7331300,
+      "totalCost": 8486180
+    },
+    {
+      "year": 2022,
+      "label": "Q053",
+      "patientCount": 5,
+      "claimCount": 40,
+      "visitDays": 40,
+      "insurerPaidAmount": 2451780,
+      "totalCost": 2739410
+    },
+    {
+      "year": 2022,
+      "label": "Q054",
+      "patientCount": 14,
+      "claimCount": 69,
+      "visitDays": 242,
+      "insurerPaidAmount": 14816170,
+      "totalCost": 17898830
+    },
+    {
+      "year": 2022,
+      "label": "Q055",
+      "patientCount": 7,
+      "claimCount": 104,
+      "visitDays": 104,
+      "insurerPaidAmount": 4660780,
+      "totalCost": 5189980
+    },
+    {
+      "year": 2022,
+      "label": "Q056",
+      "patientCount": 192,
+      "claimCount": 449,
+      "visitDays": 419,
+      "insurerPaidAmount": 19953960,
+      "totalCost": 24785210
+    },
+    {
+      "year": 2022,
+      "label": "Q057",
+      "patientCount": 86,
+      "claimCount": 413,
+      "visitDays": 493,
+      "insurerPaidAmount": 24687440,
+      "totalCost": 30418930
+    },
+    {
+      "year": 2022,
+      "label": "Q058",
+      "patientCount": 35,
+      "claimCount": 120,
+      "visitDays": 121,
+      "insurerPaidAmount": 9100390,
+      "totalCost": 11358440
+    },
+    {
+      "year": 2022,
+      "label": "Q059",
+      "patientCount": 2938,
+      "claimCount": 12573,
+      "visitDays": 14103,
+      "insurerPaidAmount": 2365863580,
+      "totalCost": 2642613860
+    },
+    {
+      "year": 2022,
+      "label": "Q062",
+      "patientCount": 28,
+      "claimCount": 183,
+      "visitDays": 244,
+      "insurerPaidAmount": 26377680,
+      "totalCost": 30630460
+    },
+    {
+      "year": 2022,
+      "label": "Q070",
+      "patientCount": 890,
+      "claimCount": 6127,
+      "visitDays": 8358,
+      "insurerPaidAmount": 1308651420,
+      "totalCost": 1510560060
+    },
+    {
+      "year": 2022,
+      "label": "Q112",
+      "patientCount": 214,
+      "claimCount": 516,
+      "visitDays": 905,
+      "insurerPaidAmount": 62775340,
+      "totalCost": 92356850
+    },
+    {
+      "year": 2022,
+      "label": "Q131",
+      "patientCount": 183,
+      "claimCount": 520,
+      "visitDays": 526,
+      "insurerPaidAmount": 40830080,
+      "totalCost": 66392030
+    },
+    {
+      "year": 2022,
+      "label": "Q138",
+      "patientCount": 148,
+      "claimCount": 363,
+      "visitDays": 409,
+      "insurerPaidAmount": 96828880,
+      "totalCost": 123199760
+    },
+    {
+      "year": 2022,
+      "label": "Q141",
+      "patientCount": 337,
+      "claimCount": 598,
+      "visitDays": 598,
+      "insurerPaidAmount": 50531950,
+      "totalCost": 91588270
+    },
+    {
+      "year": 2022,
+      "label": "Q142",
+      "patientCount": 759,
+      "claimCount": 1528,
+      "visitDays": 1547,
+      "insurerPaidAmount": 115509850,
+      "totalCost": 203788030
+    },
+    {
+      "year": 2022,
+      "label": "Q150",
+      "patientCount": 741,
+      "claimCount": 2310,
+      "visitDays": 2373,
+      "insurerPaidAmount": 204006720,
+      "totalCost": 327954290
+    },
+    {
+      "year": 2022,
+      "label": "Q161",
+      "patientCount": 927,
+      "claimCount": 3182,
+      "visitDays": 3634,
+      "insurerPaidAmount": 542747870,
+      "totalCost": 697758140
+    },
+    {
+      "year": 2022,
+      "label": "Q172",
+      "patientCount": 1698,
+      "claimCount": 6796,
+      "visitDays": 8912,
+      "insurerPaidAmount": 1914499640,
+      "totalCost": 2240573640
+    },
+    {
+      "year": 2022,
+      "label": "Q200",
+      "patientCount": 117,
+      "claimCount": 569,
+      "visitDays": 824,
+      "insurerPaidAmount": 776411400,
+      "totalCost": 831294940
+    },
+    {
+      "year": 2022,
+      "label": "Q201",
+      "patientCount": 1110,
+      "claimCount": 4451,
+      "visitDays": 6906,
+      "insurerPaidAmount": 4793184110,
+      "totalCost": 5095284010
+    },
+    {
+      "year": 2022,
+      "label": "Q202",
+      "patientCount": 27,
+      "claimCount": 212,
+      "visitDays": 309,
+      "insurerPaidAmount": 179054290,
+      "totalCost": 184260810
+    },
+    {
+      "year": 2022,
+      "label": "Q203",
+      "patientCount": 1309,
+      "claimCount": 4563,
+      "visitDays": 7300,
+      "insurerPaidAmount": 6528487430,
+      "totalCost": 6848566120
+    },
+    {
+      "year": 2022,
+      "label": "Q204",
+      "patientCount": 1082,
+      "claimCount": 5731,
+      "visitDays": 8905,
+      "insurerPaidAmount": 5647287180,
+      "totalCost": 6077104420
+    },
+    {
+      "year": 2022,
+      "label": "Q205",
+      "patientCount": 118,
+      "claimCount": 378,
+      "visitDays": 482,
+      "insurerPaidAmount": 187823460,
+      "totalCost": 207709620
+    },
+    {
+      "year": 2022,
+      "label": "Q206",
+      "patientCount": 59,
+      "claimCount": 170,
+      "visitDays": 265,
+      "insurerPaidAmount": 118232760,
+      "totalCost": 123906540
+    },
+    {
+      "year": 2022,
+      "label": "Q212",
+      "patientCount": 954,
+      "claimCount": 3521,
+      "visitDays": 6183,
+      "insurerPaidAmount": 4818125990,
+      "totalCost": 5111337620
+    },
+    {
+      "year": 2022,
+      "label": "Q213",
+      "patientCount": 4418,
+      "claimCount": 15858,
+      "visitDays": 21502,
+      "insurerPaidAmount": 15391622460,
+      "totalCost": 16469218120
+    },
+    {
+      "year": 2022,
+      "label": "Q214",
+      "patientCount": 63,
+      "claimCount": 222,
+      "visitDays": 329,
+      "insurerPaidAmount": 213282050,
+      "totalCost": 222360390
+    },
+    {
+      "year": 2022,
+      "label": "Q218",
+      "patientCount": 92,
+      "claimCount": 424,
+      "visitDays": 464,
+      "insurerPaidAmount": 186487980,
+      "totalCost": 210082910
+    },
+    {
+      "year": 2022,
+      "label": "Q220",
+      "patientCount": 982,
+      "claimCount": 3458,
+      "visitDays": 5714,
+      "insurerPaidAmount": 4672753870,
+      "totalCost": 4960424720
+    },
+    {
+      "year": 2022,
+      "label": "Q224",
+      "patientCount": 140,
+      "claimCount": 817,
+      "visitDays": 1936,
+      "insurerPaidAmount": 1411626190,
+      "totalCost": 1520384180
+    },
+    {
+      "year": 2022,
+      "label": "Q225",
+      "patientCount": 769,
+      "claimCount": 3043,
+      "visitDays": 4357,
+      "insurerPaidAmount": 1931224160,
+      "totalCost": 2086300320
+    },
+    {
+      "year": 2022,
+      "label": "Q226",
+      "patientCount": 76,
+      "claimCount": 311,
+      "visitDays": 358,
+      "insurerPaidAmount": 174395990,
+      "totalCost": 182294030
+    },
+    {
+      "year": 2022,
+      "label": "Q230",
+      "patientCount": 691,
+      "claimCount": 2076,
+      "visitDays": 2912,
+      "insurerPaidAmount": 1263145170,
+      "totalCost": 1377797110
+    },
+    {
+      "year": 2022,
+      "label": "Q231",
+      "patientCount": 6043,
+      "claimCount": 20425,
+      "visitDays": 25197,
+      "insurerPaidAmount": 10154156460,
+      "totalCost": 11640089110
+    },
+    {
+      "year": 2022,
+      "label": "Q232",
+      "patientCount": 101,
+      "claimCount": 468,
+      "visitDays": 754,
+      "insurerPaidAmount": 333412700,
+      "totalCost": 364544890
+    },
+    {
+      "year": 2022,
+      "label": "Q233",
+      "patientCount": 844,
+      "claimCount": 2068,
+      "visitDays": 2346,
+      "insurerPaidAmount": 870688070,
+      "totalCost": 954149940
+    },
+    {
+      "year": 2022,
+      "label": "Q234",
+      "patientCount": 129,
+      "claimCount": 1436,
+      "visitDays": 3282,
+      "insurerPaidAmount": 3844424070,
+      "totalCost": 3972731350
+    },
+    {
+      "year": 2022,
+      "label": "Q238",
+      "patientCount": 122,
+      "claimCount": 321,
+      "visitDays": 358,
+      "insurerPaidAmount": 80434180,
+      "totalCost": 92186020
+    },
+    {
+      "year": 2022,
+      "label": "Q239",
+      "patientCount": 223,
+      "claimCount": 638,
+      "visitDays": 755,
+      "insurerPaidAmount": 409462590,
+      "totalCost": 442225190
+    },
+    {
+      "year": 2022,
+      "label": "Q244",
+      "patientCount": 132,
+      "claimCount": 356,
+      "visitDays": 621,
+      "insurerPaidAmount": 353545780,
+      "totalCost": 386820890
+    },
+    {
+      "year": 2022,
+      "label": "Q245",
+      "patientCount": 2894,
+      "claimCount": 8399,
+      "visitDays": 10441,
+      "insurerPaidAmount": 1675246240,
+      "totalCost": 1999333040
+    },
+    {
+      "year": 2022,
+      "label": "Q246",
+      "patientCount": 103,
+      "claimCount": 377,
+      "visitDays": 498,
+      "insurerPaidAmount": 282575130,
+      "totalCost": 301074780
+    },
+    {
+      "year": 2022,
+      "label": "Q251",
+      "patientCount": 1328,
+      "claimCount": 3962,
+      "visitDays": 6209,
+      "insurerPaidAmount": 4341180820,
+      "totalCost": 4556097520
+    },
+    {
+      "year": 2022,
+      "label": "Q252",
+      "patientCount": 56,
+      "claimCount": 259,
+      "visitDays": 580,
+      "insurerPaidAmount": 793265300,
+      "totalCost": 816583950
+    },
+    {
+      "year": 2022,
+      "label": "Q253",
+      "patientCount": 271,
+      "claimCount": 827,
+      "visitDays": 1207,
+      "insurerPaidAmount": 366788350,
+      "totalCost": 411174820
+    },
+    {
+      "year": 2022,
+      "label": "Q255",
+      "patientCount": 427,
+      "claimCount": 1766,
+      "visitDays": 3198,
+      "insurerPaidAmount": 2778925330,
+      "totalCost": 2935004860
+    },
+    {
+      "year": 2022,
+      "label": "Q260",
+      "patientCount": 9,
+      "claimCount": 30,
+      "visitDays": 30,
+      "insurerPaidAmount": 2807000,
+      "totalCost": 3247700
+    },
+    {
+      "year": 2022,
+      "label": "Q261",
+      "patientCount": 230,
+      "claimCount": 569,
+      "visitDays": 795,
+      "insurerPaidAmount": 283384570,
+      "totalCost": 298720120
+    },
+    {
+      "year": 2022,
+      "label": "Q262",
+      "patientCount": 411,
+      "claimCount": 1660,
+      "visitDays": 3338,
+      "insurerPaidAmount": 4043166170,
+      "totalCost": 4159625100
+    },
+    {
+      "year": 2022,
+      "label": "Q263",
+      "patientCount": 339,
+      "claimCount": 1053,
+      "visitDays": 1491,
+      "insurerPaidAmount": 896130240,
+      "totalCost": 964176830
+    },
+    {
+      "year": 2022,
+      "label": "Q264",
+      "patientCount": 27,
+      "claimCount": 66,
+      "visitDays": 161,
+      "insurerPaidAmount": 189395790,
+      "totalCost": 203889620
+    },
+    {
+      "year": 2022,
+      "label": "Q265",
+      "patientCount": 54,
+      "claimCount": 165,
+      "visitDays": 224,
+      "insurerPaidAmount": 63700070,
+      "totalCost": 70224560
+    },
+    {
+      "year": 2022,
+      "label": "Q266",
+      "patientCount": 21,
+      "claimCount": 34,
+      "visitDays": 69,
+      "insurerPaidAmount": 22331700,
+      "totalCost": 28835150
+    },
+    {
+      "year": 2022,
+      "label": "Q282",
+      "patientCount": 4408,
+      "claimCount": 15053,
+      "visitDays": 22320,
+      "insurerPaidAmount": 7937218590,
+      "totalCost": 9922777420
+    },
+    {
+      "year": 2022,
+      "label": "Q383",
+      "patientCount": 237,
+      "claimCount": 386,
+      "visitDays": 385,
+      "insurerPaidAmount": 14672120,
+      "totalCost": 19182780
+    },
+    {
+      "year": 2022,
+      "label": "Q438",
+      "patientCount": 218,
+      "claimCount": 3607,
+      "visitDays": 4211,
+      "insurerPaidAmount": 803399590,
+      "totalCost": 892433530
+    },
+    {
+      "year": 2022,
+      "label": "Q442",
+      "patientCount": 699,
+      "claimCount": 3315,
+      "visitDays": 6208,
+      "insurerPaidAmount": 3004108170,
+      "totalCost": 3343302530
+    },
+    {
+      "year": 2022,
+      "label": "Q446",
+      "patientCount": 8480,
+      "claimCount": 12985,
+      "visitDays": 13747,
+      "insurerPaidAmount": 1296441160,
+      "totalCost": 2127888160
+    },
+    {
+      "year": 2022,
+      "label": "Q447",
+      "patientCount": 151,
+      "claimCount": 826,
+      "visitDays": 1027,
+      "insurerPaidAmount": 154825490,
+      "totalCost": 177968970
+    },
+    {
+      "year": 2022,
+      "label": "Q611",
+      "patientCount": 89,
+      "claimCount": 391,
+      "visitDays": 412,
+      "insurerPaidAmount": 44972780,
+      "totalCost": 56204550
+    },
+    {
+      "year": 2022,
+      "label": "Q612",
+      "patientCount": 7514,
+      "claimCount": 39605,
+      "visitDays": 42360,
+      "insurerPaidAmount": 3387258890,
+      "totalCost": 5577085900
+    },
+    {
+      "year": 2022,
+      "label": "Q619",
+      "patientCount": 2630,
+      "claimCount": 5032,
+      "visitDays": 5321,
+      "insurerPaidAmount": 370428730,
+      "totalCost": 625032480
+    },
+    {
+      "year": 2022,
+      "label": "Q641",
+      "patientCount": 27,
+      "claimCount": 118,
+      "visitDays": 161,
+      "insurerPaidAmount": 40518950,
+      "totalCost": 46425980
+    },
+    {
+      "year": 2022,
+      "label": "Q740",
+      "patientCount": 1956,
+      "claimCount": 3732,
+      "visitDays": 4052,
+      "insurerPaidAmount": 364110080,
+      "totalCost": 512805480
+    },
+    {
+      "year": 2022,
+      "label": "Q743",
+      "patientCount": 217,
+      "claimCount": 2817,
+      "visitDays": 3048,
+      "insurerPaidAmount": 341949840,
+      "totalCost": 386311590
+    },
+    {
+      "year": 2022,
+      "label": "Q748",
+      "patientCount": 374,
+      "claimCount": 807,
+      "visitDays": 971,
+      "insurerPaidAmount": 95752730,
+      "totalCost": 138790630
+    },
+    {
+      "year": 2022,
+      "label": "Q750",
+      "patientCount": 1682,
+      "claimCount": 6911,
+      "visitDays": 8525,
+      "insurerPaidAmount": 2121542300,
+      "totalCost": 2383435490
+    },
+    {
+      "year": 2022,
+      "label": "Q751",
+      "patientCount": 135,
+      "claimCount": 1196,
+      "visitDays": 1283,
+      "insurerPaidAmount": 233263250,
+      "totalCost": 264508430
+    },
+    {
+      "year": 2022,
+      "label": "Q754",
+      "patientCount": 79,
+      "claimCount": 1152,
+      "visitDays": 1230,
+      "insurerPaidAmount": 122094180,
+      "totalCost": 143223710
+    },
+    {
+      "year": 2022,
+      "label": "Q761",
+      "patientCount": 108,
+      "claimCount": 355,
+      "visitDays": 533,
+      "insurerPaidAmount": 143752480,
+      "totalCost": 156629620
+    },
+    {
+      "year": 2022,
+      "label": "Q770",
+      "patientCount": 8,
+      "claimCount": 37,
+      "visitDays": 37,
+      "insurerPaidAmount": 1187900,
+      "totalCost": 1357500
+    },
+    {
+      "year": 2022,
+      "label": "Q771",
+      "patientCount": 2,
+      "claimCount": 3,
+      "visitDays": 5,
+      "insurerPaidAmount": 2633210,
+      "totalCost": 2682560
+    },
+    {
+      "year": 2022,
+      "label": "Q772",
+      "patientCount": 5,
+      "claimCount": 7,
+      "visitDays": 7,
+      "insurerPaidAmount": 143530,
+      "totalCost": 212730
+    },
+    {
+      "year": 2022,
+      "label": "Q773",
+      "patientCount": 174,
+      "claimCount": 926,
+      "visitDays": 1027,
+      "insurerPaidAmount": 117483000,
+      "totalCost": 144693760
+    },
+    {
+      "year": 2022,
+      "label": "Q774",
+      "patientCount": 388,
+      "claimCount": 3429,
+      "visitDays": 4138,
+      "insurerPaidAmount": 616698240,
+      "totalCost": 681414590
+    },
+    {
+      "year": 2022,
+      "label": "Q775",
+      "patientCount": 4,
+      "claimCount": 82,
+      "visitDays": 81,
+      "insurerPaidAmount": 3441360,
+      "totalCost": 3883560
+    },
+    {
+      "year": 2022,
+      "label": "Q776",
+      "patientCount": 7,
+      "claimCount": 91,
+      "visitDays": 93,
+      "insurerPaidAmount": 4358420,
+      "totalCost": 4840790
+    },
+    {
+      "year": 2022,
+      "label": "Q777",
+      "patientCount": 139,
+      "claimCount": 620,
+      "visitDays": 1041,
+      "insurerPaidAmount": 132837550,
+      "totalCost": 155551160
+    },
+    {
+      "year": 2022,
+      "label": "Q778",
+      "patientCount": 76,
+      "claimCount": 458,
+      "visitDays": 548,
+      "insurerPaidAmount": 86330940,
+      "totalCost": 100982020
+    },
+    {
+      "year": 2022,
+      "label": "Q779",
+      "patientCount": 10,
+      "claimCount": 26,
+      "visitDays": 28,
+      "insurerPaidAmount": 2072100,
+      "totalCost": 2596150
+    },
+    {
+      "year": 2022,
+      "label": "Q780",
+      "patientCount": 444,
+      "claimCount": 2031,
+      "visitDays": 2514,
+      "insurerPaidAmount": 376474980,
+      "totalCost": 445987250
+    },
+    {
+      "year": 2022,
+      "label": "Q781",
+      "patientCount": 286,
+      "claimCount": 1090,
+      "visitDays": 1307,
+      "insurerPaidAmount": 160005780,
+      "totalCost": 189301800
+    },
+    {
+      "year": 2022,
+      "label": "Q782",
+      "patientCount": 107,
+      "claimCount": 415,
+      "visitDays": 509,
+      "insurerPaidAmount": 62841250,
+      "totalCost": 76628800
+    },
+    {
+      "year": 2022,
+      "label": "Q783",
+      "patientCount": 16,
+      "claimCount": 60,
+      "visitDays": 63,
+      "insurerPaidAmount": 6215380,
+      "totalCost": 8456730
+    },
+    {
+      "year": 2022,
+      "label": "Q784",
+      "patientCount": 524,
+      "claimCount": 1403,
+      "visitDays": 1672,
+      "insurerPaidAmount": 142228540,
+      "totalCost": 186982940
+    },
+    {
+      "year": 2022,
+      "label": "Q785",
+      "patientCount": 22,
+      "claimCount": 73,
+      "visitDays": 164,
+      "insurerPaidAmount": 25323580,
+      "totalCost": 30153540
+    },
+    {
+      "year": 2022,
+      "label": "Q786",
+      "patientCount": 339,
+      "claimCount": 919,
+      "visitDays": 1301,
+      "insurerPaidAmount": 269255410,
+      "totalCost": 315315260
+    },
+    {
+      "year": 2022,
+      "label": "Q789",
+      "patientCount": 102,
+      "claimCount": 224,
+      "visitDays": 238,
+      "insurerPaidAmount": 22069720,
+      "totalCost": 30595390
+    },
+    {
+      "year": 2022,
+      "label": "Q790",
+      "patientCount": 281,
+      "claimCount": 1366,
+      "visitDays": 2755,
+      "insurerPaidAmount": 2824976500,
+      "totalCost": 2927943920
+    },
+    {
+      "year": 2022,
+      "label": "Q791",
+      "patientCount": 334,
+      "claimCount": 725,
+      "visitDays": 1091,
+      "insurerPaidAmount": 379398510,
+      "totalCost": 421676430
+    },
+    {
+      "year": 2022,
+      "label": "Q792",
+      "patientCount": 235,
+      "claimCount": 913,
+      "visitDays": 1590,
+      "insurerPaidAmount": 829184160,
+      "totalCost": 869265820
+    },
+    {
+      "year": 2022,
+      "label": "Q793",
+      "patientCount": 37,
+      "claimCount": 151,
+      "visitDays": 367,
+      "insurerPaidAmount": 285765640,
+      "totalCost": 290900510
+    },
+    {
+      "year": 2022,
+      "label": "Q794",
+      "patientCount": 14,
+      "claimCount": 246,
+      "visitDays": 289,
+      "insurerPaidAmount": 69635580,
+      "totalCost": 77896180
+    },
+    {
+      "year": 2022,
+      "label": "Q795",
+      "patientCount": 24,
+      "claimCount": 56,
+      "visitDays": 61,
+      "insurerPaidAmount": 7041280,
+      "totalCost": 8421860
+    },
+    {
+      "year": 2022,
+      "label": "Q796",
+      "patientCount": 125,
+      "claimCount": 851,
+      "visitDays": 854,
+      "insurerPaidAmount": 68037800,
+      "totalCost": 84042560
+    },
+    {
+      "year": 2022,
+      "label": "Q798",
+      "patientCount": 325,
+      "claimCount": 1294,
+      "visitDays": 1500,
+      "insurerPaidAmount": 156879810,
+      "totalCost": 200702820
+    },
+    {
+      "year": 2022,
+      "label": "Q799",
+      "patientCount": 349,
+      "claimCount": 2057,
+      "visitDays": 2184,
+      "insurerPaidAmount": 207664170,
+      "totalCost": 241127620
+    },
+    {
+      "year": 2022,
+      "label": "Q801",
+      "patientCount": 32,
+      "claimCount": 73,
+      "visitDays": 73,
+      "insurerPaidAmount": 4510190,
+      "totalCost": 7423430
+    },
+    {
+      "year": 2022,
+      "label": "Q802",
+      "patientCount": 17,
+      "claimCount": 83,
+      "visitDays": 122,
+      "insurerPaidAmount": 32836120,
+      "totalCost": 34288540
+    },
+    {
+      "year": 2022,
+      "label": "Q803",
+      "patientCount": 28,
+      "claimCount": 205,
+      "visitDays": 203,
+      "insurerPaidAmount": 8733090,
+      "totalCost": 11280940
+    },
+    {
+      "year": 2022,
+      "label": "Q804",
+      "patientCount": 4,
+      "claimCount": 13,
+      "visitDays": 13,
+      "insurerPaidAmount": 805970,
+      "totalCost": 1055890
+    },
+    {
+      "year": 2022,
+      "label": "Q810",
+      "patientCount": 109,
+      "claimCount": 213,
+      "visitDays": 244,
+      "insurerPaidAmount": 59883320,
+      "totalCost": 73556640
+    },
+    {
+      "year": 2022,
+      "label": "Q811",
+      "patientCount": 4,
+      "claimCount": 27,
+      "visitDays": 28,
+      "insurerPaidAmount": 30181160,
+      "totalCost": 33526490
+    },
+    {
+      "year": 2022,
+      "label": "Q812",
+      "patientCount": 55,
+      "claimCount": 417,
+      "visitDays": 721,
+      "insurerPaidAmount": 406545730,
+      "totalCost": 457388050
+    },
+    {
+      "year": 2022,
+      "label": "Q820",
+      "patientCount": 94,
+      "claimCount": 359,
+      "visitDays": 375,
+      "insurerPaidAmount": 41432140,
+      "totalCost": 60942880
+    },
+    {
+      "year": 2022,
+      "label": "Q823",
+      "patientCount": 206,
+      "claimCount": 567,
+      "visitDays": 879,
+      "insurerPaidAmount": 117744560,
+      "totalCost": 130638350
+    },
+    {
+      "year": 2022,
+      "label": "Q824",
+      "patientCount": 38,
+      "claimCount": 136,
+      "visitDays": 136,
+      "insurerPaidAmount": 6658880,
+      "totalCost": 9268920
+    },
+    {
+      "year": 2022,
+      "label": "Q828",
+      "patientCount": 4173,
+      "claimCount": 8359,
+      "visitDays": 8446,
+      "insurerPaidAmount": 293611870,
+      "totalCost": 506077830
+    },
+    {
+      "year": 2022,
+      "label": "Q850",
+      "patientCount": 5730,
+      "claimCount": 28128,
+      "visitDays": 31744,
+      "insurerPaidAmount": 7537212610,
+      "totalCost": 8806132660
+    },
+    {
+      "year": 2022,
+      "label": "Q851",
+      "patientCount": 1109,
+      "claimCount": 8839,
+      "visitDays": 9673,
+      "insurerPaidAmount": 1617835550,
+      "totalCost": 1821570360
+    },
+    {
+      "year": 2022,
+      "label": "Q858",
+      "patientCount": 1182,
+      "claimCount": 6825,
+      "visitDays": 8561,
+      "insurerPaidAmount": 1397933490,
+      "totalCost": 1612601950
+    },
+    {
+      "year": 2022,
+      "label": "Q860",
+      "patientCount": 1,
+      "claimCount": 28,
+      "visitDays": 28,
+      "insurerPaidAmount": 1522330,
+      "totalCost": 1522330
+    },
+    {
+      "year": 2022,
+      "label": "Q870",
+      "patientCount": 716,
+      "claimCount": 8807,
+      "visitDays": 11320,
+      "insurerPaidAmount": 1563663480,
+      "totalCost": 1710635190
+    },
+    {
+      "year": 2022,
+      "label": "Q871",
+      "patientCount": 1304,
+      "claimCount": 24302,
+      "visitDays": 27792,
+      "insurerPaidAmount": 4817503980,
+      "totalCost": 5277601040
+    },
+    {
+      "year": 2022,
+      "label": "Q872",
+      "patientCount": 773,
+      "claimCount": 6177,
+      "visitDays": 7806,
+      "insurerPaidAmount": 1773265340,
+      "totalCost": 1921998220
+    },
+    {
+      "year": 2022,
+      "label": "Q873",
+      "patientCount": 408,
+      "claimCount": 3599,
+      "visitDays": 3970,
+      "insurerPaidAmount": 351405570,
+      "totalCost": 406422210
+    },
+    {
+      "year": 2022,
+      "label": "Q874",
+      "patientCount": 1938,
+      "claimCount": 8359,
+      "visitDays": 10300,
+      "insurerPaidAmount": 2275457100,
+      "totalCost": 2579233770
+    },
+    {
+      "year": 2022,
+      "label": "Q875",
+      "patientCount": 173,
+      "claimCount": 2719,
+      "visitDays": 3010,
+      "insurerPaidAmount": 274605070,
+      "totalCost": 309346740
+    },
+    {
+      "year": 2022,
+      "label": "Q878",
+      "patientCount": 1083,
+      "claimCount": 10860,
+      "visitDays": 12118,
+      "insurerPaidAmount": 1645933680,
+      "totalCost": 1853290810
+    },
+    {
+      "year": 2022,
+      "label": "Q900",
+      "patientCount": 923,
+      "claimCount": 7628,
+      "visitDays": 7868,
+      "insurerPaidAmount": 692935330,
+      "totalCost": 757940310
+    },
+    {
+      "year": 2022,
+      "label": "Q901",
+      "patientCount": 85,
+      "claimCount": 677,
+      "visitDays": 681,
+      "insurerPaidAmount": 45405600,
+      "totalCost": 50780670
+    },
+    {
+      "year": 2022,
+      "label": "Q902",
+      "patientCount": 49,
+      "claimCount": 824,
+      "visitDays": 822,
+      "insurerPaidAmount": 42506430,
+      "totalCost": 45967370
+    },
+    {
+      "year": 2022,
+      "label": "Q909",
+      "patientCount": 1698,
+      "claimCount": 25297,
+      "visitDays": 27682,
+      "insurerPaidAmount": 1725319260,
+      "totalCost": 1963303590
+    },
+    {
+      "year": 2022,
+      "label": "Q910",
+      "patientCount": 23,
+      "claimCount": 753,
+      "visitDays": 891,
+      "insurerPaidAmount": 126830220,
+      "totalCost": 137834570
+    },
+    {
+      "year": 2022,
+      "label": "Q911",
+      "patientCount": 8,
+      "claimCount": 141,
+      "visitDays": 141,
+      "insurerPaidAmount": 8268760,
+      "totalCost": 9134460
+    },
+    {
+      "year": 2022,
+      "label": "Q912",
+      "patientCount": 4,
+      "claimCount": 152,
+      "visitDays": 168,
+      "insurerPaidAmount": 43919440,
+      "totalCost": 46971700
+    },
+    {
+      "year": 2022,
+      "label": "Q914",
+      "patientCount": 5,
+      "claimCount": 59,
+      "visitDays": 59,
+      "insurerPaidAmount": 3104840,
+      "totalCost": 3225340
+    },
+    {
+      "year": 2022,
+      "label": "Q915",
+      "patientCount": 3,
+      "claimCount": 36,
+      "visitDays": 36,
+      "insurerPaidAmount": 933380,
+      "totalCost": 1033880
+    },
+    {
+      "year": 2022,
+      "label": "Q916",
+      "patientCount": 1,
+      "claimCount": 3,
+      "visitDays": 3,
+      "insurerPaidAmount": 207940,
+      "totalCost": 247500
+    },
+    {
+      "year": 2022,
+      "label": "Q917",
+      "patientCount": 17,
+      "claimCount": 251,
+      "visitDays": 355,
+      "insurerPaidAmount": 125180690,
+      "totalCost": 127308120
+    },
+    {
+      "year": 2022,
+      "label": "Q922",
+      "patientCount": 36,
+      "claimCount": 145,
+      "visitDays": 232,
+      "insurerPaidAmount": 62627500,
+      "totalCost": 67271730
+    },
+    {
+      "year": 2022,
+      "label": "Q923",
+      "patientCount": 100,
+      "claimCount": 1295,
+      "visitDays": 1321,
+      "insurerPaidAmount": 105947670,
+      "totalCost": 120066610
+    },
+    {
+      "year": 2022,
+      "label": "Q928",
+      "patientCount": 19,
+      "claimCount": 336,
+      "visitDays": 336,
+      "insurerPaidAmount": 18689350,
+      "totalCost": 23485730
+    },
+    {
+      "year": 2022,
+      "label": "Q932",
+      "patientCount": 32,
+      "claimCount": 225,
+      "visitDays": 367,
+      "insurerPaidAmount": 42769640,
+      "totalCost": 47576500
+    },
+    {
+      "year": 2022,
+      "label": "E1610",
+      "patientCount": 72,
+      "claimCount": 352,
+      "visitDays": 509,
+      "insurerPaidAmount": 161195610,
+      "totalCost": 178545640
+    },
+    {
+      "year": 2022,
+      "label": "G3181",
+      "patientCount": 95,
+      "claimCount": 2376,
+      "visitDays": 3165,
+      "insurerPaidAmount": 469190310,
+      "totalCost": 520647820
+    },
+    {
+      "year": 2022,
+      "label": "G3188",
+      "patientCount": 12860,
+      "claimCount": 36150,
+      "visitDays": 36696,
+      "insurerPaidAmount": 684731880,
+      "totalCost": 881674590
+    },
+    {
+      "year": 2022,
+      "label": "G4731",
+      "patientCount": 135,
+      "claimCount": 760,
+      "visitDays": 1544,
+      "insurerPaidAmount": 493883260,
+      "totalCost": 550551660
+    },
+    {
+      "year": 2022,
+      "label": "H3551",
+      "patientCount": 8938,
+      "claimCount": 22633,
+      "visitDays": 22979,
+      "insurerPaidAmount": 2793771230,
+      "totalCost": 3541378400
+    },
+    {
+      "year": 2022,
+      "label": "H3552",
+      "patientCount": 1431,
+      "claimCount": 2731,
+      "visitDays": 2725,
+      "insurerPaidAmount": 194086600,
+      "totalCost": 320105540
+    },
+    {
+      "year": 2022,
+      "label": "H3558",
+      "patientCount": 391,
+      "claimCount": 710,
+      "visitDays": 708,
+      "insurerPaidAmount": 86688440,
+      "totalCost": 116526010
+    },
+    {
+      "year": 2022,
+      "label": "H3559",
+      "patientCount": 1983,
+      "claimCount": 3056,
+      "visitDays": 3066,
+      "insurerPaidAmount": 265695600,
+      "totalCost": 386448680
+    },
+    {
+      "year": 2022,
+      "label": "I4220",
+      "patientCount": 5656,
+      "claimCount": 22286,
+      "visitDays": 27677,
+      "insurerPaidAmount": 3864258590,
+      "totalCost": 4412197070
+    },
+    {
+      "year": 2022,
+      "label": "I4280",
+      "patientCount": 201,
+      "claimCount": 690,
+      "visitDays": 896,
+      "insurerPaidAmount": 323369930,
+      "totalCost": 387226040
+    },
+    {
+      "year": 2022,
+      "label": "I4982",
+      "patientCount": 629,
+      "claimCount": 1989,
+      "visitDays": 2499,
+      "insurerPaidAmount": 900185150,
+      "totalCost": 1020129720
+    },
+    {
+      "year": 2022,
+      "label": "K0051",
+      "patientCount": 170,
+      "claimCount": 208,
+      "visitDays": 208,
+      "insurerPaidAmount": 5952910,
+      "totalCost": 9437350
+    },
+    {
+      "year": 2022,
+      "label": "L7322",
+      "patientCount": 718,
+      "claimCount": 5441,
+      "visitDays": 5909,
+      "insurerPaidAmount": 1419419340,
+      "totalCost": 1674115120
+    }
+  ]
+}

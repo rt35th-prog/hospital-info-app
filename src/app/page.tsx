@@ -21,6 +21,11 @@ const CARDS = [
     title: "의약품 사용정보",
     desc: "약효분류군·성분별 처방/사용량과 사용금액 통계를 확인합니다.",
   },
+  {
+    href: "/actual-costs",
+    title: "실제 진료비 통계",
+    desc: "지역·기관종별·진료과목·연령·희귀질환별 실제 요양급여비용 청구 통계입니다.",
+  },
 ];
 
 export default function Home() {

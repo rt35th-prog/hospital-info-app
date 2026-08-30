@@ -1,0 +1,984 @@
+{
+  "_meta": {
+    "source": "입원환자 연령군별 건강보험 진료 통계 2018~2020",
+    "dimensions": [
+      "성별",
+      "연령군"
+    ],
+    "note": "입원환자만 포함"
+  },
+  "items": [
+    {
+      "year": 2018,
+      "label": "남 · 01_0~4세",
+      "patientCount": 298834,
+      "claimCount": 684924,
+      "visitDays": 2933713,
+      "insurerPaidAmount": 605999370890,
+      "totalCost": 638424180920
+    },
+    {
+      "year": 2018,
+      "label": "남 · 02_5~9세",
+      "patientCount": 121156,
+      "claimCount": 184436,
+      "visitDays": 688851,
+      "insurerPaidAmount": 139308035100,
+      "totalCost": 152359943830
+    },
+    {
+      "year": 2018,
+      "label": "남 · 03_10~14세",
+      "patientCount": 81028,
+      "claimCount": 111485,
+      "visitDays": 517295,
+      "insurerPaidAmount": 116776271850,
+      "totalCost": 128403625280
+    },
+    {
+      "year": 2018,
+      "label": "남 · 04_15~19세",
+      "patientCount": 106870,
+      "claimCount": 147129,
+      "visitDays": 818917,
+      "insurerPaidAmount": 170508661410,
+      "totalCost": 212352474610
+    },
+    {
+      "year": 2018,
+      "label": "남 · 05_20~24세",
+      "patientCount": 131107,
+      "claimCount": 182911,
+      "visitDays": 1101788,
+      "insurerPaidAmount": 203335831140,
+      "totalCost": 260524741160
+    },
+    {
+      "year": 2018,
+      "label": "남 · 06_25~29세",
+      "patientCount": 128874,
+      "claimCount": 185927,
+      "visitDays": 1113855,
+      "insurerPaidAmount": 199495426600,
+      "totalCost": 254032294590
+    },
+    {
+      "year": 2018,
+      "label": "남 · 07_30~34세",
+      "patientCount": 135551,
+      "claimCount": 199390,
+      "visitDays": 1199122,
+      "insurerPaidAmount": 217172245600,
+      "totalCost": 275126190100
+    },
+    {
+      "year": 2018,
+      "label": "남 · 08_35~39세",
+      "patientCount": 181046,
+      "claimCount": 276828,
+      "visitDays": 1753277,
+      "insurerPaidAmount": 327002133830,
+      "totalCost": 411075045030
+    },
+    {
+      "year": 2018,
+      "label": "남 · 09_40~44세",
+      "patientCount": 184851,
+      "claimCount": 299607,
+      "visitDays": 2076828,
+      "insurerPaidAmount": 403138587160,
+      "totalCost": 500594790620
+    },
+    {
+      "year": 2018,
+      "label": "남 · 10_45~49세",
+      "patientCount": 227488,
+      "claimCount": 392407,
+      "visitDays": 2907945,
+      "insurerPaidAmount": 594557232560,
+      "totalCost": 728768344460
+    },
+    {
+      "year": 2018,
+      "label": "남 · 11_50~54세",
+      "patientCount": 249465,
+      "claimCount": 464578,
+      "visitDays": 3640657,
+      "insurerPaidAmount": 764634267160,
+      "totalCost": 929330186860
+    },
+    {
+      "year": 2018,
+      "label": "남 · 12_55~59세",
+      "patientCount": 314749,
+      "claimCount": 639589,
+      "visitDays": 5257954,
+      "insurerPaidAmount": 1126417888040,
+      "totalCost": 1359703245880
+    },
+    {
+      "year": 2018,
+      "label": "남 · 13_60~64세",
+      "patientCount": 290734,
+      "claimCount": 651893,
+      "visitDays": 5740761,
+      "insurerPaidAmount": 1233092171870,
+      "totalCost": 1482251198760
+    },
+    {
+      "year": 2018,
+      "label": "남 · 14_65~69세",
+      "patientCount": 237006,
+      "claimCount": 587820,
+      "visitDays": 5498757,
+      "insurerPaidAmount": 1165983508170,
+      "totalCost": 1401036917520
+    },
+    {
+      "year": 2018,
+      "label": "남 · 15_70~74세",
+      "patientCount": 207853,
+      "claimCount": 568508,
+      "visitDays": 5626405,
+      "insurerPaidAmount": 1140840727840,
+      "totalCost": 1375329056420
+    },
+    {
+      "year": 2018,
+      "label": "남 · 16_75~79세",
+      "patientCount": 196763,
+      "claimCount": 619256,
+      "visitDays": 6776625,
+      "insurerPaidAmount": 1204600165990,
+      "totalCost": 1466040635450
+    },
+    {
+      "year": 2018,
+      "label": "남 · 17_80~84세",
+      "patientCount": 126327,
+      "claimCount": 474257,
+      "visitDays": 5849937,
+      "insurerPaidAmount": 848349682020,
+      "totalCost": 1049272057080
+    },
+    {
+      "year": 2018,
+      "label": "남 · 18_85세 이상",
+      "patientCount": 73963,
+      "claimCount": 353209,
+      "visitDays": 4969216,
+      "insurerPaidAmount": 557739329280,
+      "totalCost": 706194610250
+    },
+    {
+      "year": 2018,
+      "label": "여 · 01_0~4세",
+      "patientCount": 258439,
+      "claimCount": 588349,
+      "visitDays": 2542840,
+      "insurerPaidAmount": 496984072710,
+      "totalCost": 523409237940
+    },
+    {
+      "year": 2018,
+      "label": "여 · 02_5~9세",
+      "patientCount": 98512,
+      "claimCount": 145232,
+      "visitDays": 573172,
+      "insurerPaidAmount": 111298504770,
+      "totalCost": 121576259060
+    },
+    {
+      "year": 2018,
+      "label": "여 · 03_10~14세",
+      "patientCount": 57896,
+      "claimCount": 82562,
+      "visitDays": 391347,
+      "insurerPaidAmount": 84610516620,
+      "totalCost": 92975149110
+    },
+    {
+      "year": 2018,
+      "label": "여 · 04_15~19세",
+      "patientCount": 81495,
+      "claimCount": 112436,
+      "visitDays": 575147,
+      "insurerPaidAmount": 110381864480,
+      "totalCost": 135726272280
+    },
+    {
+      "year": 2018,
+      "label": "여 · 05_20~24세",
+      "patientCount": 123485,
+      "claimCount": 167379,
+      "visitDays": 805404,
+      "insurerPaidAmount": 164595481180,
+      "totalCost": 203735798560
+    },
+    {
+      "year": 2018,
+      "label": "여 · 06_25~29세",
+      "patientCount": 190886,
+      "claimCount": 256383,
+      "visitDays": 1252270,
+      "insurerPaidAmount": 286884850240,
+      "totalCost": 338458160230
+    },
+    {
+      "year": 2018,
+      "label": "여 · 07_30~34세",
+      "patientCount": 275448,
+      "claimCount": 368418,
+      "visitDays": 1865896,
+      "insurerPaidAmount": 465080404000,
+      "totalCost": 533771312900
+    },
+    {
+      "year": 2018,
+      "label": "여 · 08_35~39세",
+      "patientCount": 265410,
+      "claimCount": 383458,
+      "visitDays": 2067765,
+      "insurerPaidAmount": 490896062380,
+      "totalCost": 579866048390
+    },
+    {
+      "year": 2018,
+      "label": "여 · 09_40~44세",
+      "patientCount": 208055,
+      "claimCount": 335700,
+      "visitDays": 1950697,
+      "insurerPaidAmount": 422752315830,
+      "totalCost": 518383935770
+    },
+    {
+      "year": 2018,
+      "label": "여 · 10_45~49세",
+      "patientCount": 263826,
+      "claimCount": 464884,
+      "visitDays": 2899850,
+      "insurerPaidAmount": 592725883070,
+      "totalCost": 729170849140
+    },
+    {
+      "year": 2018,
+      "label": "여 · 11_50~54세",
+      "patientCount": 304334,
+      "claimCount": 581554,
+      "visitDays": 4008371,
+      "insurerPaidAmount": 728870170010,
+      "totalCost": 898122613840
+    },
+    {
+      "year": 2018,
+      "label": "여 · 12_55~59세",
+      "patientCount": 364380,
+      "claimCount": 734180,
+      "visitDays": 5514949,
+      "insurerPaidAmount": 966900247480,
+      "totalCost": 1191121062600
+    },
+    {
+      "year": 2018,
+      "label": "여 · 13_60~64세",
+      "patientCount": 320904,
+      "claimCount": 671010,
+      "visitDays": 5424799,
+      "insurerPaidAmount": 993855514800,
+      "totalCost": 1222820052990
+    },
+    {
+      "year": 2018,
+      "label": "여 · 14_65~69세",
+      "patientCount": 258044,
+      "claimCount": 572726,
+      "visitDays": 5109010,
+      "insurerPaidAmount": 965967957590,
+      "totalCost": 1190733068830
+    },
+    {
+      "year": 2018,
+      "label": "여 · 15_70~74세",
+      "patientCount": 233787,
+      "claimCount": 597002,
+      "visitDays": 6171284,
+      "insurerPaidAmount": 1074608646830,
+      "totalCost": 1329170853080
+    },
+    {
+      "year": 2018,
+      "label": "여 · 16_75~79세",
+      "patientCount": 265711,
+      "claimCount": 908732,
+      "visitDays": 11286337,
+      "insurerPaidAmount": 1503962538800,
+      "totalCost": 1886320243000
+    },
+    {
+      "year": 2018,
+      "label": "여 · 17_80~84세",
+      "patientCount": 213515,
+      "claimCount": 1018091,
+      "visitDays": 14596321,
+      "insurerPaidAmount": 1474502888430,
+      "totalCost": 1884023015250
+    },
+    {
+      "year": 2018,
+      "label": "여 · 18_85세 이상",
+      "patientCount": 186271,
+      "claimCount": 1262662,
+      "visitDays": 20415934,
+      "insurerPaidAmount": 1610757915190,
+      "totalCost": 2101828255060
+    },
+    {
+      "year": 2019,
+      "label": "남 · 01_0~4세",
+      "patientCount": 282419,
+      "claimCount": 660941,
+      "visitDays": 2806566,
+      "insurerPaidAmount": 669195000000,
+      "totalCost": 709362000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 02_5~9세",
+      "patientCount": 131354,
+      "claimCount": 200344,
+      "visitDays": 770964,
+      "insurerPaidAmount": 170738000000,
+      "totalCost": 188955000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 03_10~14세",
+      "patientCount": 83142,
+      "claimCount": 116371,
+      "visitDays": 535229,
+      "insurerPaidAmount": 131463000000,
+      "totalCost": 145893000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 04_15~19세",
+      "patientCount": 100715,
+      "claimCount": 141733,
+      "visitDays": 781756,
+      "insurerPaidAmount": 184823000000,
+      "totalCost": 230373000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 05_20~24세",
+      "patientCount": 128615,
+      "claimCount": 180332,
+      "visitDays": 1047535,
+      "insurerPaidAmount": 218184000000,
+      "totalCost": 280568000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 06_25~29세",
+      "patientCount": 135445,
+      "claimCount": 195671,
+      "visitDays": 1125681,
+      "insurerPaidAmount": 228947000000,
+      "totalCost": 292748000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 07_30~34세",
+      "patientCount": 135568,
+      "claimCount": 200353,
+      "visitDays": 1155284,
+      "insurerPaidAmount": 239263000000,
+      "totalCost": 304878000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 08_35~39세",
+      "patientCount": 182891,
+      "claimCount": 280538,
+      "visitDays": 1703475,
+      "insurerPaidAmount": 357988000000,
+      "totalCost": 452772000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 09_40~44세",
+      "patientCount": 185780,
+      "claimCount": 301809,
+      "visitDays": 2002702,
+      "insurerPaidAmount": 440157000000,
+      "totalCost": 549815000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 10_45~49세",
+      "patientCount": 225899,
+      "claimCount": 392383,
+      "visitDays": 2792627,
+      "insurerPaidAmount": 632108000000,
+      "totalCost": 780787000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 11_50~54세",
+      "patientCount": 257323,
+      "claimCount": 480779,
+      "visitDays": 3596992,
+      "insurerPaidAmount": 847766000000,
+      "totalCost": 1035690000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 12_55~59세",
+      "patientCount": 314236,
+      "claimCount": 642108,
+      "visitDays": 5099972,
+      "insurerPaidAmount": 1208670000000,
+      "totalCost": 1467400000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 13_60~64세",
+      "patientCount": 314922,
+      "claimCount": 706701,
+      "visitDays": 5951140,
+      "insurerPaidAmount": 1415710000000,
+      "totalCost": 1709220000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 14_65~69세",
+      "patientCount": 247456,
+      "claimCount": 610430,
+      "visitDays": 5469706,
+      "insurerPaidAmount": 1286720000000,
+      "totalCost": 1550480000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 15_70~74세",
+      "patientCount": 222097,
+      "claimCount": 605817,
+      "visitDays": 5786299,
+      "insurerPaidAmount": 1303380000000,
+      "totalCost": 1573960000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 16_75~79세",
+      "patientCount": 200214,
+      "claimCount": 629384,
+      "visitDays": 6677647,
+      "insurerPaidAmount": 1311850000000,
+      "totalCost": 1595430000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 17_80~84세",
+      "patientCount": 134956,
+      "claimCount": 505218,
+      "visitDays": 6084051,
+      "insurerPaidAmount": 971816000000,
+      "totalCost": 1199760000000
+    },
+    {
+      "year": 2019,
+      "label": "남 · 18_85세 이상",
+      "patientCount": 79992,
+      "claimCount": 383280,
+      "visitDays": 5285121,
+      "insurerPaidAmount": 647715000000,
+      "totalCost": 818042000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 01_0~4세",
+      "patientCount": 244477,
+      "claimCount": 566407,
+      "visitDays": 2416408,
+      "insurerPaidAmount": 552002000000,
+      "totalCost": 584584000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 02_5~9세",
+      "patientCount": 110331,
+      "claimCount": 165834,
+      "visitDays": 667076,
+      "insurerPaidAmount": 141163000000,
+      "totalCost": 156239000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 03_10~14세",
+      "patientCount": 59722,
+      "claimCount": 84825,
+      "visitDays": 400220,
+      "insurerPaidAmount": 96590312960,
+      "totalCost": 107336000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 04_15~19세",
+      "patientCount": 76517,
+      "claimCount": 109076,
+      "visitDays": 556877,
+      "insurerPaidAmount": 118631000000,
+      "totalCost": 147370000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 05_20~24세",
+      "patientCount": 118653,
+      "claimCount": 161333,
+      "visitDays": 767266,
+      "insurerPaidAmount": 177787000000,
+      "totalCost": 222029000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 06_25~29세",
+      "patientCount": 185232,
+      "claimCount": 249937,
+      "visitDays": 1212084,
+      "insurerPaidAmount": 308172000000,
+      "totalCost": 368888000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 07_30~34세",
+      "patientCount": 259542,
+      "claimCount": 345823,
+      "visitDays": 1741123,
+      "insurerPaidAmount": 484510000000,
+      "totalCost": 563705000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 08_35~39세",
+      "patientCount": 259950,
+      "claimCount": 379433,
+      "visitDays": 2026378,
+      "insurerPaidAmount": 535416000000,
+      "totalCost": 639956000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 09_40~44세",
+      "patientCount": 205072,
+      "claimCount": 335629,
+      "visitDays": 1907814,
+      "insurerPaidAmount": 461242000000,
+      "totalCost": 571534000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 10_45~49세",
+      "patientCount": 258932,
+      "claimCount": 469149,
+      "visitDays": 2842782,
+      "insurerPaidAmount": 646657000000,
+      "totalCost": 802793000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 11_50~54세",
+      "patientCount": 309846,
+      "claimCount": 604248,
+      "visitDays": 3993783,
+      "insurerPaidAmount": 820290000000,
+      "totalCost": 1018160000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 12_55~59세",
+      "patientCount": 360512,
+      "claimCount": 744649,
+      "visitDays": 5388316,
+      "insurerPaidAmount": 1054070000000,
+      "totalCost": 1308110000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 13_60~64세",
+      "patientCount": 346435,
+      "claimCount": 744640,
+      "visitDays": 5787929,
+      "insurerPaidAmount": 1172280000000,
+      "totalCost": 1450560000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 14_65~69세",
+      "patientCount": 272057,
+      "claimCount": 608996,
+      "visitDays": 5269461,
+      "insurerPaidAmount": 1101200000000,
+      "totalCost": 1362810000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 15_70~74세",
+      "patientCount": 246333,
+      "claimCount": 625047,
+      "visitDays": 6173829,
+      "insurerPaidAmount": 1207730000000,
+      "totalCost": 1496640000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 16_75~79세",
+      "patientCount": 264861,
+      "claimCount": 890708,
+      "visitDays": 10742763,
+      "insurerPaidAmount": 1604190000000,
+      "totalCost": 2008000000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 17_80~84세",
+      "patientCount": 221950,
+      "claimCount": 1035499,
+      "visitDays": 14583633,
+      "insurerPaidAmount": 1616560000000,
+      "totalCost": 2059080000000
+    },
+    {
+      "year": 2019,
+      "label": "여 · 18_85세 이상",
+      "patientCount": 196246,
+      "claimCount": 1328075,
+      "visitDays": 21249669,
+      "insurerPaidAmount": 1782470000000,
+      "totalCost": 2319280000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 01_0~4세",
+      "patientCount": 162073,
+      "claimCount": 409580,
+      "visitDays": 1789801,
+      "insurerPaidAmount": 526089000000,
+      "totalCost": 552558000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 02_5~9세",
+      "patientCount": 71145,
+      "claimCount": 121967,
+      "visitDays": 434255,
+      "insurerPaidAmount": 117607000000,
+      "totalCost": 131264000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 03_10~14세",
+      "patientCount": 55276,
+      "claimCount": 85435,
+      "visitDays": 390859,
+      "insurerPaidAmount": 110831000000,
+      "totalCost": 124734000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 04_15~19세",
+      "patientCount": 79691,
+      "claimCount": 118570,
+      "visitDays": 649919,
+      "insurerPaidAmount": 166390000000,
+      "totalCost": 208272000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 05_20~24세",
+      "patientCount": 117334,
+      "claimCount": 172000,
+      "visitDays": 997448,
+      "insurerPaidAmount": 221983000000,
+      "totalCost": 286246000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 06_25~29세",
+      "patientCount": 131723,
+      "claimCount": 196000,
+      "visitDays": 1078349,
+      "insurerPaidAmount": 238534000000,
+      "totalCost": 307190000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 07_30~34세",
+      "patientCount": 126978,
+      "claimCount": 193281,
+      "visitDays": 1054988,
+      "insurerPaidAmount": 240421000000,
+      "totalCost": 308501000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 08_35~39세",
+      "patientCount": 162154,
+      "claimCount": 255907,
+      "visitDays": 1496339,
+      "insurerPaidAmount": 344997000000,
+      "totalCost": 439389000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 09_40~44세",
+      "patientCount": 173460,
+      "claimCount": 290222,
+      "visitDays": 1831780,
+      "insurerPaidAmount": 434417000000,
+      "totalCost": 547294000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 10_45~49세",
+      "patientCount": 207117,
+      "claimCount": 372412,
+      "visitDays": 2538571,
+      "insurerPaidAmount": 631664000000,
+      "totalCost": 783414000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 11_50~54세",
+      "patientCount": 241924,
+      "claimCount": 465789,
+      "visitDays": 3340289,
+      "insurerPaidAmount": 865177000000,
+      "totalCost": 1060070000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 12_55~59세",
+      "patientCount": 288397,
+      "claimCount": 608043,
+      "visitDays": 4671662,
+      "insurerPaidAmount": 1208590000000,
+      "totalCost": 1471630000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 13_60~64세",
+      "patientCount": 308340,
+      "claimCount": 714991,
+      "visitDays": 5804576,
+      "insurerPaidAmount": 1507210000000,
+      "totalCost": 1821790000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 14_65~69세",
+      "patientCount": 248276,
+      "claimCount": 637384,
+      "visitDays": 5531556,
+      "insurerPaidAmount": 1413190000000,
+      "totalCost": 1702260000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 15_70~74세",
+      "patientCount": 213537,
+      "claimCount": 609665,
+      "visitDays": 5743481,
+      "insurerPaidAmount": 1387650000000,
+      "totalCost": 1675460000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 16_75~79세",
+      "patientCount": 183414,
+      "claimCount": 612510,
+      "visitDays": 6424226,
+      "insurerPaidAmount": 1347710000000,
+      "totalCost": 1638130000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 17_80~84세",
+      "patientCount": 129259,
+      "claimCount": 512966,
+      "visitDays": 6078508,
+      "insurerPaidAmount": 1039590000000,
+      "totalCost": 1281550000000
+    },
+    {
+      "year": 2020,
+      "label": "남 · 18_85세 이상",
+      "patientCount": 80755,
+      "claimCount": 405749,
+      "visitDays": 5525174,
+      "insurerPaidAmount": 724267000000,
+      "totalCost": 911533000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 01_0~4세",
+      "patientCount": 138767,
+      "claimCount": 351187,
+      "visitDays": 1560593,
+      "insurerPaidAmount": 433223000000,
+      "totalCost": 454667000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 02_5~9세",
+      "patientCount": 59552,
+      "claimCount": 99178,
+      "visitDays": 374014,
+      "insurerPaidAmount": 100675000000,
+      "totalCost": 112134000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 03_10~14세",
+      "patientCount": 39524,
+      "claimCount": 62794,
+      "visitDays": 303779,
+      "insurerPaidAmount": 86269191630,
+      "totalCost": 96668593690
+    },
+    {
+      "year": 2020,
+      "label": "여 · 04_15~19세",
+      "patientCount": 60141,
+      "claimCount": 91344,
+      "visitDays": 461097,
+      "insurerPaidAmount": 108417000000,
+      "totalCost": 135992000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 05_20~24세",
+      "patientCount": 109782,
+      "claimCount": 158323,
+      "visitDays": 736495,
+      "insurerPaidAmount": 182242000000,
+      "totalCost": 230565000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 06_25~29세",
+      "patientCount": 174053,
+      "claimCount": 243630,
+      "visitDays": 1152654,
+      "insurerPaidAmount": 317879000000,
+      "totalCost": 387884000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 07_30~34세",
+      "patientCount": 239061,
+      "claimCount": 328498,
+      "visitDays": 1612098,
+      "insurerPaidAmount": 485377000000,
+      "totalCost": 574726000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 08_35~39세",
+      "patientCount": 229823,
+      "claimCount": 345137,
+      "visitDays": 1804908,
+      "insurerPaidAmount": 519212000000,
+      "totalCost": 629893000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 09_40~44세",
+      "patientCount": 192958,
+      "claimCount": 328505,
+      "visitDays": 1792677,
+      "insurerPaidAmount": 479911000000,
+      "totalCost": 602330000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 10_45~49세",
+      "patientCount": 237433,
+      "claimCount": 447502,
+      "visitDays": 2581282,
+      "insurerPaidAmount": 658547000000,
+      "totalCost": 825734000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 11_50~54세",
+      "patientCount": 289207,
+      "claimCount": 583718,
+      "visitDays": 3653747,
+      "insurerPaidAmount": 841330000000,
+      "totalCost": 1050690000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 12_55~59세",
+      "patientCount": 325970,
+      "claimCount": 698509,
+      "visitDays": 4838528,
+      "insurerPaidAmount": 1049410000000,
+      "totalCost": 1306520000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 13_60~64세",
+      "patientCount": 337808,
+      "claimCount": 754863,
+      "visitDays": 5691237,
+      "insurerPaidAmount": 1253890000000,
+      "totalCost": 1557070000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 14_65~69세",
+      "patientCount": 269266,
+      "claimCount": 628167,
+      "visitDays": 5286470,
+      "insurerPaidAmount": 1193260000000,
+      "totalCost": 1478920000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 15_70~74세",
+      "patientCount": 229957,
+      "claimCount": 602436,
+      "visitDays": 5882713,
+      "insurerPaidAmount": 1246440000000,
+      "totalCost": 1544580000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 16_75~79세",
+      "patientCount": 232641,
+      "claimCount": 802828,
+      "visitDays": 9672412,
+      "insurerPaidAmount": 1566180000000,
+      "totalCost": 1957940000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 17_80~84세",
+      "patientCount": 203903,
+      "claimCount": 986826,
+      "visitDays": 13984194,
+      "insurerPaidAmount": 1675220000000,
+      "totalCost": 2126530000000
+    },
+    {
+      "year": 2020,
+      "label": "여 · 18_85세 이상",
+      "patientCount": 193370,
+      "claimCount": 1355202,
+      "visitDays": 21763683,
+      "insurerPaidAmount": 1941760000000,
+      "totalCost": 2521290000000
+    }
+  ]
+}

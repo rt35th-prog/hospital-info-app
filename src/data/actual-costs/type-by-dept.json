@@ -1,0 +1,3008 @@
+{
+  "_meta": {
+    "source": "08dfde9e 종별x진료과목 실제 파일(2024)",
+    "dimensions": [
+      "요양기관종별",
+      "진료과목"
+    ]
+  },
+  "items": [
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 일반의",
+      "patientCount": 233,
+      "claimCount": 312,
+      "visitDays": 312,
+      "insurerPaidAmount": 4938570,
+      "totalCost": 15622610
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 내과",
+      "patientCount": 3595574,
+      "claimCount": 18694873,
+      "visitDays": 22662384,
+      "insurerPaidAmount": 6565043997040,
+      "totalCost": 7954774031660
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 신경과",
+      "patientCount": 757025,
+      "claimCount": 2361906,
+      "visitDays": 2712161,
+      "insurerPaidAmount": 402648751330,
+      "totalCost": 576038439390
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 정신건강의학과",
+      "patientCount": 265412,
+      "claimCount": 1313036,
+      "visitDays": 1439155,
+      "insurerPaidAmount": 117399169160,
+      "totalCost": 184946772500
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 외과",
+      "patientCount": 964967,
+      "claimCount": 3609329,
+      "visitDays": 5002872,
+      "insurerPaidAmount": 2070004510720,
+      "totalCost": 2473845966490
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 정형외과",
+      "patientCount": 562076,
+      "claimCount": 1423478,
+      "visitDays": 1918471,
+      "insurerPaidAmount": 364065610710,
+      "totalCost": 525663805250
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 신경외과",
+      "patientCount": 524062,
+      "claimCount": 1384830,
+      "visitDays": 2119536,
+      "insurerPaidAmount": 880958251510,
+      "totalCost": 1067153952270
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 심장혈관흉부외과",
+      "patientCount": 204140,
+      "claimCount": 653209,
+      "visitDays": 1016576,
+      "insurerPaidAmount": 695387600780,
+      "totalCost": 804510771080
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 성형외과",
+      "patientCount": 103623,
+      "claimCount": 344013,
+      "visitDays": 465222,
+      "insurerPaidAmount": 101966392260,
+      "totalCost": 150461327960
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 마취통증의학과",
+      "patientCount": 82491,
+      "claimCount": 225896,
+      "visitDays": 228583,
+      "insurerPaidAmount": 11350337710,
+      "totalCost": 23424414060
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 산부인과",
+      "patientCount": 488359,
+      "claimCount": 1660481,
+      "visitDays": 2157443,
+      "insurerPaidAmount": 543462013300,
+      "totalCost": 704978913760
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 소아청소년과",
+      "patientCount": 486399,
+      "claimCount": 1927705,
+      "visitDays": 2660380,
+      "insurerPaidAmount": 1111785457220,
+      "totalCost": 1262276125190
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 안과",
+      "patientCount": 775751,
+      "claimCount": 2094448,
+      "visitDays": 2146707,
+      "insurerPaidAmount": 300558889500,
+      "totalCost": 493855091950
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 이비인후과",
+      "patientCount": 490920,
+      "claimCount": 1384850,
+      "visitDays": 1561494,
+      "insurerPaidAmount": 231766561140,
+      "totalCost": 353232899160
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 피부과",
+      "patientCount": 300122,
+      "claimCount": 1114040,
+      "visitDays": 1120425,
+      "insurerPaidAmount": 169412887180,
+      "totalCost": 218416335730
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 비뇨의학과",
+      "patientCount": 542073,
+      "claimCount": 1955170,
+      "visitDays": 2262735,
+      "insurerPaidAmount": 454674656330,
+      "totalCost": 587349129110
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 영상의학과",
+      "patientCount": 47821,
+      "claimCount": 70234,
+      "visitDays": 70186,
+      "insurerPaidAmount": 12731250790,
+      "totalCost": 17925874820
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 방사선종양학과",
+      "patientCount": 121346,
+      "claimCount": 1339397,
+      "visitDays": 1337024,
+      "insurerPaidAmount": 658699355900,
+      "totalCost": 695036953340
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 병리과",
+      "patientCount": 40,
+      "claimCount": 46,
+      "visitDays": 46,
+      "insurerPaidAmount": 7450630,
+      "totalCost": 11180230
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 진단검사의학과",
+      "patientCount": 4394,
+      "claimCount": 6689,
+      "visitDays": 6687,
+      "insurerPaidAmount": 1127897320,
+      "totalCost": 1653704510
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 재활의학과",
+      "patientCount": 172379,
+      "claimCount": 1225981,
+      "visitDays": 1440003,
+      "insurerPaidAmount": 126817808840,
+      "totalCost": 168908477390
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 핵의학과",
+      "patientCount": 19661,
+      "claimCount": 63559,
+      "visitDays": 68800,
+      "insurerPaidAmount": 13735481420,
+      "totalCost": 15774464920
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 가정의학과",
+      "patientCount": 250477,
+      "claimCount": 720646,
+      "visitDays": 757803,
+      "insurerPaidAmount": 37470242630,
+      "totalCost": 69871151180
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 응급의학과",
+      "patientCount": 519385,
+      "claimCount": 666206,
+      "visitDays": 756370,
+      "insurerPaidAmount": 297323326750,
+      "totalCost": 396439876500
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 직업환경의학과",
+      "patientCount": 3174,
+      "claimCount": 5528,
+      "visitDays": 5527,
+      "insurerPaidAmount": 140038790,
+      "totalCost": 405531930
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 예방의학과",
+      "patientCount": 94,
+      "claimCount": 329,
+      "visitDays": 329,
+      "insurerPaidAmount": 7730890,
+      "totalCost": 21480890
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 치과",
+      "patientCount": 4698,
+      "claimCount": 14753,
+      "visitDays": 18614,
+      "insurerPaidAmount": 2023841890,
+      "totalCost": 3018066320
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 구강악안면외과",
+      "patientCount": 67747,
+      "claimCount": 187171,
+      "visitDays": 204375,
+      "insurerPaidAmount": 18373581970,
+      "totalCost": 30675233350
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 치과보철과",
+      "patientCount": 16456,
+      "claimCount": 36135,
+      "visitDays": 35609,
+      "insurerPaidAmount": 1826493500,
+      "totalCost": 3384131580
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 치과교정과",
+      "patientCount": 2636,
+      "claimCount": 3783,
+      "visitDays": 3779,
+      "insurerPaidAmount": 152727520,
+      "totalCost": 365879770
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 소아치과",
+      "patientCount": 5550,
+      "claimCount": 10996,
+      "visitDays": 11049,
+      "insurerPaidAmount": 409265320,
+      "totalCost": 895284290
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 치주과",
+      "patientCount": 26919,
+      "claimCount": 60445,
+      "visitDays": 60206,
+      "insurerPaidAmount": 1348661690,
+      "totalCost": 3843735860
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 치과보존과",
+      "patientCount": 66356,
+      "claimCount": 178309,
+      "visitDays": 185529,
+      "insurerPaidAmount": 11357398520,
+      "totalCost": 20768605180
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 구강내과",
+      "patientCount": 893,
+      "claimCount": 2113,
+      "visitDays": 2112,
+      "insurerPaidAmount": 40853770,
+      "totalCost": 131074860
+    },
+    {
+      "year": 2024,
+      "label": "상급종합병원 · 예방치과",
+      "patientCount": 82,
+      "claimCount": 95,
+      "visitDays": 95,
+      "insurerPaidAmount": 1198450,
+      "totalCost": 4247350
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 일반의",
+      "patientCount": 601,
+      "claimCount": 4370,
+      "visitDays": 4294,
+      "insurerPaidAmount": 776814390,
+      "totalCost": 863404090
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 내과",
+      "patientCount": 6124936,
+      "claimCount": 27859871,
+      "visitDays": 36045230,
+      "insurerPaidAmount": 5914312004650,
+      "totalCost": 7547522096620
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 신경과",
+      "patientCount": 1519000,
+      "claimCount": 4875612,
+      "visitDays": 5811592,
+      "insurerPaidAmount": 602152132170,
+      "totalCost": 880181017610
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 정신건강의학과",
+      "patientCount": 347485,
+      "claimCount": 1887493,
+      "visitDays": 2149213,
+      "insurerPaidAmount": 139638797820,
+      "totalCost": 200871988820
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 외과",
+      "patientCount": 1403592,
+      "claimCount": 4010374,
+      "visitDays": 5982444,
+      "insurerPaidAmount": 1746362214170,
+      "totalCost": 2232912330260
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 정형외과",
+      "patientCount": 2306658,
+      "claimCount": 8002634,
+      "visitDays": 13044116,
+      "insurerPaidAmount": 1804616482980,
+      "totalCost": 2490781039210
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 신경외과",
+      "patientCount": 1245730,
+      "claimCount": 3698374,
+      "visitDays": 6124643,
+      "insurerPaidAmount": 1157257428100,
+      "totalCost": 1480308545690
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 심장혈관흉부외과",
+      "patientCount": 180783,
+      "claimCount": 437536,
+      "visitDays": 810242,
+      "insurerPaidAmount": 359001526570,
+      "totalCost": 423195189830
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 성형외과",
+      "patientCount": 134802,
+      "claimCount": 424292,
+      "visitDays": 559747,
+      "insurerPaidAmount": 75953602810,
+      "totalCost": 106143365520
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 마취통증의학과",
+      "patientCount": 92740,
+      "claimCount": 254355,
+      "visitDays": 274550,
+      "insurerPaidAmount": 17261883280,
+      "totalCost": 28042278130
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 산부인과",
+      "patientCount": 846021,
+      "claimCount": 2711012,
+      "visitDays": 3179123,
+      "insurerPaidAmount": 552833419980,
+      "totalCost": 755670528670
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 소아청소년과",
+      "patientCount": 854716,
+      "claimCount": 3757378,
+      "visitDays": 4686027,
+      "insurerPaidAmount": 556154425950,
+      "totalCost": 675471638280
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 안과",
+      "patientCount": 587537,
+      "claimCount": 1560018,
+      "visitDays": 1577092,
+      "insurerPaidAmount": 179827697940,
+      "totalCost": 275619298520
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 이비인후과",
+      "patientCount": 759324,
+      "claimCount": 1870433,
+      "visitDays": 2074349,
+      "insurerPaidAmount": 180995123090,
+      "totalCost": 268645793560
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 피부과",
+      "patientCount": 355859,
+      "claimCount": 1045480,
+      "visitDays": 1054763,
+      "insurerPaidAmount": 112889621200,
+      "totalCost": 141449480630
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 비뇨의학과",
+      "patientCount": 908423,
+      "claimCount": 3031901,
+      "visitDays": 3423731,
+      "insurerPaidAmount": 409400318090,
+      "totalCost": 567874397760
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 영상의학과",
+      "patientCount": 21423,
+      "claimCount": 32882,
+      "visitDays": 37095,
+      "insurerPaidAmount": 9927613680,
+      "totalCost": 12985237630
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 방사선종양학과",
+      "patientCount": 40903,
+      "claimCount": 466755,
+      "visitDays": 467043,
+      "insurerPaidAmount": 221019077420,
+      "totalCost": 233052507400
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 병리과",
+      "patientCount": 326,
+      "claimCount": 409,
+      "visitDays": 411,
+      "insurerPaidAmount": 57692560,
+      "totalCost": 74216100
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 진단검사의학과",
+      "patientCount": 2891,
+      "claimCount": 5884,
+      "visitDays": 10708,
+      "insurerPaidAmount": 576830060,
+      "totalCost": 830225930
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 결핵과",
+      "patientCount": 1209,
+      "claimCount": 4016,
+      "visitDays": 5940,
+      "insurerPaidAmount": 1034527080,
+      "totalCost": 1161333140
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 재활의학과",
+      "patientCount": 210063,
+      "claimCount": 1645726,
+      "visitDays": 2482207,
+      "insurerPaidAmount": 258337771160,
+      "totalCost": 333943879720
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 핵의학과",
+      "patientCount": 8776,
+      "claimCount": 30230,
+      "visitDays": 34472,
+      "insurerPaidAmount": 5766544590,
+      "totalCost": 6614727790
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 가정의학과",
+      "patientCount": 516908,
+      "claimCount": 1252144,
+      "visitDays": 1415380,
+      "insurerPaidAmount": 104398793040,
+      "totalCost": 142723169900
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 응급의학과",
+      "patientCount": 2765051,
+      "claimCount": 3509492,
+      "visitDays": 3630104,
+      "insurerPaidAmount": 602313179650,
+      "totalCost": 897313222200
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 직업환경의학과",
+      "patientCount": 6853,
+      "claimCount": 11190,
+      "visitDays": 10978,
+      "insurerPaidAmount": 529331970,
+      "totalCost": 882037940
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 예방의학과",
+      "patientCount": 399,
+      "claimCount": 1847,
+      "visitDays": 1847,
+      "insurerPaidAmount": 6746170,
+      "totalCost": 13367970
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 한방",
+      "patientCount": 5,
+      "claimCount": 5,
+      "visitDays": 5,
+      "insurerPaidAmount": 784800,
+      "totalCost": 1552590
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 치과",
+      "patientCount": 8566,
+      "claimCount": 19636,
+      "visitDays": 18710,
+      "insurerPaidAmount": 886633500,
+      "totalCost": 1464383770
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 구강악안면외과",
+      "patientCount": 109898,
+      "claimCount": 287020,
+      "visitDays": 292450,
+      "insurerPaidAmount": 18311154010,
+      "totalCost": 28306037920
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 치과보철과",
+      "patientCount": 18559,
+      "claimCount": 40451,
+      "visitDays": 39902,
+      "insurerPaidAmount": 3496660200,
+      "totalCost": 5304314000
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 치과교정과",
+      "patientCount": 337,
+      "claimCount": 500,
+      "visitDays": 500,
+      "insurerPaidAmount": 11417560,
+      "totalCost": 21926360
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 소아치과",
+      "patientCount": 1533,
+      "claimCount": 3808,
+      "visitDays": 3797,
+      "insurerPaidAmount": 120946490,
+      "totalCost": 196056520
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 치주과",
+      "patientCount": 23288,
+      "claimCount": 44836,
+      "visitDays": 43864,
+      "insurerPaidAmount": 1814444410,
+      "totalCost": 3250566190
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 치과보존과",
+      "patientCount": 168938,
+      "claimCount": 471070,
+      "visitDays": 469147,
+      "insurerPaidAmount": 22972963470,
+      "totalCost": 37736223570
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 구강내과",
+      "patientCount": 1341,
+      "claimCount": 4862,
+      "visitDays": 4864,
+      "insurerPaidAmount": 129576730,
+      "totalCost": 248891870
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 구강병리과",
+      "patientCount": 8,
+      "claimCount": 16,
+      "visitDays": 16,
+      "insurerPaidAmount": 6202410,
+      "totalCost": 8859510
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 예방치과",
+      "patientCount": 619,
+      "claimCount": 1067,
+      "visitDays": 1058,
+      "insurerPaidAmount": 43883630,
+      "totalCost": 67875250
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 통합치의학과",
+      "patientCount": 11762,
+      "claimCount": 29363,
+      "visitDays": 28916,
+      "insurerPaidAmount": 1385506690,
+      "totalCost": 2276942640
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 한방내과",
+      "patientCount": 5051,
+      "claimCount": 19281,
+      "visitDays": 16110,
+      "insurerPaidAmount": 727837090,
+      "totalCost": 1082664250
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 한방부인과",
+      "patientCount": 275,
+      "claimCount": 975,
+      "visitDays": 949,
+      "insurerPaidAmount": 13114250,
+      "totalCost": 27170550
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 한방신경정신과",
+      "patientCount": 113,
+      "claimCount": 373,
+      "visitDays": 399,
+      "insurerPaidAmount": 11190100,
+      "totalCost": 18670680
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 침구과",
+      "patientCount": 5514,
+      "claimCount": 26937,
+      "visitDays": 27168,
+      "insurerPaidAmount": 635127280,
+      "totalCost": 1227733330
+    },
+    {
+      "year": 2024,
+      "label": "종합병원 · 한방재활의학과",
+      "patientCount": 575,
+      "claimCount": 3305,
+      "visitDays": 3576,
+      "insurerPaidAmount": 119137450,
+      "totalCost": 183536930
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 일반의",
+      "patientCount": 4945,
+      "claimCount": 18027,
+      "visitDays": 27103,
+      "insurerPaidAmount": 1999855310,
+      "totalCost": 2382958030
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 내과",
+      "patientCount": 3401815,
+      "claimCount": 11198079,
+      "visitDays": 13691046,
+      "insurerPaidAmount": 957443161440,
+      "totalCost": 1314773533670
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 신경과",
+      "patientCount": 322164,
+      "claimCount": 965173,
+      "visitDays": 1642788,
+      "insurerPaidAmount": 185642317100,
+      "totalCost": 250665364980
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 정신건강의학과",
+      "patientCount": 33144,
+      "claimCount": 181061,
+      "visitDays": 482549,
+      "insurerPaidAmount": 33465321780,
+      "totalCost": 43287077230
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 외과",
+      "patientCount": 961004,
+      "claimCount": 2512512,
+      "visitDays": 3389472,
+      "insurerPaidAmount": 387568771510,
+      "totalCost": 546443048310
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 정형외과",
+      "patientCount": 4347063,
+      "claimCount": 16986655,
+      "visitDays": 23354017,
+      "insurerPaidAmount": 2120583223700,
+      "totalCost": 3019289065360
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 신경외과",
+      "patientCount": 1389639,
+      "claimCount": 4306133,
+      "visitDays": 5914810,
+      "insurerPaidAmount": 523337972000,
+      "totalCost": 756115949200
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 심장혈관흉부외과",
+      "patientCount": 28738,
+      "claimCount": 96053,
+      "visitDays": 175503,
+      "insurerPaidAmount": 13514239270,
+      "totalCost": 17472081950
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 성형외과",
+      "patientCount": 99757,
+      "claimCount": 345141,
+      "visitDays": 431958,
+      "insurerPaidAmount": 35003457970,
+      "totalCost": 49406726620
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 마취통증의학과",
+      "patientCount": 203164,
+      "claimCount": 547237,
+      "visitDays": 651885,
+      "insurerPaidAmount": 40097960140,
+      "totalCost": 59692813010
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 산부인과",
+      "patientCount": 1564085,
+      "claimCount": 5936070,
+      "visitDays": 6750066,
+      "insurerPaidAmount": 898993274400,
+      "totalCost": 1160601159020
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 소아청소년과",
+      "patientCount": 1795991,
+      "claimCount": 12642416,
+      "visitDays": 14743365,
+      "insurerPaidAmount": 673058681030,
+      "totalCost": 819958060920
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 안과",
+      "patientCount": 905630,
+      "claimCount": 2213042,
+      "visitDays": 2240803,
+      "insurerPaidAmount": 253367963680,
+      "totalCost": 358688044360
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 이비인후과",
+      "patientCount": 388072,
+      "claimCount": 1052296,
+      "visitDays": 1161387,
+      "insurerPaidAmount": 60732526490,
+      "totalCost": 88890069870
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 피부과",
+      "patientCount": 86841,
+      "claimCount": 181777,
+      "visitDays": 186168,
+      "insurerPaidAmount": 4838661170,
+      "totalCost": 7636429550
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 비뇨의학과",
+      "patientCount": 82652,
+      "claimCount": 230867,
+      "visitDays": 267773,
+      "insurerPaidAmount": 26774032920,
+      "totalCost": 36978822480
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 영상의학과",
+      "patientCount": 62287,
+      "claimCount": 94816,
+      "visitDays": 117929,
+      "insurerPaidAmount": 22482375640,
+      "totalCost": 29531789690
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 방사선종양학과",
+      "patientCount": 2410,
+      "claimCount": 16386,
+      "visitDays": 61158,
+      "insurerPaidAmount": 7475062370,
+      "totalCost": 8376464130
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 병리과",
+      "patientCount": 680,
+      "claimCount": 749,
+      "visitDays": 747,
+      "insurerPaidAmount": 39641280,
+      "totalCost": 64578660
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 진단검사의학과",
+      "patientCount": 80,
+      "claimCount": 189,
+      "visitDays": 2439,
+      "insurerPaidAmount": 458636170,
+      "totalCost": 535122500
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 결핵과",
+      "patientCount": 22,
+      "claimCount": 38,
+      "visitDays": 38,
+      "insurerPaidAmount": 1755080,
+      "totalCost": 2746460
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 재활의학과",
+      "patientCount": 256219,
+      "claimCount": 1817354,
+      "visitDays": 6605205,
+      "insurerPaidAmount": 1119514163400,
+      "totalCost": 1422604338180
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 핵의학과",
+      "patientCount": 12618,
+      "claimCount": 24726,
+      "visitDays": 31164,
+      "insurerPaidAmount": 3506825270,
+      "totalCost": 4077949520
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 가정의학과",
+      "patientCount": 569068,
+      "claimCount": 1444528,
+      "visitDays": 2022679,
+      "insurerPaidAmount": 131353600380,
+      "totalCost": 176379544820
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 응급의학과",
+      "patientCount": 592777,
+      "claimCount": 867256,
+      "visitDays": 931221,
+      "insurerPaidAmount": 53664483810,
+      "totalCost": 80979160410
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 직업환경의학과",
+      "patientCount": 12227,
+      "claimCount": 32046,
+      "visitDays": 33206,
+      "insurerPaidAmount": 1697807160,
+      "totalCost": 2303758770
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 예방의학과",
+      "patientCount": 2405,
+      "claimCount": 5470,
+      "visitDays": 5682,
+      "insurerPaidAmount": 122324700,
+      "totalCost": 189081060
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 치과",
+      "patientCount": 176,
+      "claimCount": 2338,
+      "visitDays": 2723,
+      "insurerPaidAmount": 423057530,
+      "totalCost": 472987020
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 보건기관치과",
+      "patientCount": 1,
+      "claimCount": 2,
+      "visitDays": 2,
+      "insurerPaidAmount": 34930,
+      "totalCost": 58030
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 치과",
+      "patientCount": 24241,
+      "claimCount": 39040,
+      "visitDays": 38721,
+      "insurerPaidAmount": 1399305980,
+      "totalCost": 2082838120
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 구강악안면외과",
+      "patientCount": 15709,
+      "claimCount": 31313,
+      "visitDays": 31093,
+      "insurerPaidAmount": 1290541600,
+      "totalCost": 1973665750
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 치과보철과",
+      "patientCount": 1261,
+      "claimCount": 3044,
+      "visitDays": 2768,
+      "insurerPaidAmount": 598821140,
+      "totalCost": 852570390
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 치과교정과",
+      "patientCount": 12,
+      "claimCount": 13,
+      "visitDays": 13,
+      "insurerPaidAmount": 950350,
+      "totalCost": 1409250
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 소아치과",
+      "patientCount": 3290,
+      "claimCount": 4579,
+      "visitDays": 4560,
+      "insurerPaidAmount": 267643120,
+      "totalCost": 357993450
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 치주과",
+      "patientCount": 21210,
+      "claimCount": 27805,
+      "visitDays": 27621,
+      "insurerPaidAmount": 927497090,
+      "totalCost": 1476153080
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 치과보존과",
+      "patientCount": 19054,
+      "claimCount": 33714,
+      "visitDays": 33555,
+      "insurerPaidAmount": 1285610740,
+      "totalCost": 1927867670
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 구강내과",
+      "patientCount": 309,
+      "claimCount": 650,
+      "visitDays": 720,
+      "insurerPaidAmount": 19161180,
+      "totalCost": 27901400
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 영상치의학과",
+      "patientCount": 23,
+      "claimCount": 23,
+      "visitDays": 23,
+      "insurerPaidAmount": 1296780,
+      "totalCost": 2017080
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 구강병리과",
+      "patientCount": 1,
+      "claimCount": 1,
+      "visitDays": 1,
+      "insurerPaidAmount": 26640,
+      "totalCost": 44340
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 예방치과",
+      "patientCount": 3,
+      "claimCount": 3,
+      "visitDays": 2,
+      "insurerPaidAmount": 431790,
+      "totalCost": 527140
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 통합치의학과",
+      "patientCount": 526,
+      "claimCount": 625,
+      "visitDays": 620,
+      "insurerPaidAmount": 53056070,
+      "totalCost": 62286110
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 한방내과",
+      "patientCount": 23346,
+      "claimCount": 91687,
+      "visitDays": 74266,
+      "insurerPaidAmount": 6739043670,
+      "totalCost": 8854550900
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 한방부인과",
+      "patientCount": 1022,
+      "claimCount": 5276,
+      "visitDays": 3866,
+      "insurerPaidAmount": 296454820,
+      "totalCost": 398497620
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 한방안·이비인후·피부과",
+      "patientCount": 471,
+      "claimCount": 1766,
+      "visitDays": 715,
+      "insurerPaidAmount": 170921490,
+      "totalCost": 212092580
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 한방신경정신과",
+      "patientCount": 88,
+      "claimCount": 234,
+      "visitDays": 159,
+      "insurerPaidAmount": 21395870,
+      "totalCost": 27563510
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 침구과",
+      "patientCount": 10899,
+      "claimCount": 33157,
+      "visitDays": 30994,
+      "insurerPaidAmount": 4483493860,
+      "totalCost": 5839481510
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 한방재활의학과",
+      "patientCount": 2074,
+      "claimCount": 7465,
+      "visitDays": 4235,
+      "insurerPaidAmount": 659272260,
+      "totalCost": 841698140
+    },
+    {
+      "year": 2024,
+      "label": "병원 · 한방응급",
+      "patientCount": 1,
+      "claimCount": 1,
+      "visitDays": 1,
+      "insurerPaidAmount": 10260,
+      "totalCost": 16960
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 일반의",
+      "patientCount": 1461,
+      "claimCount": 9049,
+      "visitDays": 107479,
+      "insurerPaidAmount": 8098507800,
+      "totalCost": 10679902790
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 내과",
+      "patientCount": 170152,
+      "claimCount": 1192414,
+      "visitDays": 11114746,
+      "insurerPaidAmount": 963634511850,
+      "totalCost": 1208692081270
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 신경과",
+      "patientCount": 39088,
+      "claimCount": 231520,
+      "visitDays": 3208149,
+      "insurerPaidAmount": 274421594750,
+      "totalCost": 351032107910
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 정신건강의학과",
+      "patientCount": 11271,
+      "claimCount": 89703,
+      "visitDays": 501667,
+      "insurerPaidAmount": 32798310920,
+      "totalCost": 42840878400
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 외과",
+      "patientCount": 108272,
+      "claimCount": 575268,
+      "visitDays": 7809567,
+      "insurerPaidAmount": 557353641600,
+      "totalCost": 722537750820
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 정형외과",
+      "patientCount": 44110,
+      "claimCount": 217086,
+      "visitDays": 2050777,
+      "insurerPaidAmount": 134060226820,
+      "totalCost": 177310369770
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 신경외과",
+      "patientCount": 37878,
+      "claimCount": 217113,
+      "visitDays": 2342478,
+      "insurerPaidAmount": 175209297880,
+      "totalCost": 227762676970
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 심장혈관흉부외과",
+      "patientCount": 13640,
+      "claimCount": 87586,
+      "visitDays": 803300,
+      "insurerPaidAmount": 60289601000,
+      "totalCost": 77486800040
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 성형외과",
+      "patientCount": 2754,
+      "claimCount": 11643,
+      "visitDays": 170453,
+      "insurerPaidAmount": 11690163730,
+      "totalCost": 15181741830
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 마취통증의학과",
+      "patientCount": 12354,
+      "claimCount": 66467,
+      "visitDays": 838823,
+      "insurerPaidAmount": 57414448840,
+      "totalCost": 75154987930
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 산부인과",
+      "patientCount": 48653,
+      "claimCount": 273357,
+      "visitDays": 3250192,
+      "insurerPaidAmount": 217480805960,
+      "totalCost": 282810233840
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 소아청소년과",
+      "patientCount": 20078,
+      "claimCount": 110820,
+      "visitDays": 1386792,
+      "insurerPaidAmount": 103467294730,
+      "totalCost": 133454181090
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 안과",
+      "patientCount": 2267,
+      "claimCount": 6589,
+      "visitDays": 97938,
+      "insurerPaidAmount": 6357416730,
+      "totalCost": 8346618360
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 이비인후과",
+      "patientCount": 10673,
+      "claimCount": 51630,
+      "visitDays": 441537,
+      "insurerPaidAmount": 27870202510,
+      "totalCost": 36718380800
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 피부과",
+      "patientCount": 1582,
+      "claimCount": 4385,
+      "visitDays": 54125,
+      "insurerPaidAmount": 3575270170,
+      "totalCost": 4730039490
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 비뇨의학과",
+      "patientCount": 8071,
+      "claimCount": 35337,
+      "visitDays": 581682,
+      "insurerPaidAmount": 38563935630,
+      "totalCost": 50845385160
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 영상의학과",
+      "patientCount": 923,
+      "claimCount": 6832,
+      "visitDays": 69044,
+      "insurerPaidAmount": 4617695620,
+      "totalCost": 5861596940
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 방사선종양학과",
+      "patientCount": 1150,
+      "claimCount": 5252,
+      "visitDays": 46220,
+      "insurerPaidAmount": 3727431420,
+      "totalCost": 4639421670
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 병리과",
+      "patientCount": 305,
+      "claimCount": 1661,
+      "visitDays": 31712,
+      "insurerPaidAmount": 2086486250,
+      "totalCost": 2780177940
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 진단검사의학과",
+      "patientCount": 430,
+      "claimCount": 2512,
+      "visitDays": 37173,
+      "insurerPaidAmount": 2413771720,
+      "totalCost": 3149974230
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 결핵과",
+      "patientCount": 419,
+      "claimCount": 4714,
+      "visitDays": 32190,
+      "insurerPaidAmount": 2887645390,
+      "totalCost": 3569178300
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 재활의학과",
+      "patientCount": 88191,
+      "claimCount": 708566,
+      "visitDays": 6650875,
+      "insurerPaidAmount": 631254559530,
+      "totalCost": 810326553600
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 핵의학과",
+      "patientCount": 581,
+      "claimCount": 6625,
+      "visitDays": 46217,
+      "insurerPaidAmount": 3143393660,
+      "totalCost": 3895001670
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 가정의학과",
+      "patientCount": 161697,
+      "claimCount": 1032640,
+      "visitDays": 13119342,
+      "insurerPaidAmount": 959022991240,
+      "totalCost": 1240607883090
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 응급의학과",
+      "patientCount": 5226,
+      "claimCount": 32186,
+      "visitDays": 279836,
+      "insurerPaidAmount": 22209115480,
+      "totalCost": 28304152050
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 직업환경의학과",
+      "patientCount": 780,
+      "claimCount": 4312,
+      "visitDays": 78076,
+      "insurerPaidAmount": 5187226680,
+      "totalCost": 6771577260
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 예방의학과",
+      "patientCount": 1056,
+      "claimCount": 4325,
+      "visitDays": 70434,
+      "insurerPaidAmount": 4888848830,
+      "totalCost": 6397576010
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 치과",
+      "patientCount": 538,
+      "claimCount": 2156,
+      "visitDays": 13942,
+      "insurerPaidAmount": 933986410,
+      "totalCost": 1232686940
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 한방",
+      "patientCount": 62,
+      "claimCount": 309,
+      "visitDays": 7279,
+      "insurerPaidAmount": 466248290,
+      "totalCost": 628929210
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 보건",
+      "patientCount": 20,
+      "claimCount": 20,
+      "visitDays": 185,
+      "insurerPaidAmount": 46810610,
+      "totalCost": 50170890
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 치과",
+      "patientCount": 305,
+      "claimCount": 478,
+      "visitDays": 165,
+      "insurerPaidAmount": 104483210,
+      "totalCost": 144014170
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 구강악안면외과",
+      "patientCount": 540,
+      "claimCount": 876,
+      "visitDays": 1443,
+      "insurerPaidAmount": 115441050,
+      "totalCost": 158243680
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 치과보철과",
+      "patientCount": 1745,
+      "claimCount": 2925,
+      "visitDays": 1747,
+      "insurerPaidAmount": 977624550,
+      "totalCost": 1367613970
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 치과교정과",
+      "patientCount": 15,
+      "claimCount": 17,
+      "visitDays": 4,
+      "insurerPaidAmount": 2304290,
+      "totalCost": 3179040
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 소아치과",
+      "patientCount": 720,
+      "claimCount": 1083,
+      "visitDays": 984,
+      "insurerPaidAmount": 78867310,
+      "totalCost": 100864760
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 치주과",
+      "patientCount": 1192,
+      "claimCount": 3350,
+      "visitDays": 1934,
+      "insurerPaidAmount": 131759580,
+      "totalCost": 190472660
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 치과보존과",
+      "patientCount": 1375,
+      "claimCount": 2222,
+      "visitDays": 840,
+      "insurerPaidAmount": 475079250,
+      "totalCost": 661986770
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 구강내과",
+      "patientCount": 16,
+      "claimCount": 24,
+      "visitDays": 0,
+      "insurerPaidAmount": 3365260,
+      "totalCost": 4505150
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 영상치의학과",
+      "patientCount": 1,
+      "claimCount": 1,
+      "visitDays": 0,
+      "insurerPaidAmount": 24240,
+      "totalCost": 30290
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 예방치과",
+      "patientCount": 8,
+      "claimCount": 12,
+      "visitDays": 0,
+      "insurerPaidAmount": 602400,
+      "totalCost": 746980
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 통합치의학과",
+      "patientCount": 171,
+      "claimCount": 264,
+      "visitDays": 176,
+      "insurerPaidAmount": 58947560,
+      "totalCost": 81690030
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 한방내과",
+      "patientCount": 128186,
+      "claimCount": 731046,
+      "visitDays": 103936,
+      "insurerPaidAmount": 105474033570,
+      "totalCost": 129269685860
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 한방부인과",
+      "patientCount": 881,
+      "claimCount": 4082,
+      "visitDays": 154,
+      "insurerPaidAmount": 503740630,
+      "totalCost": 620694130
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 한방소아과",
+      "patientCount": 295,
+      "claimCount": 1526,
+      "visitDays": 235,
+      "insurerPaidAmount": 152997760,
+      "totalCost": 185293090
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 한방안·이비인후·피부과",
+      "patientCount": 45,
+      "claimCount": 252,
+      "visitDays": 2,
+      "insurerPaidAmount": 33327560,
+      "totalCost": 42954000
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 한방신경정신과",
+      "patientCount": 407,
+      "claimCount": 2296,
+      "visitDays": 513,
+      "insurerPaidAmount": 431925000,
+      "totalCost": 526088830
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 침구과",
+      "patientCount": 46152,
+      "claimCount": 244184,
+      "visitDays": 35506,
+      "insurerPaidAmount": 43028256350,
+      "totalCost": 52813522500
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 한방재활의학과",
+      "patientCount": 5392,
+      "claimCount": 27473,
+      "visitDays": 3284,
+      "insurerPaidAmount": 4675957770,
+      "totalCost": 5712229720
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 사상체질과",
+      "patientCount": 426,
+      "claimCount": 1847,
+      "visitDays": 62,
+      "insurerPaidAmount": 274371390,
+      "totalCost": 336943950
+    },
+    {
+      "year": 2024,
+      "label": "요양병원 · 한방응급",
+      "patientCount": 1,
+      "claimCount": 1,
+      "visitDays": 1,
+      "insurerPaidAmount": 61620,
+      "totalCost": 84070
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 일반의",
+      "patientCount": 17,
+      "claimCount": 27,
+      "visitDays": 35,
+      "insurerPaidAmount": 2446180,
+      "totalCost": 3284620
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 내과",
+      "patientCount": 17109,
+      "claimCount": 65908,
+      "visitDays": 117753,
+      "insurerPaidAmount": 7343371110,
+      "totalCost": 9637144250
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 신경과",
+      "patientCount": 830,
+      "claimCount": 3715,
+      "visitDays": 6300,
+      "insurerPaidAmount": 381121610,
+      "totalCost": 501385400
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 정신건강의학과",
+      "patientCount": 263012,
+      "claimCount": 1803333,
+      "visitDays": 7417611,
+      "insurerPaidAmount": 566992804000,
+      "totalCost": 728032273620
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 외과",
+      "patientCount": 2009,
+      "claimCount": 7311,
+      "visitDays": 8797,
+      "insurerPaidAmount": 301106400,
+      "totalCost": 451954450
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 정형외과",
+      "patientCount": 2007,
+      "claimCount": 8609,
+      "visitDays": 8880,
+      "insurerPaidAmount": 248762090,
+      "totalCost": 376183210
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 신경외과",
+      "patientCount": 12,
+      "claimCount": 29,
+      "visitDays": 19,
+      "insurerPaidAmount": 3652690,
+      "totalCost": 4590990
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 심장혈관흉부외과",
+      "patientCount": 74,
+      "claimCount": 153,
+      "visitDays": 743,
+      "insurerPaidAmount": 61366310,
+      "totalCost": 84196010
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 성형외과",
+      "patientCount": 1,
+      "claimCount": 1,
+      "visitDays": 0,
+      "insurerPaidAmount": 18140,
+      "totalCost": 21090
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 마취통증의학과",
+      "patientCount": 23,
+      "claimCount": 47,
+      "visitDays": 44,
+      "insurerPaidAmount": 5750490,
+      "totalCost": 7435520
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 산부인과",
+      "patientCount": 80,
+      "claimCount": 213,
+      "visitDays": 453,
+      "insurerPaidAmount": 32897140,
+      "totalCost": 42471590
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 소아청소년과",
+      "patientCount": 412,
+      "claimCount": 1005,
+      "visitDays": 1005,
+      "insurerPaidAmount": 23520510,
+      "totalCost": 35274330
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 안과",
+      "patientCount": 14,
+      "claimCount": 24,
+      "visitDays": 0,
+      "insurerPaidAmount": 2863460,
+      "totalCost": 3588100
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 이비인후과",
+      "patientCount": 7,
+      "claimCount": 9,
+      "visitDays": 6,
+      "insurerPaidAmount": 288390,
+      "totalCost": 404860
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 피부과",
+      "patientCount": 26,
+      "claimCount": 35,
+      "visitDays": 73,
+      "insurerPaidAmount": 7587230,
+      "totalCost": 9986810
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 비뇨의학과",
+      "patientCount": 204,
+      "claimCount": 541,
+      "visitDays": 426,
+      "insurerPaidAmount": 22517760,
+      "totalCost": 30804940
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 영상의학과",
+      "patientCount": 42,
+      "claimCount": 42,
+      "visitDays": 41,
+      "insurerPaidAmount": 383150,
+      "totalCost": 629990
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 결핵과",
+      "patientCount": 22,
+      "claimCount": 73,
+      "visitDays": 275,
+      "insurerPaidAmount": 3645340,
+      "totalCost": 4771070
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 재활의학과",
+      "patientCount": 367,
+      "claimCount": 1584,
+      "visitDays": 7577,
+      "insurerPaidAmount": 844897760,
+      "totalCost": 1077873650
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 가정의학과",
+      "patientCount": 10279,
+      "claimCount": 37465,
+      "visitDays": 80042,
+      "insurerPaidAmount": 3968633700,
+      "totalCost": 5332566470
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 응급의학과",
+      "patientCount": 148,
+      "claimCount": 887,
+      "visitDays": 327,
+      "insurerPaidAmount": 67766720,
+      "totalCost": 85747170
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 예방의학과",
+      "patientCount": 395,
+      "claimCount": 2092,
+      "visitDays": 2016,
+      "insurerPaidAmount": 53992140,
+      "totalCost": 73921290
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 치과",
+      "patientCount": 1,
+      "claimCount": 1,
+      "visitDays": 0,
+      "insurerPaidAmount": 14960,
+      "totalCost": 18700
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 구강악안면외과",
+      "patientCount": 71,
+      "claimCount": 95,
+      "visitDays": 59,
+      "insurerPaidAmount": 3319140,
+      "totalCost": 4603200
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 치과보철과",
+      "patientCount": 22,
+      "claimCount": 68,
+      "visitDays": 55,
+      "insurerPaidAmount": 21821130,
+      "totalCost": 30764000
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 치주과",
+      "patientCount": 110,
+      "claimCount": 188,
+      "visitDays": 433,
+      "insurerPaidAmount": 7284700,
+      "totalCost": 10318920
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 치과보존과",
+      "patientCount": 281,
+      "claimCount": 489,
+      "visitDays": 392,
+      "insurerPaidAmount": 15325450,
+      "totalCost": 21260740
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 구강내과",
+      "patientCount": 7,
+      "claimCount": 7,
+      "visitDays": 140,
+      "insurerPaidAmount": 6640,
+      "totalCost": 7910
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 통합치의학과",
+      "patientCount": 1,
+      "claimCount": 4,
+      "visitDays": 0,
+      "insurerPaidAmount": 313270,
+      "totalCost": 364250
+    },
+    {
+      "year": 2024,
+      "label": "정신병원 · 침구과",
+      "patientCount": 554,
+      "claimCount": 1565,
+      "visitDays": 172,
+      "insurerPaidAmount": 133854230,
+      "totalCost": 167312830
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 일반의",
+      "patientCount": 20861537,
+      "claimCount": 113990687,
+      "visitDays": 114845470,
+      "insurerPaidAmount": 3330100257610,
+      "totalCost": 4436397310390
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 내과",
+      "patientCount": 22314660,
+      "claimCount": 114951992,
+      "visitDays": 114952393,
+      "insurerPaidAmount": 3723158029800,
+      "totalCost": 4881111310740
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 신경과",
+      "patientCount": 1043582,
+      "claimCount": 4026316,
+      "visitDays": 4038951,
+      "insurerPaidAmount": 173591497390,
+      "totalCost": 237561413400
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 정신건강의학과",
+      "patientCount": 2229244,
+      "claimCount": 18273581,
+      "visitDays": 18424556,
+      "insurerPaidAmount": 1031813630320,
+      "totalCost": 1328722977480
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 외과",
+      "patientCount": 3112125,
+      "claimCount": 11413823,
+      "visitDays": 11654713,
+      "insurerPaidAmount": 645380178010,
+      "totalCost": 869408237980
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 정형외과",
+      "patientCount": 12821776,
+      "claimCount": 63427770,
+      "visitDays": 64716061,
+      "insurerPaidAmount": 2296208308620,
+      "totalCost": 3209382334120
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 신경외과",
+      "patientCount": 2196157,
+      "claimCount": 10718410,
+      "visitDays": 10873490,
+      "insurerPaidAmount": 448395642670,
+      "totalCost": 624844858720
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 심장혈관흉부외과",
+      "patientCount": 124306,
+      "claimCount": 420261,
+      "visitDays": 431766,
+      "insurerPaidAmount": 36098377980,
+      "totalCost": 43509725190
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 성형외과",
+      "patientCount": 227803,
+      "claimCount": 761013,
+      "visitDays": 773480,
+      "insurerPaidAmount": 40993039420,
+      "totalCost": 56419430340
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 마취통증의학과",
+      "patientCount": 3330680,
+      "claimCount": 16370513,
+      "visitDays": 16419357,
+      "insurerPaidAmount": 860884796720,
+      "totalCost": 1213231575550
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 산부인과",
+      "patientCount": 3975565,
+      "claimCount": 13152962,
+      "visitDays": 13705553,
+      "insurerPaidAmount": 1059757951110,
+      "totalCost": 1379546442550
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 소아청소년과",
+      "patientCount": 6778650,
+      "claimCount": 53296375,
+      "visitDays": 53533143,
+      "insurerPaidAmount": 852045472740,
+      "totalCost": 1099408486990
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 안과",
+      "patientCount": 13483642,
+      "claimCount": 34192553,
+      "visitDays": 34188697,
+      "insurerPaidAmount": 1903969021110,
+      "totalCost": 2555835833730
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 이비인후과",
+      "patientCount": 19714598,
+      "claimCount": 73877436,
+      "visitDays": 73962023,
+      "insurerPaidAmount": 1571029054160,
+      "totalCost": 2166013661240
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 피부과",
+      "patientCount": 7384980,
+      "claimCount": 20795302,
+      "visitDays": 20793703,
+      "insurerPaidAmount": 455635117430,
+      "totalCost": 631476003220
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 비뇨의학과",
+      "patientCount": 3837925,
+      "claimCount": 12528032,
+      "visitDays": 12530365,
+      "insurerPaidAmount": 562058240780,
+      "totalCost": 777084138370
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 영상의학과",
+      "patientCount": 756956,
+      "claimCount": 1095245,
+      "visitDays": 1095405,
+      "insurerPaidAmount": 116982217930,
+      "totalCost": 163690832740
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 병리과",
+      "patientCount": 14,
+      "claimCount": 42,
+      "visitDays": 42,
+      "insurerPaidAmount": 1444180,
+      "totalCost": 1972780
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 진단검사의학과",
+      "patientCount": 1471,
+      "claimCount": 15524,
+      "visitDays": 15524,
+      "insurerPaidAmount": 288426930,
+      "totalCost": 355332130
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 결핵과",
+      "patientCount": 1810,
+      "claimCount": 10323,
+      "visitDays": 10323,
+      "insurerPaidAmount": 135855880,
+      "totalCost": 171431630
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 재활의학과",
+      "patientCount": 1558426,
+      "claimCount": 8723114,
+      "visitDays": 8824498,
+      "insurerPaidAmount": 393904379470,
+      "totalCost": 538004878000
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 핵의학과",
+      "patientCount": 1008,
+      "claimCount": 2611,
+      "visitDays": 2664,
+      "insurerPaidAmount": 282473230,
+      "totalCost": 317287230
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 가정의학과",
+      "patientCount": 3068981,
+      "claimCount": 14227597,
+      "visitDays": 14231393,
+      "insurerPaidAmount": 235678848380,
+      "totalCost": 309684692710
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 직업환경의학과",
+      "patientCount": 3687,
+      "claimCount": 11592,
+      "visitDays": 11592,
+      "insurerPaidAmount": 174830110,
+      "totalCost": 237397210
+    },
+    {
+      "year": 2024,
+      "label": "의원 · 예방의학과",
+      "patientCount": 316,
+      "claimCount": 1331,
+      "visitDays": 1038,
+      "insurerPaidAmount": 88150080,
+      "totalCost": 114345780
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 일반의",
+      "patientCount": 206,
+      "claimCount": 214,
+      "visitDays": 214,
+      "insurerPaidAmount": 5057060,
+      "totalCost": 8399260
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 내과",
+      "patientCount": 4232,
+      "claimCount": 7787,
+      "visitDays": 7788,
+      "insurerPaidAmount": 292023750,
+      "totalCost": 438449600
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 신경과",
+      "patientCount": 45,
+      "claimCount": 54,
+      "visitDays": 54,
+      "insurerPaidAmount": 533400,
+      "totalCost": 878100
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 정신건강의학과",
+      "patientCount": 7,
+      "claimCount": 8,
+      "visitDays": 8,
+      "insurerPaidAmount": 74810,
+      "totalCost": 123910
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 외과",
+      "patientCount": 99,
+      "claimCount": 119,
+      "visitDays": 119,
+      "insurerPaidAmount": 1213720,
+      "totalCost": 1998520
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 정형외과",
+      "patientCount": 103,
+      "claimCount": 134,
+      "visitDays": 134,
+      "insurerPaidAmount": 4071480,
+      "totalCost": 5281280
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 심장혈관흉부외과",
+      "patientCount": 6,
+      "claimCount": 6,
+      "visitDays": 6,
+      "insurerPaidAmount": 154380,
+      "totalCost": 256980
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 마취통증의학과",
+      "patientCount": 1219,
+      "claimCount": 1548,
+      "visitDays": 1545,
+      "insurerPaidAmount": 471110550,
+      "totalCost": 693541590
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 산부인과",
+      "patientCount": 102,
+      "claimCount": 110,
+      "visitDays": 110,
+      "insurerPaidAmount": 6510940,
+      "totalCost": 10951540
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 소아청소년과",
+      "patientCount": 29,
+      "claimCount": 36,
+      "visitDays": 36,
+      "insurerPaidAmount": 1879490,
+      "totalCost": 2341590
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 안과",
+      "patientCount": 28,
+      "claimCount": 38,
+      "visitDays": 38,
+      "insurerPaidAmount": 374190,
+      "totalCost": 619390
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 이비인후과",
+      "patientCount": 669,
+      "claimCount": 942,
+      "visitDays": 942,
+      "insurerPaidAmount": 9939320,
+      "totalCost": 16433420
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 피부과",
+      "patientCount": 595,
+      "claimCount": 812,
+      "visitDays": 812,
+      "insurerPaidAmount": 10154530,
+      "totalCost": 16745930
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 비뇨의학과",
+      "patientCount": 19,
+      "claimCount": 30,
+      "visitDays": 30,
+      "insurerPaidAmount": 459930,
+      "totalCost": 757030
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 가정의학과",
+      "patientCount": 1984,
+      "claimCount": 3207,
+      "visitDays": 3207,
+      "insurerPaidAmount": 89332330,
+      "totalCost": 147896410
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 응급의학과",
+      "patientCount": 4,
+      "claimCount": 4,
+      "visitDays": 25,
+      "insurerPaidAmount": 4263080,
+      "totalCost": 5609130
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 치과",
+      "patientCount": 7,
+      "claimCount": 10,
+      "visitDays": 10,
+      "insurerPaidAmount": 258190,
+      "totalCost": 429690
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 치과",
+      "patientCount": 459905,
+      "claimCount": 720865,
+      "visitDays": 716685,
+      "insurerPaidAmount": 25666004650,
+      "totalCost": 41738790170
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 구강악안면외과",
+      "patientCount": 442677,
+      "claimCount": 873023,
+      "visitDays": 879663,
+      "insurerPaidAmount": 53203464030,
+      "totalCost": 81882761170
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 치과보철과",
+      "patientCount": 131366,
+      "claimCount": 249759,
+      "visitDays": 233181,
+      "insurerPaidAmount": 43349217810,
+      "totalCost": 62614281370
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 치과교정과",
+      "patientCount": 16955,
+      "claimCount": 26674,
+      "visitDays": 26670,
+      "insurerPaidAmount": 1659712540,
+      "totalCost": 2658251940
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 소아치과",
+      "patientCount": 110690,
+      "claimCount": 231887,
+      "visitDays": 232058,
+      "insurerPaidAmount": 11859486750,
+      "totalCost": 17510835100
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 치주과",
+      "patientCount": 572670,
+      "claimCount": 1048188,
+      "visitDays": 1038765,
+      "insurerPaidAmount": 40629882010,
+      "totalCost": 66858570730
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 치과보존과",
+      "patientCount": 572091,
+      "claimCount": 1210024,
+      "visitDays": 1203984,
+      "insurerPaidAmount": 46709224300,
+      "totalCost": 75355937350
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 구강내과",
+      "patientCount": 84239,
+      "claimCount": 232711,
+      "visitDays": 232363,
+      "insurerPaidAmount": 9266620750,
+      "totalCost": 15087373650
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 영상치의학과",
+      "patientCount": 11005,
+      "claimCount": 15502,
+      "visitDays": 15475,
+      "insurerPaidAmount": 565307720,
+      "totalCost": 929734220
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 구강병리과",
+      "patientCount": 13,
+      "claimCount": 13,
+      "visitDays": 13,
+      "insurerPaidAmount": 823010,
+      "totalCost": 1321610
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 예방치과",
+      "patientCount": 7476,
+      "claimCount": 8231,
+      "visitDays": 8208,
+      "insurerPaidAmount": 537510630,
+      "totalCost": 800403890
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 치과소계",
+      "patientCount": 17,
+      "claimCount": 17,
+      "visitDays": 17,
+      "insurerPaidAmount": 1201430,
+      "totalCost": 2001130
+    },
+    {
+      "year": 2024,
+      "label": "치과병원 · 통합치의학과",
+      "patientCount": 24001,
+      "claimCount": 51114,
+      "visitDays": 50479,
+      "insurerPaidAmount": 3456657160,
+      "totalCost": 5256703850
+    },
+    {
+      "year": 2024,
+      "label": "치과의원 · 치과",
+      "patientCount": 23945016,
+      "claimCount": 80282925,
+      "visitDays": 79461380,
+      "insurerPaidAmount": 4126814630080,
+      "totalCost": 5820684123200
+    },
+    {
+      "year": 2024,
+      "label": "보건소 · 일반의",
+      "patientCount": 450420,
+      "claimCount": 1981906,
+      "visitDays": 1981906,
+      "insurerPaidAmount": 9825603200,
+      "totalCost": 11640763400
+    },
+    {
+      "year": 2024,
+      "label": "보건지소 · 일반의",
+      "patientCount": 302244,
+      "claimCount": 1369819,
+      "visitDays": 1369819,
+      "insurerPaidAmount": 37657848800,
+      "totalCost": 52379670100
+    },
+    {
+      "year": 2024,
+      "label": "보건진료소 · 일반의",
+      "patientCount": 396503,
+      "claimCount": 2490015,
+      "visitDays": 2490015,
+      "insurerPaidAmount": 37090629750,
+      "totalCost": 46693783250
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 내과",
+      "patientCount": 54400,
+      "claimCount": 169065,
+      "visitDays": 173708,
+      "insurerPaidAmount": 4651179840,
+      "totalCost": 6185692340
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 정신건강의학과",
+      "patientCount": 4763,
+      "claimCount": 20971,
+      "visitDays": 20971,
+      "insurerPaidAmount": 594578090,
+      "totalCost": 750163090
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 외과",
+      "patientCount": 8354,
+      "claimCount": 18417,
+      "visitDays": 20623,
+      "insurerPaidAmount": 571472380,
+      "totalCost": 760078400
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 정형외과",
+      "patientCount": 13228,
+      "claimCount": 35825,
+      "visitDays": 36067,
+      "insurerPaidAmount": 973719920,
+      "totalCost": 1329267090
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 신경외과",
+      "patientCount": 651,
+      "claimCount": 760,
+      "visitDays": 760,
+      "insurerPaidAmount": 11136460,
+      "totalCost": 13965360
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 심장혈관흉부외과",
+      "patientCount": 28,
+      "claimCount": 28,
+      "visitDays": 28,
+      "insurerPaidAmount": 1090760,
+      "totalCost": 1537710
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 성형외과",
+      "patientCount": 1302,
+      "claimCount": 2022,
+      "visitDays": 2021,
+      "insurerPaidAmount": 62217710,
+      "totalCost": 85020690
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 마취통증의학과",
+      "patientCount": 3085,
+      "claimCount": 8996,
+      "visitDays": 8996,
+      "insurerPaidAmount": 376397190,
+      "totalCost": 528034830
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 산부인과",
+      "patientCount": 5168,
+      "claimCount": 9612,
+      "visitDays": 9611,
+      "insurerPaidAmount": 322661310,
+      "totalCost": 435392480
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 소아청소년과",
+      "patientCount": 16838,
+      "claimCount": 49056,
+      "visitDays": 49513,
+      "insurerPaidAmount": 763804050,
+      "totalCost": 986340230
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 안과",
+      "patientCount": 4641,
+      "claimCount": 8119,
+      "visitDays": 8119,
+      "insurerPaidAmount": 179479140,
+      "totalCost": 246560100
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 이비인후과",
+      "patientCount": 1330,
+      "claimCount": 1692,
+      "visitDays": 1692,
+      "insurerPaidAmount": 41618270,
+      "totalCost": 58436670
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 피부과",
+      "patientCount": 3882,
+      "claimCount": 5844,
+      "visitDays": 5857,
+      "insurerPaidAmount": 98275770,
+      "totalCost": 128005250
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 비뇨의학과",
+      "patientCount": 2382,
+      "claimCount": 4419,
+      "visitDays": 4419,
+      "insurerPaidAmount": 96340570,
+      "totalCost": 126157660
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 영상의학과",
+      "patientCount": 2382,
+      "claimCount": 2888,
+      "visitDays": 2888,
+      "insurerPaidAmount": 249729290,
+      "totalCost": 354623310
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 진단검사의학과",
+      "patientCount": 154,
+      "claimCount": 173,
+      "visitDays": 173,
+      "insurerPaidAmount": 3693090,
+      "totalCost": 4889990
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 재활의학과",
+      "patientCount": 11713,
+      "claimCount": 32237,
+      "visitDays": 32452,
+      "insurerPaidAmount": 824623720,
+      "totalCost": 1103167060
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 가정의학과",
+      "patientCount": 17381,
+      "claimCount": 49782,
+      "visitDays": 50302,
+      "insurerPaidAmount": 964811210,
+      "totalCost": 1241951250
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 응급의학과",
+      "patientCount": 43061,
+      "claimCount": 60161,
+      "visitDays": 60140,
+      "insurerPaidAmount": 2503922380,
+      "totalCost": 3470449970
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 직업환경의학과",
+      "patientCount": 3611,
+      "claimCount": 6596,
+      "visitDays": 6596,
+      "insurerPaidAmount": 342939130,
+      "totalCost": 477566920
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 치과",
+      "patientCount": 223,
+      "claimCount": 256,
+      "visitDays": 256,
+      "insurerPaidAmount": 5822890,
+      "totalCost": 7968690
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 구강악안면외과",
+      "patientCount": 113,
+      "claimCount": 128,
+      "visitDays": 128,
+      "insurerPaidAmount": 2575600,
+      "totalCost": 3477100
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 치과보존과",
+      "patientCount": 4170,
+      "claimCount": 5900,
+      "visitDays": 5900,
+      "insurerPaidAmount": 143568210,
+      "totalCost": 197597810
+    },
+    {
+      "year": 2024,
+      "label": "보건의료원 · 한방내과",
+      "patientCount": 5122,
+      "claimCount": 28405,
+      "visitDays": 28404,
+      "insurerPaidAmount": 540351450,
+      "totalCost": 702682950
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 일반의",
+      "patientCount": 71,
+      "claimCount": 87,
+      "visitDays": 575,
+      "insurerPaidAmount": 58161170,
+      "totalCost": 64482280
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 내과",
+      "patientCount": 95406,
+      "claimCount": 287396,
+      "visitDays": 318185,
+      "insurerPaidAmount": 21478637770,
+      "totalCost": 26915799340
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 신경과",
+      "patientCount": 3781,
+      "claimCount": 12576,
+      "visitDays": 56975,
+      "insurerPaidAmount": 6074121560,
+      "totalCost": 7821790840
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 정신건강의학과",
+      "patientCount": 359,
+      "claimCount": 2022,
+      "visitDays": 25103,
+      "insurerPaidAmount": 1999312280,
+      "totalCost": 2691235330
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 외과",
+      "patientCount": 63957,
+      "claimCount": 163207,
+      "visitDays": 176766,
+      "insurerPaidAmount": 13256629040,
+      "totalCost": 16785283060
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 정형외과",
+      "patientCount": 77170,
+      "claimCount": 183977,
+      "visitDays": 180766,
+      "insurerPaidAmount": 10144388210,
+      "totalCost": 13588528000
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 신경외과",
+      "patientCount": 10083,
+      "claimCount": 21299,
+      "visitDays": 27234,
+      "insurerPaidAmount": 2673095760,
+      "totalCost": 3420949170
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 심장혈관흉부외과",
+      "patientCount": 2291,
+      "claimCount": 3796,
+      "visitDays": 10030,
+      "insurerPaidAmount": 961772410,
+      "totalCost": 1271967900
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 성형외과",
+      "patientCount": 2205,
+      "claimCount": 6414,
+      "visitDays": 9922,
+      "insurerPaidAmount": 846083370,
+      "totalCost": 995159680
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 마취통증의학과",
+      "patientCount": 20420,
+      "claimCount": 47727,
+      "visitDays": 46317,
+      "insurerPaidAmount": 4421325100,
+      "totalCost": 5963736690
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 산부인과",
+      "patientCount": 12306,
+      "claimCount": 30452,
+      "visitDays": 27895,
+      "insurerPaidAmount": 2382651330,
+      "totalCost": 2979685010
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 소아청소년과",
+      "patientCount": 9479,
+      "claimCount": 30326,
+      "visitDays": 26097,
+      "insurerPaidAmount": 795180650,
+      "totalCost": 1068666670
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 안과",
+      "patientCount": 2271,
+      "claimCount": 4405,
+      "visitDays": 4324,
+      "insurerPaidAmount": 212962490,
+      "totalCost": 347033630
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 이비인후과",
+      "patientCount": 2971,
+      "claimCount": 5783,
+      "visitDays": 4662,
+      "insurerPaidAmount": 210064790,
+      "totalCost": 280276750
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 피부과",
+      "patientCount": 1386,
+      "claimCount": 2046,
+      "visitDays": 1745,
+      "insurerPaidAmount": 39010820,
+      "totalCost": 55645100
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 비뇨의학과",
+      "patientCount": 1641,
+      "claimCount": 3942,
+      "visitDays": 4427,
+      "insurerPaidAmount": 285620940,
+      "totalCost": 358988810
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 영상의학과",
+      "patientCount": 7124,
+      "claimCount": 13526,
+      "visitDays": 12307,
+      "insurerPaidAmount": 380636340,
+      "totalCost": 508365290
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 방사선종양학과",
+      "patientCount": 2600,
+      "claimCount": 10053,
+      "visitDays": 18510,
+      "insurerPaidAmount": 1974480790,
+      "totalCost": 2241545400
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 병리과",
+      "patientCount": 253,
+      "claimCount": 781,
+      "visitDays": 2896,
+      "insurerPaidAmount": 344382200,
+      "totalCost": 415349790
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 진단검사의학과",
+      "patientCount": 1,
+      "claimCount": 2,
+      "visitDays": 6,
+      "insurerPaidAmount": 324350,
+      "totalCost": 441360
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 결핵과",
+      "patientCount": 214,
+      "claimCount": 236,
+      "visitDays": 94,
+      "insurerPaidAmount": 7752020,
+      "totalCost": 10632560
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 재활의학과",
+      "patientCount": 22925,
+      "claimCount": 87238,
+      "visitDays": 185226,
+      "insurerPaidAmount": 19582083440,
+      "totalCost": 25245890040
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 핵의학과",
+      "patientCount": 2,
+      "claimCount": 2,
+      "visitDays": 31,
+      "insurerPaidAmount": 3076530,
+      "totalCost": 3423180
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 가정의학과",
+      "patientCount": 151784,
+      "claimCount": 394026,
+      "visitDays": 369475,
+      "insurerPaidAmount": 29268875110,
+      "totalCost": 36791952160
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 응급의학과",
+      "patientCount": 2888,
+      "claimCount": 10171,
+      "visitDays": 20889,
+      "insurerPaidAmount": 1636518810,
+      "totalCost": 2422101210
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 직업환경의학과",
+      "patientCount": 83,
+      "claimCount": 106,
+      "visitDays": 105,
+      "insurerPaidAmount": 1540410,
+      "totalCost": 2426930
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 한방",
+      "patientCount": 1164,
+      "claimCount": 1423,
+      "visitDays": 1420,
+      "insurerPaidAmount": 16593610,
+      "totalCost": 26455870
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 구강악안면외과",
+      "patientCount": 103,
+      "claimCount": 140,
+      "visitDays": 138,
+      "insurerPaidAmount": 3384780,
+      "totalCost": 5602300
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 치과보철과",
+      "patientCount": 9,
+      "claimCount": 14,
+      "visitDays": 9,
+      "insurerPaidAmount": 4499560,
+      "totalCost": 6433440
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 소아치과",
+      "patientCount": 1,
+      "claimCount": 1,
+      "visitDays": 1,
+      "insurerPaidAmount": 15470,
+      "totalCost": 25770
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 치주과",
+      "patientCount": 113,
+      "claimCount": 152,
+      "visitDays": 150,
+      "insurerPaidAmount": 4199950,
+      "totalCost": 6965580
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 치과보존과",
+      "patientCount": 49,
+      "claimCount": 91,
+      "visitDays": 83,
+      "insurerPaidAmount": 4417700,
+      "totalCost": 6798140
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 구강내과",
+      "patientCount": 95,
+      "claimCount": 95,
+      "visitDays": 0,
+      "insurerPaidAmount": 4824750,
+      "totalCost": 6015120
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 한방내과",
+      "patientCount": 199319,
+      "claimCount": 808618,
+      "visitDays": 1716894,
+      "insurerPaidAmount": 125223860820,
+      "totalCost": 169940845940
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 한방부인과",
+      "patientCount": 15456,
+      "claimCount": 61478,
+      "visitDays": 120789,
+      "insurerPaidAmount": 8898320430,
+      "totalCost": 12169694380
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 한방소아과",
+      "patientCount": 19193,
+      "claimCount": 42255,
+      "visitDays": 45656,
+      "insurerPaidAmount": 1516271130,
+      "totalCost": 2307006090
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 한방안·이비인후·피부과",
+      "patientCount": 14466,
+      "claimCount": 74442,
+      "visitDays": 98605,
+      "insurerPaidAmount": 4859705900,
+      "totalCost": 6994431190
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 한방신경정신과",
+      "patientCount": 8545,
+      "claimCount": 40683,
+      "visitDays": 59838,
+      "insurerPaidAmount": 3657529920,
+      "totalCost": 5281613630
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 침구과",
+      "patientCount": 391116,
+      "claimCount": 1416124,
+      "visitDays": 3585079,
+      "insurerPaidAmount": 254704599820,
+      "totalCost": 358074442090
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 한방재활의학과",
+      "patientCount": 170201,
+      "claimCount": 844194,
+      "visitDays": 1373771,
+      "insurerPaidAmount": 91009418690,
+      "totalCost": 133795268230
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 사상체질과",
+      "patientCount": 10400,
+      "claimCount": 37751,
+      "visitDays": 97121,
+      "insurerPaidAmount": 7388382670,
+      "totalCost": 10021151810
+    },
+    {
+      "year": 2024,
+      "label": "한방병원 · 한방응급",
+      "patientCount": 566,
+      "claimCount": 1101,
+      "visitDays": 1109,
+      "insurerPaidAmount": 28532570,
+      "totalCost": 47002790
+    },
+    {
+      "year": 2024,
+      "label": "한의원 · 한방",
+      "patientCount": 10746421,
+      "claimCount": 93486935,
+      "visitDays": 92876611,
+      "insurerPaidAmount": 2372500164030,
+      "totalCost": 3159699501880
+    }
+  ]
+}
