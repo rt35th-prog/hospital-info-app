@@ -21,6 +21,12 @@ function toCatalogItem(item: Record<string, unknown>): NonPaymentCatalogItem {
   return {
     itemCode: pickField(item, ["npayCd"]) ?? "",
     itemName: pickField(item, ["npayKorNm"]) ?? "",
+    midCategory: pickField(item, ["npayMdivCdNm"]) ?? null,
+    subCategory: pickField(item, ["npaySdivCdNm"]) ?? null,
+    detailCategory: pickField(item, ["npayDtlDivCdNm"]) ?? null,
+    description: pickField(item, ["cmmtTxt"]) ?? null,
+    startDate: pickField(item, ["adtFrDd"]) ?? null,
+    endDate: pickField(item, ["adtEndDd"]) ?? null,
   };
 }
 
@@ -32,9 +38,14 @@ function toHospitalSummary(item: Record<string, unknown>): NonPaymentItem {
     sgguName: pickField(item, ["sgguCdNm"]) ?? "",
     itemCode: pickField(item, ["npayCd"]) ?? "",
     itemName: pickField(item, ["npayKorNm"]) ?? "",
+    hospitalItemName: null,
+    midCategory: pickField(item, ["npayMdivCdNm"]) ?? null,
+    subCategory: pickField(item, ["npaySdivCdNm"]) ?? null,
     minPrice: pickNumberField(item, ["minPrc"]),
     maxPrice: pickNumberField(item, ["maxPrc"]),
-    updatedDate: pickField(item, ["adtFrDd"]) ?? null,
+    startDate: pickField(item, ["adtFrDd"]) ?? null,
+    endDate: pickField(item, ["adtEndDd"]) ?? null,
+    url: pickField(item, ["urlAddr"]) ?? null,
   };
 }
 
@@ -47,9 +58,14 @@ function toHospitalDetailItem(item: Record<string, unknown>): NonPaymentItem {
     sgguName: pickField(item, ["sgguCdNm"]) ?? "",
     itemCode: pickField(item, ["npayCd"]) ?? "",
     itemName: pickField(item, ["npayKorNm"]) ?? "",
+    hospitalItemName: pickField(item, ["yadmNpayCdNm"]) ?? null,
+    midCategory: null,
+    subCategory: null,
     minPrice: curAmt,
     maxPrice: curAmt,
-    updatedDate: pickField(item, ["adtFrDd"]) ?? null,
+    startDate: pickField(item, ["adtFrDd"]) ?? null,
+    endDate: pickField(item, ["adtEndDd"]) ?? null,
+    url: pickField(item, ["urlAddr"]) ?? null,
   };
 }
 

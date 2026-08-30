@@ -1,20 +1,43 @@
 // 심평원(HIRA) 공공데이터 API 응답을 앱 내부에서 쓰는 형태로 정규화한 타입 정의.
 
+/** 의사/한의사/치과의사 인원 상세 (일반의/인턴/레지던트/전문의) */
+export interface StaffCount {
+  general: number | null;
+  intern: number | null;
+  resident: number | null;
+  specialist: number | null;
+}
+
 export interface Hospital {
   /** 암호화된 요양기호 (심평원이 발급하는 병원 식별자, 복호화 불가) */
   ykiho: string;
   name: string;
+  /** 종별코드 */
+  clinicTypeCode: string;
   /** 종별 코드명 (상급종합병원/종합병원/병원/의원 등) */
   clinicType: string;
+  sidoCode: string;
   sidoName: string;
+  sgguCode: string;
   sgguName: string;
+  /** 읍면동명 */
+  emdongName: string | null;
+  postCode: string | null;
   address: string;
   tel: string | null;
   homepage: string | null;
   establishedDate: string | null;
   doctorTotalCount: number | null;
+  /** 의과 인원 상세 */
+  medicalStaff: StaffCount;
+  /** 치과 인원 상세 */
+  dentalStaff: StaffCount;
+  /** 한방 인원 상세 */
+  orientalStaff: StaffCount;
   latitude: number | null;
   longitude: number | null;
+  /** 검색 중심좌표로부터의 거리(m). xPos/yPos로 검색했을 때만 값이 있다. */
+  distance: number | null;
 }
 
 export interface HospitalDepartment {
@@ -31,17 +54,38 @@ export interface NonPaymentItem {
   /** 비급여 코드(npayCd) */
   itemCode: string;
   itemName: string;
+  /** 병원이 실제 쓰는 명칭(yadmNpayCdNm). 병원 상세 조회에서만 제공된다. */
+  hospitalItemName: string | null;
+  /** 중분류명 (비교 조회에서만 제공) */
+  midCategory: string | null;
+  /** 소분류명 (비교 조회에서만 제공) */
+  subCategory: string | null;
   /** 최저 비용 (원). 병원 단건 조회(현재금액 1건)면 최고가와 같은 값이 들어간다. */
   minPrice: number | null;
   /** 최고 비용 (원) */
   maxPrice: number | null;
-  updatedDate: string | null;
+  /** 적용개시일 */
+  startDate: string | null;
+  /** 적용종료일 (99991231이면 현재 유효) */
+  endDate: string | null;
+  /** 병원 자체 확인 URL */
+  url: string | null;
 }
 
 /** 비급여항목코드조회(getNonPaymentItemCodeList2) 결과 — 이름으로 항목을 찾을 때 쓴다. */
 export interface NonPaymentCatalogItem {
   itemCode: string;
   itemName: string;
+  /** 중분류명 (예: 상급병실료차액) */
+  midCategory: string | null;
+  /** 소분류명 (예: 1인실) */
+  subCategory: string | null;
+  /** 상세분류명 */
+  detailCategory: string | null;
+  /** 항목 설명 */
+  description: string | null;
+  startDate: string | null;
+  endDate: string | null;
 }
 
 export interface DiseaseCostStat {

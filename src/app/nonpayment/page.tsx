@@ -12,6 +12,17 @@ function formatWon(v: number | null) {
   return `${v.toLocaleString("ko-KR")}원`;
 }
 
+function formatDate(v: string | null) {
+  if (!v || v.length !== 8) return v ?? "-";
+  return `${v.slice(0, 4)}-${v.slice(4, 6)}-${v.slice(6, 8)}`;
+}
+
+function formatPeriod(start: string | null, end: string | null) {
+  const startStr = formatDate(start);
+  if (!end || end === "99991231") return `${startStr} ~`;
+  return `${startStr} ~ ${formatDate(end)}`;
+}
+
 export default function NonPaymentComparePage() {
   const [itemName, setItemName] = useState("");
   const [selectedItem, setSelectedItem] = useState<NonPaymentCatalogItem | null>(null);
@@ -115,7 +126,7 @@ export default function NonPaymentComparePage() {
             className="rounded-md border border-border bg-surface px-3 py-2 w-64"
           />
           {showSuggestions && suggestions.length > 0 && (
-            <ul className="absolute top-full left-0 z-10 mt-1 w-80 max-h-72 overflow-y-auto rounded-md border border-border bg-surface shadow-lg">
+            <ul className="absolute top-full left-0 z-10 mt-1 w-96 max-h-80 overflow-y-auto rounded-md border border-border bg-surface shadow-lg">
               {suggestions.map((s) => (
                 <li key={s.itemCode}>
                   <button
@@ -123,7 +134,8 @@ export default function NonPaymentComparePage() {
                     onMouseDown={() => selectSuggestion(s)}
                     className="block w-full px-3 py-2 text-left text-sm hover:bg-accent/10"
                   >
-                    {s.itemName}
+                    <div>{s.itemName}</div>
+                    {s.description && <div className="mt-0.5 text-xs text-muted line-clamp-2">{s.description}</div>}
                   </button>
                 </li>
               ))}
@@ -161,6 +173,24 @@ export default function NonPaymentComparePage() {
           </select>
         </label>
       </div>
+
+      {selectedItem && (selectedItem.midCategory || selectedItem.description) && (
+        <div className="rounded-md border border-border bg-surface px-4 py-3 text-sm">
+          {selectedItem.midCategory && (
+            <p className="text-muted">
+              분류: {selectedItem.midCategory}
+              {selectedItem.subCategory ? ` > ${selectedItem.subCategory}` : ""}
+              {selectedItem.detailCategory && selectedItem.detailCategory !== selectedItem.subCategory
+                ? ` > ${selectedItem.detailCategory}`
+                : ""}
+            </p>
+          )}
+          {selectedItem.description && <p className="mt-1">{selectedItem.description}</p>}
+          {selectedItem.startDate && (
+            <p className="mt-1 text-xs text-muted">적용기간: {formatPeriod(selectedItem.startDate, selectedItem.endDate)}</p>
+          )}
+        </div>
+      )}
 
       {isMock && <MockBanner />}
       {error && <p className="text-sm text-red-500">{error}</p>}
@@ -204,6 +234,8 @@ export default function NonPaymentComparePage() {
                 <th className="py-2 pr-4">지역</th>
                 <th className="py-2 pr-4 text-right">최저가</th>
                 <th className="py-2 pr-4 text-right">최고가</th>
+                <th className="py-2 pr-4">적용기간</th>
+                <th className="py-2 pr-4">확인</th>
               </tr>
             </thead>
             <tbody>
@@ -215,6 +247,16 @@ export default function NonPaymentComparePage() {
                   </td>
                   <td className="py-2 pr-4 text-right tabular-nums">{formatWon(item.minPrice)}</td>
                   <td className="py-2 pr-4 text-right tabular-nums">{formatWon(item.maxPrice)}</td>
+                  <td className="py-2 pr-4 text-muted">{formatPeriod(item.startDate, item.endDate)}</td>
+                  <td className="py-2 pr-4">
+                    {item.url ? (
+                      <a href={item.url} target="_blank" rel="noreferrer" className="text-accent underline">
+                        링크
+                      </a>
+                    ) : (
+                      "-"
+                    )}
+                  </td>
                 </tr>
               ))}
             </tbody>

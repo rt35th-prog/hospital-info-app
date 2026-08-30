@@ -1,50 +1,79 @@
-import type { DiseaseCostStat, DrugUsageStat, Hospital, NonPaymentItem } from "./types";
+import type { DiseaseCostStat, DrugUsageStat, Hospital, NonPaymentCatalogItem, NonPaymentItem, StaffCount } from "./types";
 
 // 서비스키가 없거나 HIRA_USE_MOCK=true일 때 화면/기능을 바로 확인해 볼 수 있도록 제공하는 샘플 데이터.
 // 실제 값이 아니며, 개발/데모 용도로만 사용한다.
+
+const NO_STAFF: StaffCount = { general: null, intern: null, resident: null, specialist: null };
 
 const MOCK_HOSPITALS: Hospital[] = [
   {
     ykiho: "MOCK0001",
     name: "서울행복종합병원",
+    clinicTypeCode: "11",
     clinicType: "종합병원",
+    sidoCode: "110000",
     sidoName: "서울특별시",
+    sgguCode: "110001",
     sgguName: "강남구",
+    emdongName: "역삼동",
+    postCode: "06134",
     address: "서울특별시 강남구 테헤란로 123",
     tel: "02-1234-5678",
     homepage: "http://example.com",
     establishedDate: "19950301",
     doctorTotalCount: 85,
+    medicalStaff: { general: 5, intern: 15, resident: 30, specialist: 35 },
+    dentalStaff: NO_STAFF,
+    orientalStaff: NO_STAFF,
     latitude: 37.4979,
     longitude: 127.0276,
+    distance: null,
   },
   {
     ykiho: "MOCK0002",
     name: "강남튼튼정형외과의원",
+    clinicTypeCode: "31",
     clinicType: "의원",
+    sidoCode: "110000",
     sidoName: "서울특별시",
+    sgguCode: "110001",
     sgguName: "강남구",
+    emdongName: "역삼동",
+    postCode: "06120",
     address: "서울특별시 강남구 역삼로 45",
     tel: "02-2345-6789",
     homepage: null,
     establishedDate: "20081120",
     doctorTotalCount: 3,
+    medicalStaff: { general: 0, intern: 0, resident: 0, specialist: 3 },
+    dentalStaff: NO_STAFF,
+    orientalStaff: NO_STAFF,
     latitude: 37.5006,
     longitude: 127.0365,
+    distance: null,
   },
   {
     ykiho: "MOCK0003",
     name: "부산제일병원",
+    clinicTypeCode: "21",
     clinicType: "병원",
+    sidoCode: "260000",
     sidoName: "부산광역시",
+    sgguCode: "260001",
     sgguName: "해운대구",
+    emdongName: "우동",
+    postCode: "48058",
     address: "부산광역시 해운대구 센텀중앙로 90",
     tel: "051-345-6789",
     homepage: null,
     establishedDate: "20010615",
     doctorTotalCount: 22,
+    medicalStaff: { general: 2, intern: 0, resident: 0, specialist: 20 },
+    dentalStaff: NO_STAFF,
+    orientalStaff: NO_STAFF,
     latitude: 35.1691,
     longitude: 129.1306,
+    distance: null,
   },
 ];
 
@@ -56,9 +85,14 @@ const MOCK_NONPAYMENT: NonPaymentItem[] = [
     sgguName: "강남구",
     itemCode: "MZ0710001",
     itemName: "물리치료/도수치료",
+    hospitalItemName: "도수치료(신체교정술)",
+    midCategory: "물리치료",
+    subCategory: "도수치료",
     minPrice: 50000,
     maxPrice: 150000,
-    updatedDate: "20260101",
+    startDate: "20260101",
+    endDate: "99991231",
+    url: "http://example.com/nonpayment",
   },
   {
     ykiho: "MOCK0002",
@@ -67,9 +101,14 @@ const MOCK_NONPAYMENT: NonPaymentItem[] = [
     sgguName: "강남구",
     itemCode: "MZ0710001",
     itemName: "물리치료/도수치료",
+    hospitalItemName: "도수치료",
+    midCategory: "물리치료",
+    subCategory: "도수치료",
     minPrice: 40000,
     maxPrice: 120000,
-    updatedDate: "20260101",
+    startDate: "20260101",
+    endDate: "99991231",
+    url: null,
   },
   {
     ykiho: "MOCK0003",
@@ -78,9 +117,14 @@ const MOCK_NONPAYMENT: NonPaymentItem[] = [
     sgguName: "해운대구",
     itemCode: "MZ0710001",
     itemName: "물리치료/도수치료",
+    hospitalItemName: "도수치료",
+    midCategory: "물리치료",
+    subCategory: "도수치료",
     minPrice: 60000,
     maxPrice: 130000,
-    updatedDate: "20260101",
+    startDate: "20260101",
+    endDate: "99991231",
+    url: null,
   },
   {
     ykiho: "MOCK0001",
@@ -89,9 +133,14 @@ const MOCK_NONPAYMENT: NonPaymentItem[] = [
     sgguName: "강남구",
     itemCode: "MZ0720001",
     itemName: "물리치료/체외충격파치료(ESWT)",
+    hospitalItemName: "체외충격파치료",
+    midCategory: "물리치료",
+    subCategory: "체외충격파치료(ESWT)",
     minPrice: 30000,
     maxPrice: 80000,
-    updatedDate: "20260101",
+    startDate: "20260101",
+    endDate: "99991231",
+    url: null,
   },
   {
     ykiho: "MOCK0002",
@@ -100,15 +149,39 @@ const MOCK_NONPAYMENT: NonPaymentItem[] = [
     sgguName: "강남구",
     itemCode: "MZ0720001",
     itemName: "물리치료/체외충격파치료(ESWT)",
+    hospitalItemName: "체외충격파치료(ESWT)",
+    midCategory: "물리치료",
+    subCategory: "체외충격파치료(ESWT)",
     minPrice: 25000,
     maxPrice: 70000,
-    updatedDate: "20260101",
+    startDate: "20260101",
+    endDate: "99991231",
+    url: null,
   },
 ];
 
-const MOCK_NONPAYMENT_CATALOG = Array.from(
-  new Map(MOCK_NONPAYMENT.map((n) => [n.itemCode, { itemCode: n.itemCode, itemName: n.itemName }])).values(),
-);
+const MOCK_NONPAYMENT_CATALOG: NonPaymentCatalogItem[] = [
+  {
+    itemCode: "MZ0710001",
+    itemName: "물리치료/도수치료",
+    midCategory: "물리치료",
+    subCategory: "도수치료",
+    detailCategory: "도수치료",
+    description: "통증 완화를 위해 치료사가 손으로 직접 시행하는 치료입니다.",
+    startDate: "20260101",
+    endDate: "99991231",
+  },
+  {
+    itemCode: "MZ0720001",
+    itemName: "물리치료/체외충격파치료(ESWT)",
+    midCategory: "물리치료",
+    subCategory: "체외충격파치료(ESWT)",
+    detailCategory: "체외충격파치료(ESWT)",
+    description: "충격파를 이용해 힘줄·인대 등의 통증을 완화하는 치료입니다.",
+    startDate: "20260101",
+    endDate: "99991231",
+  },
+];
 
 const MOCK_DISEASE_STATS: DiseaseCostStat[] = [
   { diseaseCode: "J20", diseaseName: "급성 기관지염", visitType: "외래", patientCount: 3200000, totalCost: 210_000_000_000, avgCostPerPatient: 65625, statYear: 2025 },
@@ -148,7 +221,7 @@ export function mockNonPaymentByItem(itemCode: string): NonPaymentItem[] {
   return MOCK_NONPAYMENT.filter((n) => n.itemCode === itemCode);
 }
 
-export function mockNonPaymentCatalog(keyword: string): { itemCode: string; itemName: string }[] {
+export function mockNonPaymentCatalog(keyword: string): NonPaymentCatalogItem[] {
   return MOCK_NONPAYMENT_CATALOG.filter((c) => c.itemName.includes(keyword));
 }
 

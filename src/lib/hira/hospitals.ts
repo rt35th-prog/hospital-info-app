@@ -8,16 +8,40 @@ function toHospital(item: Record<string, unknown>): Hospital {
   return {
     ykiho: pickField(item, ["ykiho"]) ?? "",
     name: pickField(item, ["yadmNm"]) ?? "이름없음",
+    clinicTypeCode: pickField(item, ["clCd"]) ?? "",
     clinicType: pickField(item, ["clCdNm"]) ?? "",
+    sidoCode: pickField(item, ["sidoCd"]) ?? "",
     sidoName: pickField(item, ["sidoCdNm"]) ?? "",
+    sgguCode: pickField(item, ["sgguCd"]) ?? "",
     sgguName: pickField(item, ["sgguCdNm"]) ?? "",
+    emdongName: pickField(item, ["emdongNm"]) ?? null,
+    postCode: pickField(item, ["postNo"]) ?? null,
     address: pickField(item, ["addr"]) ?? "",
     tel: pickField(item, ["telno"]) ?? null,
     homepage: pickField(item, ["hospUrl"]) ?? null,
     establishedDate: pickField(item, ["estbDd"]) ?? null,
     doctorTotalCount: pickNumberField(item, ["drTotCnt"]),
+    medicalStaff: {
+      general: pickNumberField(item, ["mdeptGdrCnt"]),
+      intern: pickNumberField(item, ["mdeptIntnCnt"]),
+      resident: pickNumberField(item, ["mdeptResdntCnt"]),
+      specialist: pickNumberField(item, ["mdeptSdrCnt"]),
+    },
+    dentalStaff: {
+      general: pickNumberField(item, ["detyGdrCnt"]),
+      intern: pickNumberField(item, ["detyIntnCnt"]),
+      resident: pickNumberField(item, ["detyResdntCnt"]),
+      specialist: pickNumberField(item, ["detySdrCnt"]),
+    },
+    orientalStaff: {
+      general: pickNumberField(item, ["cmdcGdrCnt"]),
+      intern: pickNumberField(item, ["cmdcIntnCnt"]),
+      resident: pickNumberField(item, ["cmdcResdntCnt"]),
+      specialist: pickNumberField(item, ["cmdcSdrCnt"]),
+    },
     latitude: pickNumberField(item, ["YPos", "yPos"]),
     longitude: pickNumberField(item, ["XPos", "xPos"]),
+    distance: pickNumberField(item, ["distance"]),
   };
 }
 
