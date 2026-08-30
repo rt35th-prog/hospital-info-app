@@ -1,13 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import MockBanner from "@/components/MockBanner";
 import { DEPARTMENT_LIST } from "@/data/departments";
 import { SIDO_LIST } from "@/data/regions";
 import type { Hospital } from "@/lib/hira/types";
 
 export default function HospitalsPage() {
+  const router = useRouter();
   const [sidoCd, setSidoCd] = useState("");
   const [dgsbjtCd, setDgsbjtCd] = useState("");
   const [name, setName] = useState("");
@@ -17,10 +19,47 @@ export default function HospitalsPage() {
   const [isMock, setIsMock] = useState(false);
   const [searched, setSearched] = useState(false);
 
+  const [suggestions, setSuggestions] = useState<Hospital[]>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
+  // 병원명을 입력하는 동안 일치하는 병원을 목록으로 보여준다(중간어 포함 검색).
+  useEffect(() => {
+    let cancelled = false;
+    const timer = setTimeout(async () => {
+      if (!name.trim()) {
+        setSuggestions([]);
+        return;
+      }
+      try {
+        const params = new URLSearchParams({ yadmNm: name, numOfRows: "8" });
+        if (sidoCd) params.set("sidoCd", sidoCd);
+        if (dgsbjtCd) params.set("dgsbjtCd", dgsbjtCd);
+        const res = await fetch(`/api/hospitals?${params.toString()}`);
+        const data = await res.json();
+        if (cancelled || !res.ok) return;
+        setSuggestions(data.items ?? []);
+        setShowSuggestions(true);
+      } catch {
+        // 자동완성 실패는 조용히 무시한다(검색 버튼으로 여전히 조회 가능).
+      }
+    }, 300);
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+    };
+  }, [name, sidoCd, dgsbjtCd]);
+
+  function selectSuggestion(hospital: Hospital) {
+    setShowSuggestions(false);
+    setName(hospital.name);
+    router.push(`/hospitals/${hospital.ykiho}`);
+  }
+
   async function handleSearch(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
     setError(null);
+    setShowSuggestions(false);
     try {
       const params = new URLSearchParams();
       if (sidoCd) params.set("sidoCd", sidoCd);
@@ -77,14 +116,35 @@ export default function HospitalsPage() {
             ))}
           </select>
         </label>
-        <label className="flex flex-col gap-1 text-sm">
+        <label className="relative flex flex-col gap-1 text-sm">
           병원명
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="예: 서울병원"
-            className="rounded-md border border-border bg-surface px-3 py-2"
+            onFocus={() => suggestions.length > 0 && setShowSuggestions(true)}
+            onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
+            placeholder="예: 서울 (중간 글자로도 검색됩니다)"
+            autoComplete="off"
+            className="rounded-md border border-border bg-surface px-3 py-2 w-56"
           />
+          {showSuggestions && suggestions.length > 0 && (
+            <ul className="absolute top-full left-0 z-10 mt-1 w-72 max-h-72 overflow-y-auto rounded-md border border-border bg-surface shadow-lg">
+              {suggestions.map((h) => (
+                <li key={h.ykiho}>
+                  <button
+                    type="button"
+                    onMouseDown={() => selectSuggestion(h)}
+                    className="block w-full px-3 py-2 text-left hover:bg-accent/10"
+                  >
+                    <div className="font-medium">{h.name}</div>
+                    <div className="text-xs text-muted">
+                      {h.sidoName} {h.sgguName} · {h.clinicType}
+                    </div>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
         </label>
         <button
           type="submit"
