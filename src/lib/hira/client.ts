@@ -27,6 +27,18 @@ export function isMockMode(): boolean {
   return !process.env.HIRA_SERVICE_KEY;
 }
 
+/**
+ * 의약품사용정보조회서비스는 오퍼레이션이 12개나 되고 정확한 엔드포인트/파라미터를
+ * 문서로 확인하지 못한 상태라, 실제 엔드포인트가 확인되기 전까지는 항상 mock으로
+ * 동작시킨다. HIRA_DRUG_USAGE_BASE_URL / HIRA_DRUG_USAGE_OPERATION을 함께
+ * 설정해야만 실제 API를 호출한다(잘못된 추측 엔드포인트로 호출해 혼란스러운
+ * 에러를 내는 것을 방지).
+ */
+export function isDrugUsageMockMode(): boolean {
+  if (isMockMode()) return true;
+  return !process.env.HIRA_DRUG_USAGE_BASE_URL || !process.env.HIRA_DRUG_USAGE_OPERATION;
+}
+
 interface HiraRawResponse {
   response?: {
     header?: { resultCode?: string; resultMsg?: string };
@@ -63,6 +75,22 @@ export async function fetchHiraApi(
   operation: string,
   params: Record<string, string | number | undefined>,
 ): Promise<HiraFetchResult> {
+  return callHiraEndpoint(`${HIRA_BASE_URLS[service]}/${operation}`, params);
+}
+
+/** 미리 등록되지 않은(베이스 URL을 환경변수 등으로 직접 지정하는) 서비스 호출용. */
+export async function fetchHiraApiAtUrl(
+  baseUrl: string,
+  operation: string,
+  params: Record<string, string | number | undefined>,
+): Promise<HiraFetchResult> {
+  return callHiraEndpoint(`${baseUrl}/${operation}`, params);
+}
+
+async function callHiraEndpoint(
+  fullUrl: string,
+  params: Record<string, string | number | undefined>,
+): Promise<HiraFetchResult> {
   const serviceKey = process.env.HIRA_SERVICE_KEY;
   if (!serviceKey) {
     throw new HiraApiError(
@@ -70,7 +98,7 @@ export async function fetchHiraApi(
     );
   }
 
-  const url = new URL(`${HIRA_BASE_URLS[service]}/${operation}`);
+  const url = new URL(fullUrl);
   // data.go.kr에서 발급하는 서비스키는 이미 URL-encoding된 문자를 포함하는 경우가 많다.
   // URLSearchParams.set()은 값을 그대로 재-encoding하므로, 인증키는 직접 쿼리스트링에 붙인다.
   const searchParams = new URLSearchParams();

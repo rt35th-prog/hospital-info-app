@@ -16,6 +16,11 @@ const CARDS = [
     title: "질병별 진료비 통계",
     desc: "질병(상병)별 다빈도 진료비·진료인원 통계를 확인합니다.",
   },
+  {
+    href: "/drug-usage",
+    title: "의약품 사용정보",
+    desc: "약효분류군·성분별 처방/사용량과 사용금액 통계를 확인합니다.",
+  },
 ];
 
 export default function Home() {
@@ -27,7 +32,7 @@ export default function Home() {
           건강보험심사평가원(HIRA)의 공공데이터를 활용해 병원 정보, 비급여 진료비, 질병별 진료비 통계를 조회할 수 있습니다.
         </p>
       </div>
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {CARDS.map((card) => (
           <Link
             key={card.href}

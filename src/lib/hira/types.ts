@@ -56,6 +56,22 @@ export interface DiseaseCostStat {
   statYear: number;
 }
 
+export interface DrugUsageStat {
+  /** 약효분류명 또는 성분명 (조회 기준에 따라 다름) */
+  drugName: string;
+  /** ATC코드 또는 약효분류코드 */
+  drugCode: string;
+  /** 진료년월 (YYYYMM) */
+  yearMonth: string;
+  sidoName: string | null;
+  /** 요양기관 종별명 (제공되는 경우) */
+  clinicType: string | null;
+  /** 사용량(청구건수 또는 처방량, 단위는 API 응답에 따름) */
+  usageCount: number | null;
+  /** 사용금액(원, 제공되는 경우) */
+  usageAmount: number | null;
+}
+
 export interface PagedResult<T> {
   items: T[];
   pageNo: number;

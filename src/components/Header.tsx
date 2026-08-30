@@ -4,6 +4,7 @@ const NAV_ITEMS = [
   { href: "/hospitals", label: "병원 검색" },
   { href: "/nonpayment", label: "비급여 진료비 비교" },
   { href: "/diseases", label: "질병별 진료비 통계" },
+  { href: "/drug-usage", label: "의약품 사용정보" },
 ];
 
 export default function Header() {

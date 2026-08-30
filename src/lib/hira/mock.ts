@@ -1,4 +1,4 @@
-import type { DiseaseCostStat, Hospital, NonPaymentItem } from "./types";
+import type { DiseaseCostStat, DrugUsageStat, Hospital, NonPaymentItem } from "./types";
 
 // 서비스키가 없거나 HIRA_USE_MOCK=true일 때 화면/기능을 바로 확인해 볼 수 있도록 제공하는 샘플 데이터.
 // 실제 값이 아니며, 개발/데모 용도로만 사용한다.
@@ -122,6 +122,14 @@ const MOCK_DISEASE_STATS: DiseaseCostStat[] = [
   { diseaseCode: "O80", diseaseName: "자연분만", visitType: "입원", patientCount: 180000, totalCost: 340_000_000_000, avgCostPerPatient: 1_888_889, statYear: 2025 },
 ];
 
+const MOCK_DRUG_USAGE: DrugUsageStat[] = [
+  { drugName: "고지혈증용제(스타틴계)", drugCode: "C10AA", yearMonth: "202506", sidoName: "서울특별시", clinicType: "의원", usageCount: 182000, usageAmount: 4_100_000_000 },
+  { drugName: "혈압강하제(ARB계)", drugCode: "C09CA", yearMonth: "202506", sidoName: "서울특별시", clinicType: "의원", usageCount: 210000, usageAmount: 5_300_000_000 },
+  { drugName: "당뇨병용제(DPP-4 억제제)", drugCode: "A10BH", yearMonth: "202506", sidoName: "서울특별시", clinicType: "종합병원", usageCount: 95000, usageAmount: 3_800_000_000 },
+  { drugName: "소화성궤양용제(PPI)", drugCode: "A02BC", yearMonth: "202506", sidoName: "부산광역시", clinicType: "의원", usageCount: 130000, usageAmount: 1_900_000_000 },
+  { drugName: "해열진통소염제(NSAID)", drugCode: "M01AE", yearMonth: "202506", sidoName: "부산광역시", clinicType: "의원", usageCount: 260000, usageAmount: 1_200_000_000 },
+];
+
 export function mockSearchHospitals(filter: { sidoCd?: string; name?: string }): Hospital[] {
   return MOCK_HOSPITALS.filter((h) => {
     if (filter.name && !h.name.includes(filter.name)) return false;
@@ -143,4 +151,9 @@ export function mockNonPaymentAll(): NonPaymentItem[] {
 
 export function mockDiseaseStats(): DiseaseCostStat[] {
   return MOCK_DISEASE_STATS;
+}
+
+export function mockDrugUsage(filter: { keyword?: string }): DrugUsageStat[] {
+  if (!filter.keyword) return MOCK_DRUG_USAGE;
+  return MOCK_DRUG_USAGE.filter((d) => d.drugName.includes(filter.keyword!));
 }
