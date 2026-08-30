@@ -25,6 +25,7 @@ export interface HospitalSearchParams {
   sidoCd?: string;
   sgguCd?: string;
   dgsbjtCd?: string;
+  clCd?: string;
   yadmNm?: string;
   pageNo?: number;
   numOfRows?: number;
@@ -40,6 +41,7 @@ export async function searchHospitals(params: HospitalSearchParams): Promise<Pag
     sidoCd: params.sidoCd,
     sgguCd: params.sgguCd,
     dgsbjtCd: params.dgsbjtCd,
+    clCd: params.clCd,
     yadmNm: params.yadmNm,
     pageNo: params.pageNo,
     numOfRows: params.numOfRows,

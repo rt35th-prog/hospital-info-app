@@ -10,6 +10,7 @@ export async function GET(request: NextRequest) {
       sidoCd: sp.get("sidoCd") ?? undefined,
       sgguCd: sp.get("sgguCd") ?? undefined,
       dgsbjtCd: sp.get("dgsbjtCd") ?? undefined,
+      clCd: sp.get("clCd") ?? undefined,
       yadmNm: sp.get("yadmNm") ?? undefined,
       pageNo: sp.get("pageNo") ? Number(sp.get("pageNo")) : undefined,
       numOfRows: sp.get("numOfRows") ? Number(sp.get("numOfRows")) : 20,

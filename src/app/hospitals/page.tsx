@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import MockBanner from "@/components/MockBanner";
+import { CLINIC_TYPE_LIST } from "@/data/clinicTypes";
 import { DEPARTMENT_LIST } from "@/data/departments";
 import { SIDO_LIST } from "@/data/regions";
 import type { Hospital } from "@/lib/hira/types";
@@ -13,12 +14,18 @@ export default function HospitalsPage() {
   const router = useRouter();
   const [sidoCd, setSidoCd] = useState("");
   const [dgsbjtCd, setDgsbjtCd] = useState("");
+  const [clCd, setClCd] = useState("");
   const [name, setName] = useState("");
   const [hospitals, setHospitals] = useState<Hospital[]>([]);
+  const [totalCount, setTotalCount] = useState(0);
+  const [pageNo, setPageNo] = useState(1);
   const [loading, setLoading] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [isMock, setIsMock] = useState(false);
   const [searched, setSearched] = useState(false);
+
+  const NUM_OF_ROWS = 20;
 
   const [suggestions, setSuggestions] = useState<Hospital[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -35,6 +42,7 @@ export default function HospitalsPage() {
         const params = new URLSearchParams({ yadmNm: name, numOfRows: "8" });
         if (sidoCd) params.set("sidoCd", sidoCd);
         if (dgsbjtCd) params.set("dgsbjtCd", dgsbjtCd);
+        if (clCd) params.set("clCd", clCd);
         const res = await fetch(`/api/hospitals?${params.toString()}`);
         const data = await res.json();
         if (cancelled || !res.ok) return;
@@ -48,7 +56,7 @@ export default function HospitalsPage() {
       cancelled = true;
       clearTimeout(timer);
     };
-  }, [name, sidoCd, dgsbjtCd]);
+  }, [name, sidoCd, dgsbjtCd, clCd]);
 
   function selectSuggestion(hospital: Hospital) {
     setShowSuggestions(false);
@@ -57,26 +65,49 @@ export default function HospitalsPage() {
     router.push(`/hospitals/${hospital.ykiho}`);
   }
 
+  async function fetchPage(page: number) {
+    const params = new URLSearchParams({ pageNo: String(page), numOfRows: String(NUM_OF_ROWS) });
+    if (sidoCd) params.set("sidoCd", sidoCd);
+    if (dgsbjtCd) params.set("dgsbjtCd", dgsbjtCd);
+    if (clCd) params.set("clCd", clCd);
+    if (name) params.set("yadmNm", name);
+    const res = await fetch(`/api/hospitals?${params.toString()}`);
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error ?? "검색에 실패했습니다.");
+    return data;
+  }
+
   async function handleSearch(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
     setError(null);
     setShowSuggestions(false);
     try {
-      const params = new URLSearchParams();
-      if (sidoCd) params.set("sidoCd", sidoCd);
-      if (dgsbjtCd) params.set("dgsbjtCd", dgsbjtCd);
-      if (name) params.set("yadmNm", name);
-      const res = await fetch(`/api/hospitals?${params.toString()}`);
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error ?? "검색에 실패했습니다.");
+      const data = await fetchPage(1);
       setHospitals(data.items);
+      setTotalCount(Number(data.totalCount ?? data.items.length));
+      setPageNo(1);
       setIsMock(Boolean(data.mock));
       setSearched(true);
     } catch (err) {
       setError(err instanceof Error ? err.message : "알 수 없는 오류가 발생했습니다.");
     } finally {
       setLoading(false);
+    }
+  }
+
+  async function loadMore() {
+    setLoadingMore(true);
+    setError(null);
+    try {
+      const nextPage = pageNo + 1;
+      const data = await fetchPage(nextPage);
+      setHospitals((prev) => [...prev, ...data.items]);
+      setPageNo(nextPage);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "알 수 없는 오류가 발생했습니다.");
+    } finally {
+      setLoadingMore(false);
     }
   }
 
@@ -114,6 +145,21 @@ export default function HospitalsPage() {
             {DEPARTMENT_LIST.map((d) => (
               <option key={d.code} value={d.code}>
                 {d.name}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="flex flex-col gap-1 text-sm">
+          병원 종별
+          <select
+            value={clCd}
+            onChange={(e) => setClCd(e.target.value)}
+            className="rounded-md border border-border bg-surface px-3 py-2"
+          >
+            <option value="">전체</option>
+            {CLINIC_TYPE_LIST.map((c) => (
+              <option key={c.code} value={c.code}>
+                {c.name}
               </option>
             ))}
           </select>
@@ -164,6 +210,13 @@ export default function HospitalsPage() {
         <p className="text-sm text-muted">검색 결과가 없습니다.</p>
       )}
 
+      {searched && !loading && hospitals.length > 0 && (
+        <p className="text-sm text-muted">
+          전체 {totalCount.toLocaleString("ko-KR")}건 중 {hospitals.length.toLocaleString("ko-KR")}건 표시 중
+          {sidoCd === "" ? " (지역을 좁히면 더 정확하게 찾을 수 있어요)" : ""}
+        </p>
+      )}
+
       <ul className="flex flex-col gap-3">
         {hospitals.map((h) => (
           <li key={h.ykiho}>
@@ -183,6 +236,17 @@ export default function HospitalsPage() {
           </li>
         ))}
       </ul>
+
+      {hospitals.length > 0 && hospitals.length < totalCount && (
+        <button
+          type="button"
+          onClick={loadMore}
+          disabled={loadingMore}
+          className="self-start rounded-md border border-border px-4 py-2 text-sm hover:border-accent disabled:opacity-50"
+        >
+          {loadingMore ? "불러오는 중..." : "더 보기"}
+        </button>
+      )}
     </div>
   );
 }
