@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Bar, BarChart, CartesianGrid, LabelList, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import MockBanner from "@/components/MockBanner";
 import { SIDO_LIST } from "@/data/regions";
@@ -18,43 +18,38 @@ function formatWon(v: number | null) {
 }
 
 export default function DrugUsagePage() {
-  const [yearMonth, setYearMonth] = useState("202506");
+  const [yearMonth, setYearMonth] = useState("202112");
   const [drugCode, setDrugCode] = useState("100701ACH");
   const [sidoCd, setSidoCd] = useState("");
   const [keyword, setKeyword] = useState("");
   const [items, setItems] = useState<DrugUsageStat[]>([]);
   const [isMock, setIsMock] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
+  const [searched, setSearched] = useState(false);
 
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      setLoading(true);
-      setError(null);
-      try {
-        const params = new URLSearchParams();
-        if (yearMonth) params.set("yearMonth", yearMonth);
-        if (drugCode) params.set("drugCode", drugCode);
-        if (sidoCd) params.set("sidoCd", sidoCd);
-        if (keyword) params.set("keyword", keyword);
-        const res = await fetch(`/api/drug-usage?${params.toString()}`);
-        const data = await res.json();
-        if (!res.ok) throw new Error(data.error ?? "조회에 실패했습니다.");
-        if (cancelled) return;
-        setItems(data.items ?? []);
-        setIsMock(Boolean(data.mock));
-      } catch (err) {
-        if (!cancelled) setError(err instanceof Error ? err.message : "알 수 없는 오류가 발생했습니다.");
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
+  async function handleSearch(e: React.FormEvent) {
+    e.preventDefault();
+    setLoading(true);
+    setError(null);
+    try {
+      const params = new URLSearchParams();
+      if (yearMonth) params.set("yearMonth", yearMonth);
+      if (drugCode) params.set("drugCode", drugCode);
+      if (sidoCd) params.set("sidoCd", sidoCd);
+      if (keyword) params.set("keyword", keyword);
+      const res = await fetch(`/api/drug-usage?${params.toString()}`);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "조회에 실패했습니다.");
+      setItems(data.items ?? []);
+      setIsMock(Boolean(data.mock));
+      setSearched(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "알 수 없는 오류가 발생했습니다.");
+    } finally {
+      setLoading(false);
     }
-    load();
-    return () => {
-      cancelled = true;
-    };
-  }, [yearMonth, drugCode, sidoCd, keyword]);
+  }
 
   const chartData = items
     .filter((d) => d.usageCount !== null)
@@ -67,13 +62,13 @@ export default function DrugUsagePage() {
         <p className="mt-1 text-sm text-muted">약효분류군/성분별 사용량·사용금액 통계를 확인합니다.</p>
       </div>
 
-      <div className="flex flex-wrap items-end gap-3">
+      <form onSubmit={handleSearch} className="flex flex-wrap items-end gap-3">
         <label className="flex flex-col gap-1 text-sm">
           진료년월(YYYYMM)
           <input
             value={yearMonth}
             onChange={(e) => setYearMonth(e.target.value)}
-            placeholder="예: 202506"
+            placeholder="예: 202112"
             className="rounded-md border border-border bg-surface px-3 py-2 w-32"
           />
         </label>
@@ -110,16 +105,26 @@ export default function DrugUsagePage() {
             className="rounded-md border border-border bg-surface px-3 py-2"
           />
         </label>
-      </div>
+        <button
+          type="submit"
+          disabled={loading}
+          className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-white disabled:opacity-50"
+        >
+          {loading ? "조회 중..." : "조회"}
+        </button>
+      </form>
       <p className="text-xs text-muted -mt-3">
         성분코드는 건강보험심사평가원 약제급여목록표 등에서 확인할 수 있습니다. 지역코드는 병원정보서비스의
-        시도코드를 6자리로 근사 변환해 사용합니다.
+        시도코드를 6자리로 근사 변환해 사용합니다. 이 API는 2020~2022년 기준 데이터만 제공되는 것으로
+        확인돼, 최근 연월로는 결과가 나오지 않을 수 있습니다.
       </p>
 
       {isMock && <MockBanner />}
       {error && <p className="text-sm text-red-500">{error}</p>}
 
-      {!loading && items.length === 0 && !error && <p className="text-sm text-muted">조회 결과가 없습니다.</p>}
+      {searched && !loading && items.length === 0 && !error && (
+        <p className="text-sm text-muted">조회 결과가 없습니다.</p>
+      )}
 
       {chartData.length > 0 && (
         <div className="h-[300px] rounded-lg border border-border bg-surface p-4">
