@@ -27,6 +27,7 @@ export default function DrugUsagePage() {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [searched, setSearched] = useState(false);
+  const [totalCount, setTotalCount] = useState(0);
 
   async function handleSearch(e: React.FormEvent) {
     e.preventDefault();
@@ -43,6 +44,7 @@ export default function DrugUsagePage() {
       if (!res.ok) throw new Error(data.error ?? "조회에 실패했습니다.");
       setItems(data.items ?? []);
       setIsMock(Boolean(data.mock));
+      setTotalCount(Number(data.totalCount ?? 0));
       setSearched(true);
     } catch (err) {
       setError(err instanceof Error ? err.message : "알 수 없는 오류가 발생했습니다.");
@@ -113,17 +115,36 @@ export default function DrugUsagePage() {
           {loading ? "조회 중..." : "조회"}
         </button>
       </form>
-      <p className="text-xs text-muted -mt-3">
-        성분코드는 건강보험심사평가원 약제급여목록표 등에서 확인할 수 있습니다. 지역코드는 병원정보서비스의
-        시도코드를 6자리로 근사 변환해 사용합니다. 이 API는 2020~2022년 기준 데이터만 제공되는 것으로
-        확인돼, 최근 연월로는 결과가 나오지 않을 수 있습니다.
-      </p>
+      <div className="rounded-md border border-border bg-surface px-4 py-3 text-xs text-muted">
+        <p className="font-medium text-foreground">확인되지 않은 조건 안내 — 결과가 안 나올 때 먼저 의심할 것</p>
+        <ul className="mt-1.5 list-disc pl-4 space-y-1">
+          <li>
+            <b>진료년월</b>: data.go.kr 문서에 &ldquo;2020~2022년대 데이터 제공&rdquo;이라고만 나와 있고, 정확히
+            몇 년 몇 월까지인지는 확인하지 못했습니다.
+          </li>
+          <li>
+            <b>성분코드(gnlNmCd)</b>: 기본값 <code>100701ACH</code>는 data.go.kr 문서의 예시값입니다. 실제
+            존재하는 코드인지, 해당 성분의 실제 처방 실적이 있는지는 확인되지 않았습니다.
+          </li>
+          <li>
+            <b>지역코드</b>: 시도코드는 병원정보서비스의 2자리 코드 뒤에 &ldquo;0000&rdquo;을 붙인 근사값입니다.
+            이 API가 실제로 이 형식을 쓰는지 확인하지 못했고, 시군구코드는 아예 지정하지 않습니다.
+          </li>
+          <li>
+            <b>응답 필드명</b>: 정확한 응답 필드명을 문서로 확인하지 못해 후보 필드명으로 추정해서 읽습니다.
+            실제로는 데이터가 왔는데 필드명이 달라 빈 결과처럼 보일 수도 있습니다.
+          </li>
+        </ul>
+      </div>
 
       {isMock && <MockBanner />}
       {error && <p className="text-sm text-red-500">{error}</p>}
 
       {searched && !loading && items.length === 0 && !error && (
-        <p className="text-sm text-muted">조회 결과가 없습니다.</p>
+        <p className="text-sm text-muted">
+          조회 결과가 없습니다. (API가 응답한 전체 건수: {totalCount}건
+          {totalCount > 0 ? " — 데이터는 있는데 화면에 안 보이면 필드명 매핑 문제일 가능성이 큽니다" : ""})
+        </p>
       )}
 
       {chartData.length > 0 && (
