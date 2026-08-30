@@ -11,11 +11,12 @@ import { HiraApiError } from "./types";
  * 필드 매핑만 손보면 되도록 구조를 분리해 두었다.
  */
 
+// data.go.kr "서비스 정보" 화면에서 확인한 실제 End Point 그대로 사용한다.
 const HIRA_BASE_URLS = {
   // 건강보험심사평가원_병원정보서비스 (data.go.kr 15001698)
-  hospInfo: "http://apis.data.go.kr/B551182/hospInfoServicev2",
+  hospInfo: "https://apis.data.go.kr/B551182/hospInfoServicev2",
   // 건강보험심사평가원_비급여진료비정보조회서비스 (data.go.kr 15001700)
-  nonPayment: "http://apis.data.go.kr/B551182/nonPaymentDamtInfoService2",
+  nonPayment: "https://apis.data.go.kr/B551182/nonPaymentDamtInfoService",
 } as const;
 
 export type HiraServiceName = keyof typeof HIRA_BASE_URLS;
