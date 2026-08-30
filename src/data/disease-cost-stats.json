@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "source": "SAMPLE_DATA",
+    "note": "실제 데이터가 아닙니다. 심평원 보건의료빅데이터개방시스템(opendata.hira.or.kr) 또는 공공데이터포털의 '다빈도질병통계'/'건강보험진료통계' 파일데이터를 내려받아 scripts/import-disease-stats.mjs 로 이 파일을 갱신하세요.",
+    "generatedAt": "2026-08-30"
+  },
+  "items": [
+    { "diseaseCode": "J20", "diseaseName": "급성 기관지염", "visitType": "외래", "patientCount": 3200000, "totalCost": 210000000000, "avgCostPerPatient": 65625, "statYear": 2025 },
+    { "diseaseCode": "K05", "diseaseName": "치은염 및 치주질환", "visitType": "외래", "patientCount": 2100000, "totalCost": 180000000000, "avgCostPerPatient": 85714, "statYear": 2025 },
+    { "diseaseCode": "I10", "diseaseName": "본태성(원발성) 고혈압", "visitType": "외래", "patientCount": 1900000, "totalCost": 320000000000, "avgCostPerPatient": 168421, "statYear": 2025 },
+    { "diseaseCode": "M54", "diseaseName": "등통증", "visitType": "외래", "patientCount": 1750000, "totalCost": 260000000000, "avgCostPerPatient": 148571, "statYear": 2025 },
+    { "diseaseCode": "E11", "diseaseName": "2형 당뇨병", "visitType": "외래", "patientCount": 1600000, "totalCost": 410000000000, "avgCostPerPatient": 256250, "statYear": 2025 },
+    { "diseaseCode": "J00", "diseaseName": "급성 비인두염(감기)", "visitType": "외래", "patientCount": 1450000, "totalCost": 95000000000, "avgCostPerPatient": 65517, "statYear": 2025 },
+    { "diseaseCode": "K21", "diseaseName": "위-식도역류병", "visitType": "외래", "patientCount": 1300000, "totalCost": 140000000000, "avgCostPerPatient": 107692, "statYear": 2025 },
+    { "diseaseCode": "H52", "diseaseName": "굴절 및 조절의 장애", "visitType": "외래", "patientCount": 1200000, "totalCost": 60000000000, "avgCostPerPatient": 50000, "statYear": 2025 },
+    { "diseaseCode": "S72", "diseaseName": "대퇴골 골절", "visitType": "입원", "patientCount": 45000, "totalCost": 520000000000, "avgCostPerPatient": 11555556, "statYear": 2025 },
+    { "diseaseCode": "I63", "diseaseName": "뇌경색증", "visitType": "입원", "patientCount": 62000, "totalCost": 610000000000, "avgCostPerPatient": 9838710, "statYear": 2025 },
+    { "diseaseCode": "O80", "diseaseName": "자연분만", "visitType": "입원", "patientCount": 180000, "totalCost": 340000000000, "avgCostPerPatient": 1888889, "statYear": 2025 },
+    { "diseaseCode": "N18", "diseaseName": "만성 신장병", "visitType": "입원", "patientCount": 38000, "totalCost": 480000000000, "avgCostPerPatient": 12631579, "statYear": 2025 },
+    { "diseaseCode": "C16", "diseaseName": "위의 악성신생물", "visitType": "입원", "patientCount": 29000, "totalCost": 390000000000, "avgCostPerPatient": 13448276, "statYear": 2025 },
+    { "diseaseCode": "I21", "diseaseName": "급성 심근경색증", "visitType": "입원", "patientCount": 33000, "totalCost": 350000000000, "avgCostPerPatient": 10606061, "statYear": 2025 }
+  ]
+}
