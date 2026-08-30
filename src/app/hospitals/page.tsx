@@ -7,12 +7,15 @@ import MockBanner from "@/components/MockBanner";
 import { CLINIC_TYPE_LIST } from "@/data/clinicTypes";
 import { DEPARTMENT_LIST } from "@/data/departments";
 import { SIDO_LIST } from "@/data/regions";
+import type { AddrCode } from "@/lib/hira/codeInfo";
 import type { Hospital } from "@/lib/hira/types";
 import { stashHospital } from "@/lib/hospitalCache";
 
 export default function HospitalsPage() {
   const router = useRouter();
   const [sidoCd, setSidoCd] = useState("");
+  const [sgguCd, setSgguCd] = useState("");
+  const [sgguList, setSgguList] = useState<AddrCode[]>([]);
   const [dgsbjtCd, setDgsbjtCd] = useState("");
   const [clCd, setClCd] = useState("");
   const [name, setName] = useState("");
@@ -30,6 +33,28 @@ export default function HospitalsPage() {
   const [suggestions, setSuggestions] = useState<Hospital[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
+  // 지역(시도)을 바꾸면 그 시도에 속한 시군구 목록을 받아온다.
+  useEffect(() => {
+    let cancelled = false;
+    async function load() {
+      if (!sidoCd) {
+        setSgguList([]);
+        return;
+      }
+      try {
+        const res = await fetch(`/api/regions/sggu?sidoCd=${sidoCd}`);
+        const data = await res.json();
+        if (!cancelled) setSgguList(data.items ?? []);
+      } catch {
+        if (!cancelled) setSgguList([]);
+      }
+    }
+    load();
+    return () => {
+      cancelled = true;
+    };
+  }, [sidoCd]);
+
   // 병원명을 입력하는 동안 일치하는 병원을 목록으로 보여준다(중간어 포함 검색).
   useEffect(() => {
     let cancelled = false;
@@ -41,6 +66,7 @@ export default function HospitalsPage() {
       try {
         const params = new URLSearchParams({ yadmNm: name, numOfRows: "8" });
         if (sidoCd) params.set("sidoCd", sidoCd);
+        if (sgguCd) params.set("sgguCd", sgguCd);
         if (dgsbjtCd) params.set("dgsbjtCd", dgsbjtCd);
         if (clCd) params.set("clCd", clCd);
         const res = await fetch(`/api/hospitals?${params.toString()}`);
@@ -56,7 +82,7 @@ export default function HospitalsPage() {
       cancelled = true;
       clearTimeout(timer);
     };
-  }, [name, sidoCd, dgsbjtCd, clCd]);
+  }, [name, sidoCd, sgguCd, dgsbjtCd, clCd]);
 
   function selectSuggestion(hospital: Hospital) {
     setShowSuggestions(false);
@@ -68,6 +94,7 @@ export default function HospitalsPage() {
   async function fetchPage(page: number) {
     const params = new URLSearchParams({ pageNo: String(page), numOfRows: String(NUM_OF_ROWS) });
     if (sidoCd) params.set("sidoCd", sidoCd);
+    if (sgguCd) params.set("sgguCd", sgguCd);
     if (dgsbjtCd) params.set("dgsbjtCd", dgsbjtCd);
     if (clCd) params.set("clCd", clCd);
     if (name) params.set("yadmNm", name);
@@ -123,11 +150,30 @@ export default function HospitalsPage() {
           지역
           <select
             value={sidoCd}
-            onChange={(e) => setSidoCd(e.target.value)}
+            onChange={(e) => {
+              setSidoCd(e.target.value);
+              setSgguCd("");
+            }}
             className="rounded-md border border-border bg-surface px-3 py-2"
           >
             <option value="">전체</option>
             {SIDO_LIST.map((s) => (
+              <option key={s.code} value={s.code}>
+                {s.name}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="flex flex-col gap-1 text-sm">
+          시군구
+          <select
+            value={sgguCd}
+            onChange={(e) => setSgguCd(e.target.value)}
+            disabled={!sidoCd}
+            className="rounded-md border border-border bg-surface px-3 py-2 disabled:opacity-50"
+          >
+            <option value="">전체</option>
+            {sgguList.map((s) => (
               <option key={s.code} value={s.code}>
                 {s.name}
               </option>
