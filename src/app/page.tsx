@@ -26,6 +26,11 @@ const CARDS = [
     title: "실제 진료비 통계",
     desc: "지역·기관종별·진료과목·연령·희귀질환별 실제 요양급여비용 청구 통계입니다.",
   },
+  {
+    href: "/opclo",
+    title: "개폐업 현황",
+    desc: "기준년월에 개업·폐업·휴업한 병원/약국 목록을 조회합니다.",
+  },
 ];
 
 export default function Home() {

@@ -21,6 +21,8 @@ const HIRA_BASE_URLS = {
   drugUsage: "https://apis.data.go.kr/B551182/msupUserInfoService1.2",
   // 건강보험심사평가원_병원코드정보서비스 (시도/시군구/종별/진료과목 등 코드표 조회)
   codeInfo: "https://apis.data.go.kr/B551182/codeInfoService",
+  // 건강보험심사평가원_요양기관개폐업정보조회서비스
+  opCloInfo: "https://apis.data.go.kr/B551182/yadmOpCloInfoService2",
 } as const;
 
 export type HiraServiceName = keyof typeof HIRA_BASE_URLS;

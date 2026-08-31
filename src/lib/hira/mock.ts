@@ -1,4 +1,4 @@
-import type { DiseaseCostStat, DrugUsageStat, Hospital, NonPaymentCatalogItem, NonPaymentItem, StaffCount } from "./types";
+import type { DiseaseCostStat, DrugUsageStat, Hospital, NonPaymentCatalogItem, NonPaymentItem, OpCloRecord, StaffCount } from "./types";
 
 // 서비스키가 없거나 HIRA_USE_MOCK=true일 때 화면/기능을 바로 확인해 볼 수 있도록 제공하는 샘플 데이터.
 // 실제 값이 아니며, 개발/데모 용도로만 사용한다.
@@ -232,4 +232,29 @@ export function mockDiseaseStats(): DiseaseCostStat[] {
 export function mockDrugUsage(filter: { keyword?: string }): DrugUsageStat[] {
   if (!filter.keyword) return MOCK_DRUG_USAGE;
   return MOCK_DRUG_USAGE.filter((d) => d.drugName.includes(filter.keyword!));
+}
+
+const MOCK_OPCLO: OpCloRecord[] = [
+  {
+    ykiho: "MOCK0004",
+    name: "서울새봄내과의원",
+    institutionType: "병원",
+    statusName: "개업",
+    address: "서울특별시 강남구 논현로 10",
+    tel: "02-555-1234",
+    baseYearMonth: "202406",
+  },
+  {
+    ykiho: null,
+    name: "행복온누리약국",
+    institutionType: "약국",
+    statusName: "폐업",
+    address: "서울특별시 강남구 도곡로 20",
+    tel: "02-555-5678",
+    baseYearMonth: "202406",
+  },
+];
+
+export function mockOpCloList(): OpCloRecord[] {
+  return MOCK_OPCLO;
 }

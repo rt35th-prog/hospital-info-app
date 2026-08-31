@@ -6,6 +6,7 @@ const NAV_ITEMS = [
   { href: "/diseases", label: "질병별 진료비 통계" },
   { href: "/drug-usage", label: "의약품 사용정보" },
   { href: "/actual-costs", label: "실제 진료비 통계" },
+  { href: "/opclo", label: "개폐업 현황" },
 ];
 
 export default function Header() {

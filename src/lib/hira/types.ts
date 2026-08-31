@@ -8,6 +8,25 @@ export interface StaffCount {
   specialist: number | null;
 }
 
+/**
+ * 요양기관개폐업정보조회서비스(getHospPharmacyOpCloList1) 결과.
+ * 요청 파라미터는 data.go.kr 활용신청 상세기능정보로 확인했지만, 응답 필드명은
+ * 참고문서도 없고 포털 미리보기도 동작하지 않아 확인하지 못했다. 다른 HIRA API들의
+ * 명명 관례(yadmNm, addr, telno 등)를 따를 것으로 가정해 방어적으로 파싱한다.
+ */
+export interface OpCloRecord {
+  ykiho: string | null;
+  name: string;
+  /** 요양기관구분 (병원/약국) */
+  institutionType: string | null;
+  /** 개업/폐업/휴업 구분명 */
+  statusName: string | null;
+  address: string | null;
+  tel: string | null;
+  /** 기준년월(YYYYMM) */
+  baseYearMonth: string | null;
+}
+
 export interface Hospital {
   /** 암호화된 요양기호 (심평원이 발급하는 병원 식별자, 복호화 불가) */
   ykiho: string;
