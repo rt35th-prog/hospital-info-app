@@ -25,24 +25,29 @@ export default function DiseasesPage() {
   const [note, setNote] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
+  async function runSearch(vt: typeof visitType, sk: SortKey) {
+    setLoading(true);
+    const sortBy = sk === "avgCostPerPatient" ? "avg" : "total";
+    const res = await fetch(`/api/diseases?visitType=${vt}&sortBy=${sortBy}`);
+    const data = await res.json();
+    setItems(data.items ?? []);
+    setIsSample(Boolean(data.isSample));
+    setNote(data.note ?? null);
+    setLoading(false);
+  }
+
   useEffect(() => {
-    let cancelled = false;
     async function load() {
-      setLoading(true);
-      const sortBy = sortKey === "avgCostPerPatient" ? "avg" : "total";
-      const res = await fetch(`/api/diseases?visitType=${visitType}&sortBy=${sortBy}`);
-      const data = await res.json();
-      if (cancelled) return;
-      setItems(data.items ?? []);
-      setIsSample(Boolean(data.isSample));
-      setNote(data.note ?? null);
-      setLoading(false);
+      await runSearch(visitType, sortKey);
     }
     load();
-    return () => {
-      cancelled = true;
-    };
-  }, [visitType, sortKey]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  function handleSearch(e: React.FormEvent) {
+    e.preventDefault();
+    runSearch(visitType, sortKey);
+  }
 
   const top10 = items.slice(0, 10);
   const chartData = top10.map((d) => ({ name: d.diseaseName, value: d[sortKey] }));
@@ -54,7 +59,7 @@ export default function DiseasesPage() {
         <p className="mt-1 text-sm text-muted">상병(질병)별 다빈도 진료 통계와 진료비를 확인합니다.</p>
       </div>
 
-      <div className="flex flex-wrap items-end gap-3">
+      <form onSubmit={handleSearch} className="flex flex-wrap items-end gap-3">
         <label className="flex flex-col gap-1 text-sm">
           입원/외래
           <select
@@ -78,7 +83,14 @@ export default function DiseasesPage() {
             <option value="avgCostPerPatient">1인당 평균 진료비 순</option>
           </select>
         </label>
-      </div>
+        <button
+          type="submit"
+          disabled={loading}
+          className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-white disabled:opacity-50"
+        >
+          {loading ? "조회 중..." : "조회"}
+        </button>
+      </form>
 
       {isSample && note && (
         <div className="rounded-md border border-accent/30 bg-accent/10 px-4 py-2.5 text-sm">{note}</div>

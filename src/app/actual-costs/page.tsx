@@ -29,24 +29,29 @@ export default function ActualCostsPage() {
   const [sourceNote, setSourceNote] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
+  async function runSearch(ds: ActualCostDatasetKey, sk: SortKey, kw: string) {
+    setLoading(true);
+    const params = new URLSearchParams({ dataset: ds, sortBy: sk === "patientCount" ? "patient" : "total" });
+    if (kw) params.set("q", kw);
+    const res = await fetch(`/api/actual-costs?${params.toString()}`);
+    const data = await res.json();
+    setItems(data.items ?? []);
+    setSourceNote(data.meta?.source ?? null);
+    setLoading(false);
+  }
+
   useEffect(() => {
-    let cancelled = false;
-    const timer = setTimeout(async () => {
-      setLoading(true);
-      const params = new URLSearchParams({ dataset, sortBy: sortKey === "patientCount" ? "patient" : "total" });
-      if (keyword) params.set("q", keyword);
-      const res = await fetch(`/api/actual-costs?${params.toString()}`);
-      const data = await res.json();
-      if (cancelled) return;
-      setItems(data.items ?? []);
-      setSourceNote(data.meta?.source ?? null);
-      setLoading(false);
-    }, 200);
-    return () => {
-      cancelled = true;
-      clearTimeout(timer);
-    };
-  }, [dataset, sortKey, keyword]);
+    async function load() {
+      await runSearch(dataset, sortKey, keyword);
+    }
+    load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  function handleSearch(e: React.FormEvent) {
+    e.preventDefault();
+    runSearch(dataset, sortKey, keyword);
+  }
 
   const top15 = items.slice(0, 15);
   const chartData = top15.map((d) => ({ name: d.label, value: d[sortKey] }));
@@ -61,7 +66,7 @@ export default function ActualCostsPage() {
         </p>
       </div>
 
-      <div className="flex flex-wrap items-end gap-3">
+      <form onSubmit={handleSearch} className="flex flex-wrap items-end gap-3">
         <label className="flex flex-col gap-1 text-sm">
           기준(관점)
           <select
@@ -96,7 +101,14 @@ export default function ActualCostsPage() {
             className="rounded-md border border-border bg-surface px-3 py-2"
           />
         </label>
-      </div>
+        <button
+          type="submit"
+          disabled={loading}
+          className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-white disabled:opacity-50"
+        >
+          {loading ? "조회 중..." : "조회"}
+        </button>
+      </form>
 
       {sourceNote && (
         <p className="text-xs text-muted">

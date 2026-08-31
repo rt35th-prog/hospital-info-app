@@ -61,41 +61,34 @@ export default function NonPaymentComparePage() {
     };
   }, [itemName, selectedItem]);
 
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      if (!selectedItem) {
-        setItems([]);
-        return;
-      }
-      setLoading(true);
-      setError(null);
-      try {
-        const params = new URLSearchParams({ itemCode: selectedItem!.itemCode });
-        if (sidoCd) params.set("sidoCd", sidoCd);
-        if (clCd) params.set("clCd", clCd);
-        const res = await fetch(`/api/nonpayment/compare?${params.toString()}`);
-        const data = await res.json();
-        if (!res.ok) throw new Error(data.error ?? "비교 데이터를 불러오지 못했습니다.");
-        if (cancelled) return;
-        setItems(data.items ?? []);
-        setIsMock(Boolean(data.mock));
-      } catch (err) {
-        if (!cancelled) setError(err instanceof Error ? err.message : "알 수 없는 오류가 발생했습니다.");
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
-    load();
-    return () => {
-      cancelled = true;
-    };
-  }, [selectedItem, sidoCd, clCd]);
-
   function selectSuggestion(item: NonPaymentCatalogItem) {
     setShowSuggestions(false);
     setItemName(item.itemName);
     setSelectedItem(item);
+  }
+
+  async function handleSearch(e: React.FormEvent) {
+    e.preventDefault();
+    if (!selectedItem) {
+      setError("먼저 비급여 항목명을 입력해 목록에서 선택해주세요.");
+      return;
+    }
+    setLoading(true);
+    setError(null);
+    try {
+      const params = new URLSearchParams({ itemCode: selectedItem.itemCode });
+      if (sidoCd) params.set("sidoCd", sidoCd);
+      if (clCd) params.set("clCd", clCd);
+      const res = await fetch(`/api/nonpayment/compare?${params.toString()}`);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "비교 데이터를 불러오지 못했습니다.");
+      setItems(data.items ?? []);
+      setIsMock(Boolean(data.mock));
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "알 수 없는 오류가 발생했습니다.");
+    } finally {
+      setLoading(false);
+    }
   }
 
   const chartData = items
@@ -110,14 +103,17 @@ export default function NonPaymentComparePage() {
         <p className="mt-1 text-sm text-muted">비급여 항목명을 입력해 선택하면, 그 항목을 파는 병원들의 가격을 비교합니다.</p>
       </div>
 
-      <div className="flex flex-wrap items-end gap-3">
+      <form onSubmit={handleSearch} className="flex flex-wrap items-end gap-3">
         <label className="relative flex flex-col gap-1 text-sm">
           비급여 항목명
           <input
             value={itemName}
             onChange={(e) => {
               setItemName(e.target.value);
-              if (selectedItem) setSelectedItem(null);
+              if (selectedItem) {
+                setSelectedItem(null);
+                setItems([]);
+              }
             }}
             onFocus={() => suggestions.length > 0 && setShowSuggestions(true)}
             onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
@@ -172,7 +168,14 @@ export default function NonPaymentComparePage() {
             ))}
           </select>
         </label>
-      </div>
+        <button
+          type="submit"
+          disabled={loading}
+          className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-white disabled:opacity-50"
+        >
+          {loading ? "검색 중..." : "검색"}
+        </button>
+      </form>
 
       {selectedItem && (selectedItem.midCategory || selectedItem.description) && (
         <div className="rounded-md border border-border bg-surface px-4 py-3 text-sm">
