@@ -37,6 +37,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# 심평원 API 원본 응답 샘플(scripts/fetch-raw-samples.mjs 결과물)
+/raw-samples/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

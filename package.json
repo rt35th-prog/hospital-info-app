@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch:raw": "node scripts/fetch-raw-samples.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^5.11.1",
